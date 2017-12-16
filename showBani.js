@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import { TouchableWithoutFeedback, TouchableOpacity, StyleSheet, StatusBar, FlatList, Text, View, Dimensions} from 'react-native';
 import { Entypo, Ionicons, MaterialIcons } from '@expo/vector-icons';
-import { RecyclerListView, DataProvider, LayoutProvider } from "recyclerlistview";
+// import { RecyclerListView, DataProvider, LayoutProvider } from "recyclerlistview";
 
 import themes from './assets/themes.json';
 
 const THEME = 'night';
 
-const ViewTypes = {
-    LARGE: 0,
-    MEDIUM: 1,
-    SMALL: 2
-};
+// const ViewTypes = {
+//     LARGE: 0,
+//     MEDIUM: 1,
+//     SMALL: 2
+// };
 export default class ShowBani extends Component {
 
     constructor(props) {
@@ -38,45 +38,45 @@ export default class ShowBani extends Component {
         let { width } = Dimensions.get("window");
 
 
-        let dataProvider = new DataProvider((r1, r2) => {
-            return r1 !== r2;
-        });
+        // let dataProvider = new DataProvider((r1, r2) => {
+        //     return r1 !== r2;
+        // });
         this.state = {
             showOptions: false,
-            autoScrolling: false,
-            autoScrollSpeed: 1,
-            dataProvider: dataProvider.cloneWithRows(this.bani)
+            // autoScrolling: false,
+            // autoScrollSpeed: 1,
+            // dataProvider: dataProvider.cloneWithRows(this.bani)
         };
-        this._layoutProvider = new LayoutProvider(
-            index => {
-                if(this.bani[index]['gurmukhi'].length >= 72 || this.bani[index]['translation'].length >= 157) {
-                    return ViewTypes.LARGE;
-                } else if(this.bani[index]['gurmukhi'].length >= 34 || this.bani[index]['translation'].length >= 83) {
-                    return ViewTypes.MEDIUM;
-                } else {
-                    return ViewTypes.SMALL;
-                }
+        // this._layoutProvider = new LayoutProvider(
+        //     index => {
+        //         if(this.bani[index]['gurmukhi'].length >= 72 || this.bani[index]['translation'].length >= 157) {
+        //             return ViewTypes.LARGE;
+        //         } else if(this.bani[index]['gurmukhi'].length >= 34 || this.bani[index]['translation'].length >= 83) {
+        //             return ViewTypes.MEDIUM;
+        //         } else {
+        //             return ViewTypes.SMALL;
+        //         }
                 
-            },
-            (type, dim) => {
-                switch (type) {
-                    case ViewTypes.SMALL:
-                        dim.width = width;
-                        dim.height = 120;
-                        break;
-                    case ViewTypes.MEDIUM:
-                        dim.width = width;
-                        dim.height = 180;
-                        break;
-                    case ViewTypes.LARGE:
-                        dim.width = width;
-                        dim.height = 250;
-                        break;
-                    default:
-                        dim.width = 0;
-                        dim.height = 0;
-                }
-        });
+        //     },
+        //     (type, dim) => {
+        //         switch (type) {
+        //             case ViewTypes.SMALL:
+        //                 dim.width = width;
+        //                 dim.height = 120;
+        //                 break;
+        //             case ViewTypes.MEDIUM:
+        //                 dim.width = width;
+        //                 dim.height = 180;
+        //                 break;
+        //             case ViewTypes.LARGE:
+        //                 dim.width = width;
+        //                 dim.height = 250;
+        //                 break;
+        //             default:
+        //                 dim.width = 0;
+        //                 dim.height = 0;
+        //         }
+        // });
         this._rowRenderer = this._rowRenderer.bind(this);
     }
     _rowRenderer(type, data, index) {
@@ -100,21 +100,19 @@ export default class ShowBani extends Component {
             </View>
         );
     }
-    componentDidMount(){
-    }
-    startScrolling(startingAt = 0){
-        function scrollTo(offset = 0) {
-            if (this.refs.list && this.state.autoScrolling) {
-                console.log(this.state.autoScrollSpeed);
-                console.log(offset);
-                this.refs.list.scrollToOffset(0, offset, true);
-                setTimeout(() => {scrollTo.bind(this)(offset+7+this.state.autoScrollSpeed)}, 150-((this.state.autoScrollSpeed-1)*10));
-            }
-        }
-        this.setState({
-            autoScrolling: true
-        }, () => { scrollTo.bind(this)(startingAt); });
-    }
+    // startScrolling(startingAt = 0){
+    //     function scrollTo(offset = 0) {
+    //         if (this.refs.list && this.state.autoScrolling) {
+    //             console.log(this.state.autoScrollSpeed);
+    //             console.log(offset);
+    //             this.refs.list.scrollToOffset(0, offset, true);
+    //             setTimeout(() => {scrollTo.bind(this)(offset+7+this.state.autoScrollSpeed)}, 150-((this.state.autoScrollSpeed-1)*10));
+    //         }
+    //     }
+    //     this.setState({
+    //         autoScrolling: true
+    //     }, () => { scrollTo.bind(this)(startingAt); });
+    // }
     render() {
         return (
             <View style={styles.container}>
@@ -129,7 +127,7 @@ export default class ShowBani extends Component {
                         <Entypo name="dots-three-vertical" size={30} color={themes[THEME].buttons} />
                     </TouchableOpacity> : <View style={styles.headerRight} ></View>
                 }
-                {
+                {/* {
                     this.state.autoScrolling ?
                     <View style={styles.inActionRow}>
                         <TouchableOpacity style={styles.inActionButton} 
@@ -150,7 +148,7 @@ export default class ShowBani extends Component {
                         </TouchableOpacity>
                     </View>
                     : null
-                }
+                } */}
             </View>
             {
                 this.state.showOptions &&
