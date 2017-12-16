@@ -1,0 +1,9 @@
+{
+    "night": {
+        "background": "#18303d",
+        "bani": "#f9dd6b",
+        "translation": "#4ff1ac",
+        "highlight": "#79aaff",
+        "buttons": "#cccccc"
+    }  
+}
