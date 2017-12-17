@@ -160,7 +160,6 @@ export default class ShowBani extends Component {
             });
             await this.sound.playAsync();
             await this.sound.setOnPlaybackStatusUpdate((obj) => {
-                console.log(obj);
                 if (this.state.loadingAudio && obj.isLoaded && obj.isPlaying) {
                     this.setState({
                         loadingAudio: false,
