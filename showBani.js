@@ -203,7 +203,6 @@ export default class ShowBani extends Component {
         );
     }
     render() {
-        console.log(this.state);
         return (
             <View style={styles.container}>
             <StatusBar barStyle="light-content"/>
