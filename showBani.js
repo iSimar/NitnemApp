@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
 import { Switch, TouchableWithoutFeedback, TouchableOpacity, StyleSheet, StatusBar, FlatList, Text, View, Dimensions, ScrollView} from 'react-native';
 import { Entypo, Ionicons, MaterialIcons } from '@expo/vector-icons';
-// import { RecyclerListView, DataProvider, LayoutProvider } from "recyclerlistview";
+import { Constants, Audio } from 'expo';
 
 import themes from './assets/themes.json';
 
 const THEME = 'night';
 
-// const ViewTypes = {
-//     LARGE: 0,
-//     MEDIUM: 1,
-//     SMALL: 2
-// };
+const { width, height } = Dimensions.get('window');
 export default class ShowBani extends Component {
 
     constructor(props) {
@@ -35,13 +31,10 @@ export default class ShowBani extends Component {
             this.bani = require('./assets/banis/kirtansohila.json');
         }
 
-        let { width } = Dimensions.get("window");
-
-
-        // let dataProvider = new DataProvider((r1, r2) => {
-        //     return r1 !== r2;
-        // });
         this.state = {
+            audioPaused: false,
+            loadingAudio: false,
+            audioPlaying: false,
             showOptions: false,
             showDisplaySettings: false,
             gurmukhiFontSize: 25,
@@ -49,40 +42,7 @@ export default class ShowBani extends Component {
             englishFontSize: 19,
             showPunjabi: false,
             punjabiFontSize: 19
-            // autoScrolling: false,
-            // autoScrollSpeed: 1,
-            // dataProvider: dataProvider.cloneWithRows(this.bani)
         };
-        // this._layoutProvider = new LayoutProvider(
-        //     index => {
-        //         if(this.bani[index]['gurmukhi'].length >= 72 || this.bani[index]['translation'].length >= 157) {
-        //             return ViewTypes.LARGE;
-        //         } else if(this.bani[index]['gurmukhi'].length >= 34 || this.bani[index]['translation'].length >= 83) {
-        //             return ViewTypes.MEDIUM;
-        //         } else {
-        //             return ViewTypes.SMALL;
-        //         }
-                
-        //     },
-        //     (type, dim) => {
-        //         switch (type) {
-        //             case ViewTypes.SMALL:
-        //                 dim.width = width;
-        //                 dim.height = 120;
-        //                 break;
-        //             case ViewTypes.MEDIUM:
-        //                 dim.width = width;
-        //                 dim.height = 180;
-        //                 break;
-        //             case ViewTypes.LARGE:
-        //                 dim.width = width;
-        //                 dim.height = 250;
-        //                 break;
-        //             default:
-        //                 dim.width = 0;
-        //                 dim.height = 0;
-        //         }
-        // });
         this._rowRenderer = this._rowRenderer.bind(this);
     }
     _rowRenderer(type, data, index) {
@@ -117,19 +77,6 @@ export default class ShowBani extends Component {
             </View>
         );
     }
-    // startScrolling(startingAt = 0){
-    //     function scrollTo(offset = 0) {
-    //         if (this.refs.list && this.state.autoScrolling) {
-    //             console.log(this.state.autoScrollSpeed);
-    //             console.log(offset);
-    //             this.refs.list.scrollToOffset(0, offset, true);
-    //             setTimeout(() => {scrollTo.bind(this)(offset+7+this.state.autoScrollSpeed)}, 150-((this.state.autoScrollSpeed-1)*10));
-    //         }
-    //     }
-    //     this.setState({
-    //         autoScrolling: true
-    //     }, () => { scrollTo.bind(this)(startingAt); });
-    // }
     renderPlusMinusButton(field) {
         return (
             <View style={{ flexDirection: 'row', alignItems: 'center' }}>
@@ -202,6 +149,62 @@ export default class ShowBani extends Component {
             </View>
         );
     }
+    async playAudio(){
+        this.setState({
+            loadingAudio: true
+        }, async () => {
+            await Audio.setIsEnabledAsync(true);
+            this.sound = new Audio.Sound();
+            await this.sound.loadAsync({
+            uri: this.props.bani.audio
+            });
+            await this.sound.playAsync();
+            await this.sound.setOnPlaybackStatusUpdate((obj) => {
+                console.log(obj);
+                if (this.state.loadingAudio && obj.isLoaded && obj.isPlaying) {
+                    this.setState({
+                        loadingAudio: false,
+                        audioPlaying: true
+                    });
+                }
+            });
+        });
+    }
+    async componentWillUnmount() {
+        if  (this.sound) {
+            await this.sound.unloadAsync();
+            await this.sound.stopAsync();
+        }
+    }
+    async resumeAudio() {
+        if  (this.sound) {
+            this.setState({
+                audioPaused: false
+            }, async () => {
+                await this.sound.playAsync();
+            });
+        }
+    }
+    async pauseAudio() {
+        if  (this.sound) {
+            this.setState({
+                audioPaused: true
+            }, async () => {
+                await this.sound.pauseAsync();
+            });
+        }
+    }
+    async stopAudio() {
+        if  (this.sound) {
+            this.setState({
+                audioPaused: false,
+                loadingAudio: false,
+                audioPlaying: false
+            }, async () => {
+                await this.sound.stopAsync();
+            });
+        }
+    }
     render() {
         return (
             <View style={styles.container}>
@@ -210,54 +213,11 @@ export default class ShowBani extends Component {
                 <TouchableOpacity style={styles.headerLeft} onPress={this.props.onBack}> 
                     <Ionicons name="md-arrow-back" size={38} color={themes[THEME].buttons} />
                 </TouchableOpacity>
-                {
-                    !this.state.showDisplaySettings ?
-                    <TouchableOpacity style={styles.headerRight} onPress={()=>{this.setState({showOptions: !this.state.showOptions})}}>
-                        <Entypo name="dots-three-vertical" size={30} color={themes[THEME].buttons} />
-                    </TouchableOpacity> : <View style={styles.headerRight}></View>
-                }
-                {/* {
-                    this.state.autoScrolling ?
-                    <View style={styles.inActionRow}>
-                        <TouchableOpacity style={styles.inActionButton} 
-                                          disabled={this.state.autoScrolling >= 2}
-                                          onPress={()=>{this.setState({autoScrollSpeed: this.state.autoScrollSpeed-0.5})}}>
-                            <MaterialIcons name="fast-rewind" size={30} color={themes[THEME].buttons} />
-                            <Text style={styles.inActionButtonText}>Slower</Text>
-                        </TouchableOpacity>
-                        <TouchableOpacity style={styles.inActionButton} 
-                                          disabled={this.state.autoScrolling <= 0}
-                                          onPress={()=>{this.setState({autoScrollSpeed: this.state.autoScrollSpeed+0.5})}}>
-                            <Text style={styles.inActionButtonText}>Faster</Text>
-                            <MaterialIcons name="fast-forward" size={30} color={themes[THEME].buttons} />
-                        </TouchableOpacity>
-                        <TouchableOpacity style={styles.inActionButton} onPress={()=>{this.setState({autoScrolling: false, showOptions: false})}}>
-                            <MaterialIcons name="stop" size={30} color={themes[THEME].buttons} />
-                            <Text style={styles.inActionButtonText}>Stop</Text>
-                        </TouchableOpacity>
-                    </View>
-                    : null
-                } */}
+                <TouchableOpacity style={styles.headerRight} onPress={()=>{this.setState({showOptions: !this.state.showOptions})}}>
+                    <Entypo name="dots-three-vertical" size={30} color={themes[THEME].buttons} />
+                </TouchableOpacity>
             </View>
-            {
-                this.state.showOptions &&
-                !this.state.autoScrolling ?
-                <View style={styles.options}>
-                    {/* <TouchableOpacity style={styles.optionButton} onPress={() => {this.startScrolling();}}> 
-                        <MaterialIcons name="playlist-play" size={30} color={themes[THEME].buttons} />
-                        <Text style={styles.optionButtonText}>Auto Scroll</Text>
-                    </TouchableOpacity> */}
-                    <TouchableOpacity style={styles.optionButton} onPress={()=>{this.setState({showOptions: false, showDisplaySettings: true})}}> 
-                        <MaterialIcons name="settings" size={30} color={themes[THEME].buttons} />
-                        <Text style={styles.optionButtonText}>Display Settings</Text>
-                    </TouchableOpacity>
-                </View> : null
-            }
             <TouchableWithoutFeedback onPressIn={()=>{this.setState({showOptions: false})}}>
-            {/* <RecyclerListView ref="list" 
-                              layoutProvider={this._layoutProvider} 
-                              dataProvider={this.state.dataProvider} 
-                              rowRenderer={this._rowRenderer} /> */}
             <FlatList style={styles.baniList}
                     data={this.bani}
                     extraData={this.state}
@@ -267,6 +227,51 @@ export default class ShowBani extends Component {
                     renderItem={({item, index}) => { return this._rowRenderer(null, item, index) }} />
             </TouchableWithoutFeedback>
             { this.state.showDisplaySettings ? this.renderDisplaySettings() : null }
+            {
+                this.state.showOptions ?
+                <View style={styles.options}>
+                    {
+                        this.state.audioPlaying ? 
+                        (
+                            <View>
+                                {
+                                    this.state.audioPaused ? 
+                                    <TouchableOpacity style={styles.optionButton} onPress={() => { this.resumeAudio(); }}> 
+                                        <MaterialIcons name="play-arrow" size={30} color={themes[THEME].buttons} />
+                                        <Text style={styles.optionButtonText}>Resume Audio</Text>
+                                    </TouchableOpacity> : 
+                                    <TouchableOpacity style={styles.optionButton} onPress={() => { this.pauseAudio(); }}> 
+                                        <MaterialIcons name="pause" size={30} color={themes[THEME].buttons} />
+                                        <Text style={styles.optionButtonText}>Pause Audio</Text>
+                                    </TouchableOpacity> 
+                                }
+                                
+                                <TouchableOpacity style={styles.optionButton} onPress={() => { this.stopAudio(); }}> 
+                                    <MaterialIcons name="stop" size={30} color={themes[THEME].buttons} />
+                                    <Text style={styles.optionButtonText}>Stop Audio</Text>
+                                </TouchableOpacity>
+                            </View>
+                        ): null
+                    }
+                    { 
+                        this.props.bani.audio && !this.state.audioPlaying ? 
+                        (
+                            this.state.loadingAudio ? 
+                            <View style={styles.optionButton}>
+                                <Text style={styles.optionButtonText}>Loading Audio...</Text>
+                            </View>:
+                            <TouchableOpacity style={styles.optionButton} onPress={() => { this.playAudio(); }}> 
+                                <MaterialIcons name="play-arrow" size={30} color={themes[THEME].buttons} />
+                                <Text style={styles.optionButtonText}>Play Audio</Text>
+                            </TouchableOpacity> 
+                        ): null
+                    }
+                    <TouchableOpacity style={styles.optionButton} onPress={()=>{this.setState({showOptions: false, showDisplaySettings: true})}}> 
+                        <MaterialIcons name="settings" size={30} color={themes[THEME].buttons} />
+                        <Text style={styles.optionButtonText}>Display Settings</Text>
+                    </TouchableOpacity>
+                </View> : null
+            }
             </View>
         )
     }
@@ -279,7 +284,7 @@ const styles = StyleSheet.create({
       paddingTop: 15
     },
     header: {
-        flexDirection: 'row',
+        flexDirection: 'row'
     },
     headerLeft: {
         flex: 1,
@@ -296,7 +301,13 @@ const styles = StyleSheet.create({
     },
     options: {
         justifyContent: 'center',
-        flexDirection: 'column'
+        flexDirection: 'column',
+        position: 'absolute',
+        backgroundColor: themes[THEME].lighterBackground,
+        top: 77,
+        right: 0,
+        width: width,
+        paddingBottom: 10
     },
     optionButton: {
         flexDirection: 'row',
@@ -357,13 +368,16 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     displaySettingsContainer: {
-        flex: 0.7,
-        backgroundColor: '#f8f8f8'
+        backgroundColor: themes[THEME].lighterBackground,
+        position: 'absolute',
+        bottom: 0,
+        width: width,
+        height: 0.35*height
     },
     settingLabel: {
         fontSize: 20,
         paddingRight: 10,
-        color: themes[THEME].background
+        color: themes[THEME].translation
     },
     settingsRow: {
         flexDirection: 'row',

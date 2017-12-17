@@ -1,10 +1,12 @@
 {
     "night": {
         "background": "#18303d",
+        "lighterBackground": "#24485b",
         "bani": "#f9dd6b",
         "translation": "#4ff1ac",
         "highlight": "#79aaff",
         "buttons": "#cccccc",
-        "settingButtons": "#2980b9"
+        "settingLabels": "#FF5C7F",
+        "settingButtons": "#cccccc"
     }  
 }

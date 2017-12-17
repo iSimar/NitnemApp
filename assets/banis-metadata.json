@@ -1,56 +1,54 @@
 [
     {
         "name": "japji sahib",
-        "audio": "/audio/japjisahib.mp3",
+        "audio": "https://drive.google.com/uc?id=1LmAnPGtRGnqTyvyGiG3-JD7HDg99JAH3&export=download",
         "name_gurmukhi": "jpujI swihb",
         "next_index": 1,
         "next_name_gurmukhi": "jwpu swihb"
     },
     {
         "name": "jaap sahib",
-        "audio": "/audio/japjisahib.mp3",
+        "audio": "https://drive.google.com/uc?id=11LxB4rdHwv-eO7unwpZ_SvCTbD0ukYcB&export=download",
         "name_gurmukhi": "jwpu swihb",
         "next_index": 2,
         "next_name_gurmukhi": "qÍ pRswid sv`X"
     },
     {
         "name": "tav parsaad savaye",
-        "audio": "/audio/japjisahib.mp3",
+        "audio": "https://drive.google.com/uc?id=1_giEy30ghbp36wje0VAorxn9Cjjf4N0T&export=download",
         "name_gurmukhi": "qÍ pRswid sv`X",
         "next_index": 3,
         "next_name_gurmukhi": "cOpeI swihb"
     },
     {
         "name": "chaupai sahib",
-        "audio": "/audio/japjisahib.mp3",
+        "audio": "https://drive.google.com/uc?id=17Q3QZFD0GWI9qnrCo1oJmOIrVRvS2BHr&export=download",
         "name_gurmukhi": "cOpeI swihb",
         "next_index": 4,
         "next_name_gurmukhi": "Awnµd swihb"
     },
     {
         "name": "anand sahib",
-        "audio": "/audio/japjisahib.mp3",
+        "audio": "https://drive.google.com/uc?id=1sN_OoPPUpuFt2DjSKzBDjIusJOvbydJJ&export=download",
         "name_gurmukhi": "Awnµd swihb",
         "next_index": 5,
         "next_name_gurmukhi": "Ardws"
     },
     {
         "name": "ardaas",
-        "audio": "/audio/japjisahib.mp3",
+        "audio": null,
         "name_gurmukhi": "Ardws"
     },
     {
         "name": "rehras sahib",
-        "source": "./asset/banis/rehrassahib.json",
-        "audio": "/audio/japjisahib.mp3",
+        "audio": "https://drive.google.com/uc?id=1LwlQDZ-k8IE0FsAzYX3QL1GfqaonIxLy&export=download",
         "name_gurmukhi": "rhrwis swihb",
         "next_name_gurmukhi": "Ardws",
         "next_index": 5
     },
     {
         "name": "kirtan sohila",
-        "source": "./asset/banis/rehrassahib.json",
-        "audio": "/audio/japjisahib.mp3",
+        "audio": "https://drive.google.com/file/d/1r1Rzic9kIPBQ8qnObhylhstc-yIjV8an/view?usp=sharing",
         "name_gurmukhi": "kIrqn soihlw"
     }
 ]
