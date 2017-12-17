@@ -4,6 +4,7 @@
         "bani": "#f9dd6b",
         "translation": "#4ff1ac",
         "highlight": "#79aaff",
-        "buttons": "#cccccc"
+        "buttons": "#cccccc",
+        "settingButtons": "#2980b9"
     }  
 }

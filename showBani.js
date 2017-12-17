@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { TouchableWithoutFeedback, TouchableOpacity, StyleSheet, StatusBar, FlatList, Text, View, Dimensions} from 'react-native';
+import { Switch, TouchableWithoutFeedback, TouchableOpacity, StyleSheet, StatusBar, FlatList, Text, View, Dimensions, ScrollView} from 'react-native';
 import { Entypo, Ionicons, MaterialIcons } from '@expo/vector-icons';
 // import { RecyclerListView, DataProvider, LayoutProvider } from "recyclerlistview";
 
@@ -43,6 +43,12 @@ export default class ShowBani extends Component {
         // });
         this.state = {
             showOptions: false,
+            showDisplaySettings: false,
+            gurmukhiFontSize: 25,
+            showEnglish: true,
+            englishFontSize: 19,
+            showPunjabi: false,
+            punjabiFontSize: 19
             // autoScrolling: false,
             // autoScrollSpeed: 1,
             // dataProvider: dataProvider.cloneWithRows(this.bani)
@@ -82,9 +88,20 @@ export default class ShowBani extends Component {
     _rowRenderer(type, data, index) {
         return(
             <View>
-            <View style={[styles.baniRow, { paddingBottom: this.bani.length-1 === index ? 60 : 15 }]}>
-                <Text style={styles.baniText}>{data['gurmukhi']}</Text>
-                <Text style={styles.baniTranslation}>{data['translation_english']}</Text>
+            <View style={[styles.baniRow, { paddingBottom: this.bani.length-1 === index ? 60 : (!this.state.showEnglish && !this.state.showPunjabi ? 0 : 15) }]}>
+                <Text style={[styles.baniText, { fontSize: this.state.gurmukhiFontSize }]}>{data['gurmukhi']}</Text>
+                { 
+                    this.state.showEnglish && data['translation_english'] !== "" ?
+                    <Text style={[styles.baniTranslation, { fontSize: this.state.englishFontSize }]}>
+                        {data['translation_english']}
+                    </Text> : null
+                }
+                {
+                    this.state.showPunjabi && data['translation_punjabi'] !== " " ?
+                    <Text style={[styles.baniTranslation, { fontSize: this.state.punjabiFontSize }]}>
+                        {data['translation_punjabi']}
+                    </Text> : null
+                }
             </View>
             {
                 this.props.bani.next_index &&  this.props.bani.next_name_gurmukhi && this.bani.length-1 === index ? 
@@ -113,7 +130,80 @@ export default class ShowBani extends Component {
     //         autoScrolling: true
     //     }, () => { scrollTo.bind(this)(startingAt); });
     // }
+    renderPlusMinusButton(field) {
+        return (
+            <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                <TouchableOpacity onPress={() => { 
+                    const obj = {}; 
+                    obj[field] = this.state[field] < 35 ? this.state[field] + 1 : 35; 
+                    this.setState(obj); 
+                }}>
+                <Text style={styles.plusButton}> + </Text>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={() => { 
+                    const obj = {}; 
+                    if (field == 'englishFontSize' || field == 'punjabiFontSize') {
+                        obj[field] = this.state[field] > 14 ? this.state[field] - 1 : 14; 
+                    } else {
+                        obj[field] = this.state[field] > 19 ? this.state[field] - 1 : 19; 
+                    }
+                    this.setState(obj); 
+                }}>
+                <Text style={styles.minusButton}> - </Text>
+                </TouchableOpacity>
+            </View>
+        );
+    }
+    renderDisplaySettings(){
+        return(
+            <View style={styles.displaySettingsContainer}>
+                <View style={styles.displaySettingsHeader}>
+                    <View style={styles.resetButtonContainer}>
+                        <TouchableOpacity style={styles.resetButton} onPress={() => {
+                            this.setState({gurmukhiFontSize: 25,
+                                            showEnglish: true,
+                                            englishFontSize: 19,
+                                            showPunjabi: false,
+                                            punjabiFontSize: 19});
+                            }}>
+                            <Text style={styles.resetButtonText} >Reset</Text>
+                        </TouchableOpacity>
+                    </View>
+                    <View style={styles.closeButtonContainer}>
+                        <TouchableOpacity style={styles.closeButton} onPress={() => {this.setState({showDisplaySettings: false})}}>
+                            <Text style={styles.closeButtonText} >Close</Text>
+                        </TouchableOpacity>
+                    </View>
+                </View>
+                <ScrollView style={{ paddingBottom: 10 }}>
+                    <View style={[styles.settingsRow, {paddingTop: 0}]}>
+                        <Text style={styles.settingLabel}>Gurmukhi Font Size</Text>
+                        { this.renderPlusMinusButton('gurmukhiFontSize') }
+                    </View>
+                    <View style={styles.settingsRow}>
+                        <Text style={styles.settingLabel}>English Translation</Text>
+                        <Switch style={styles.switch} 
+                                value={this.state.showEnglish}
+                                onValueChange={(val) => { this.setState({showEnglish: val}); }} />
+                        { this.renderPlusMinusButton('englishFontSize') }
+                    </View>
+                    <View style={styles.settingsRow}>
+                        <Text style={styles.settingLabel}>Punjabi Translation</Text>
+                        <Switch style={styles.switch}
+                                value={this.state.showPunjabi}
+                                onValueChange={(val) => { this.setState({showPunjabi: val}); }} />
+                        { this.renderPlusMinusButton('punjabiFontSize') }
+                    </View>
+                    {/* <View style={styles.settingsRow}>
+                        <Text style={[styles.settingLabel, { marginRight: 36 }]}>Group Stanzas</Text>
+                        <Switch style={styles.switch} />
+                    </View> */}
+                </ScrollView>
+            </View>
+        );
+    }
     render() {
+        console.log(this.state);
         return (
             <View style={styles.container}>
             <StatusBar barStyle="light-content"/>
@@ -122,10 +212,10 @@ export default class ShowBani extends Component {
                     <Ionicons name="md-arrow-back" size={38} color={themes[THEME].buttons} />
                 </TouchableOpacity>
                 {
-                    !this.state.autoScrolling ?
+                    !this.state.showDisplaySettings ?
                     <TouchableOpacity style={styles.headerRight} onPress={()=>{this.setState({showOptions: !this.state.showOptions})}}>
                         <Entypo name="dots-three-vertical" size={30} color={themes[THEME].buttons} />
-                    </TouchableOpacity> : <View style={styles.headerRight} ></View>
+                    </TouchableOpacity> : <View style={styles.headerRight}></View>
                 }
                 {/* {
                     this.state.autoScrolling ?
@@ -158,7 +248,7 @@ export default class ShowBani extends Component {
                         <MaterialIcons name="playlist-play" size={30} color={themes[THEME].buttons} />
                         <Text style={styles.optionButtonText}>Auto Scroll</Text>
                     </TouchableOpacity> */}
-                    <TouchableOpacity style={styles.optionButton}> 
+                    <TouchableOpacity style={styles.optionButton} onPress={()=>{this.setState({showOptions: false, showDisplaySettings: true})}}> 
                         <MaterialIcons name="settings" size={30} color={themes[THEME].buttons} />
                         <Text style={styles.optionButtonText}>Display Settings</Text>
                     </TouchableOpacity>
@@ -171,11 +261,13 @@ export default class ShowBani extends Component {
                               rowRenderer={this._rowRenderer} /> */}
             <FlatList style={styles.baniList}
                     data={this.bani}
+                    extraData={this.state}
                     ref={(ref) => { this.baniList = ref; }}
                     keyExtractor={(item, index) => index}
                     removeClippedSubviews={true}
                     renderItem={({item, index}) => { return this._rowRenderer(null, item, index) }} />
             </TouchableWithoutFeedback>
+            { this.state.showDisplaySettings ? this.renderDisplaySettings() : null }
             </View>
         )
     }
@@ -232,12 +324,10 @@ const styles = StyleSheet.create({
     },
     baniText: {
       fontFamily: 'gurakhar',
-      color: themes[THEME].bani,
-      fontSize: 25
+      color: themes[THEME].bani
     },
     baniTranslation: {
-      color: themes[THEME].translation,
-      fontSize: 20
+      color: themes[THEME].translation
     },
     inActionButton: {
         flexDirection: 'row',
@@ -266,5 +356,77 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center'
+    },
+    displaySettingsContainer: {
+        flex: 0.7,
+        backgroundColor: '#f8f8f8'
+    },
+    settingLabel: {
+        fontSize: 20,
+        paddingRight: 10,
+        color: themes[THEME].background
+    },
+    settingsRow: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        paddingBottom: 5,
+        paddingTop: 5,
+        paddingLeft: 10,
+        paddingRight: 10
+    },
+    switch: {
+        marginRight: 10,
+        marginLeft: 4
+    },
+    displaySettingsHeader:{
+        flexDirection: 'row',
+    },
+    resetButtonContainer: {
+        alignItems: 'flex-start',
+        flex: 1
+    },
+    resetButton: {
+        paddingTop: 10,
+        paddingLeft: 10,
+        paddingRight: 50,
+        paddingBottom: 10
+    },
+    resetButtonText: {
+        color: themes[THEME].settingButtons,
+        fontWeight: 'bold'
+    },
+    closeButtonContainer: {
+        alignItems: 'flex-end',
+    },
+    closeButton: {
+        paddingTop: 10,
+        paddingLeft: 50,
+        paddingRight: 10,
+        paddingBottom: 10
+    },
+    closeButtonText: {
+        color: themes[THEME].settingButtons,
+        fontWeight: 'bold'
+    },
+    minusButton: { 
+        borderWidth: 1.5 , 
+        paddingLeft: 5, 
+        paddingRight: 5,
+        paddingBottom: 3, 
+        borderRadius: 5, 
+        fontSize: 18,
+        marginLeft: 10,
+        borderColor: themes[THEME].settingButtons,
+        color: themes[THEME].settingButtons
+    },
+    plusButton: { 
+        borderWidth: 1.5 , 
+        paddingLeft: 4, 
+        paddingRight: 4,
+        paddingBottom: 3,
+        borderRadius: 5, 
+        fontSize: 18,
+        borderColor: themes[THEME].settingButtons,
+        color: themes[THEME].settingButtons
     }
   });
