@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Switch, TouchableWithoutFeedback, TouchableOpacity, StyleSheet, StatusBar, FlatList, Text, View, Dimensions, ScrollView} from 'react-native';
+import { Switch, TouchableWithoutFeedback, TouchableOpacity, StyleSheet, 
+         StatusBar, FlatList, Text, View, Dimensions, ScrollView, Platform} from 'react-native';
 import { Entypo, Ionicons, MaterialIcons } from '@expo/vector-icons';
 import { Constants, Audio } from 'expo';
 
@@ -534,9 +535,9 @@ const styles = StyleSheet.create({
     },
     minusButton: { 
         borderWidth: 1.5 , 
-        paddingLeft: 5, 
-        paddingRight: 5,
-        paddingBottom: 3, 
+        paddingLeft: Platform.OS  === 'android' ? 7 : 4,
+        paddingRight:  Platform.OS  === 'android' ? 5 : 4,
+        paddingBottom: Platform.OS  === 'android' ? 1 : 3,
         borderRadius: 5, 
         fontSize: 18,
         marginLeft: 10,
@@ -545,9 +546,9 @@ const styles = StyleSheet.create({
     },
     plusButton: { 
         borderWidth: 1.5 , 
-        paddingLeft: 4, 
-        paddingRight: 4,
-        paddingBottom: 3,
+        paddingLeft: Platform.OS  === 'android' ? 6 : 4,
+        paddingRight:  Platform.OS  === 'android' ? 2 : 4,
+        paddingBottom: Platform.OS  === 'android' ? 1 : 3,
         borderRadius: 5, 
         fontSize: 18,
         borderColor: themes[THEME].settingButtons,
