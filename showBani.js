@@ -31,6 +31,8 @@ export default class ShowBani extends Component {
             this.bani = require('./assets/banis/kirtansohila.json');
         }
 
+        this.backupBani = this.bani;
+
         this.state = {
             audioPaused: false,
             loadingAudio: false,
@@ -45,20 +47,77 @@ export default class ShowBani extends Component {
         };
         this._rowRenderer = this._rowRenderer.bind(this);
     }
+    groupStanzas(cb) {
+        let rows = [];
+        let tmp_section_id = -1;
+        let obj = null;
+        for (let i = 0; i < this.bani.length; i++){
+            if (this.bani[i].section_id === tmp_section_id) {
+                obj.gurmukhi = obj.gurmukhi + " " + this.bani[i].gurmukhi;
+                obj.vishraam = obj.vishraam + " " + this.bani[i].vishraam;
+                obj.translation_english = obj.translation_english + " " + this.bani[i].translation_english;
+                obj.translation_punjabi = obj.translation_punjabi + " " + this.bani[i].translation_punjabi;
+                obj.section_name_english = this.bani[i].section_name_english;
+                obj.section_name_gurmukhi = this.bani[i].section_name_gurmukhi;
+
+                if (i === this.bani.length-1) {
+                    if (obj != null) {
+                        rows.push(obj);
+                        obj = null;
+                    }
+                    this.bani = rows;
+                    cb();
+                }
+            } else {
+                if (obj != null) {
+                    rows.push(obj);
+                    obj = null;
+                }
+                if (!this.bani[i].section_id) {
+                    rows.push(this.bani[i]);
+                } else {
+                    if (obj == null){
+                        obj = {};
+                        tmp_section_id = this.bani[i].section_id;
+                        obj.gurmukhi = this.bani[i].gurmukhi;
+                        obj.vishraam = this.bani[i].vishraam;
+                        obj.translation_english = this.bani[i].translation_english;
+                        obj.translation_punjabi = this.bani[i].translation_punjabi;
+                        obj.section_name_english = this.bani[i].section_name_english;
+                        obj.section_name_gurmukhi = this.bani[i].section_name_gurmukhi;
+
+                        if (i === this.bani.length-1) {
+                            if (obj != null) {
+                                rows.push(obj);
+                                obj = null;
+                            }
+                            this.bani = rows;
+                            cb();
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+    ungroupStanzas(cb){
+        this.bani = this.backupBani;
+        cb();
+    }
     _rowRenderer(type, data, index) {
         return(
             <View>
             <View style={[styles.baniRow, { paddingBottom: this.bani.length-1 === index ? 60 : (!this.state.showEnglish && !this.state.showPunjabi ? 0 : 15) }]}>
-                <Text style={[styles.baniText, { fontSize: this.state.gurmukhiFontSize }]}>{data['gurmukhi']}</Text>
+                <Text style={[styles.baniText, { textAlign: this.state.centerAlignment ? 'center' : 'left', fontSize: this.state.gurmukhiFontSize }]}>{data['gurmukhi']}</Text>
                 { 
                     this.state.showEnglish && data['translation_english'] !== "" ?
-                    <Text style={[styles.baniTranslation, { fontSize: this.state.englishFontSize }]}>
+                    <Text style={[styles.baniTranslation, { textAlign: this.state.centerAlignment ? 'center' : 'left', fontSize: this.state.englishFontSize }]}>
                         {data['translation_english']}
                     </Text> : null
                 }
                 {
                     this.state.showPunjabi && data['translation_punjabi'] !== " " ?
-                    <Text style={[styles.baniTranslation, { fontSize: this.state.punjabiFontSize }]}>
+                    <Text style={[styles.baniTranslation, { textAlign: this.state.centerAlignment ? 'center' : 'left', fontSize: this.state.punjabiFontSize }]}>
                         {data['translation_punjabi']}
                     </Text> : null
                 }
@@ -141,10 +200,22 @@ export default class ShowBani extends Component {
                                 onValueChange={(val) => { this.setState({showPunjabi: val}); }} />
                         { this.renderPlusMinusButton('punjabiFontSize') }
                     </View>
-                    {/* <View style={styles.settingsRow}>
+                    <View style={styles.settingsRow}>
                         <Text style={[styles.settingLabel, { marginRight: 36 }]}>Group Stanzas</Text>
-                        <Switch style={styles.switch} />
-                    </View> */}
+                        <Switch style={styles.switch}
+                                value={this.state.groupStanzas}
+                                onValueChange={(val) => { 
+                                    val ? 
+                                    this.groupStanzas(()=> {this.setState({groupStanzas: val});}) : 
+                                    this.ungroupStanzas(()=> {this.setState({groupStanzas: val});})
+                                }} />
+                    </View>
+                    <View style={styles.settingsRow}>
+                        <Text style={[styles.settingLabel, { marginRight: 13 }]}>Center Alignment</Text>
+                        <Switch style={styles.switch}
+                                value={this.state.centerAlignment}
+                                onValueChange={(val) => { this.setState({centerAlignment: val}); }} />
+                    </View>
                 </ScrollView>
             </View>
         );
