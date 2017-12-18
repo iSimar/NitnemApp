@@ -208,7 +208,7 @@ export default class ShowBani extends Component {
                                         <Switch style={styles.switch} 
                                                 value={this.state.showEnglish}
                                                 onValueChange={(val) => { this.setState({showEnglish: val}); }} />
-                                        { this.renderPlusMinusButton('englishFontSize') }
+                                        { this.state.showEnglish ? this.renderPlusMinusButton('englishFontSize') : null }
                                     </View>
                                 </View>
                             </View>
@@ -221,7 +221,7 @@ export default class ShowBani extends Component {
                                         <Switch style={styles.switch}
                                                 value={this.state.showPunjabi}
                                                 onValueChange={(val) => { this.setState({showPunjabi: val}); }} />
-                                        { this.renderPlusMinusButton('punjabiFontSize') }
+                                        { this.state.showPunjabi ? this.renderPlusMinusButton('punjabiFontSize') : null }
                                     </View>
                                 </View>
                             </View>
