@@ -181,40 +181,74 @@ export default class ShowBani extends Component {
                         </TouchableOpacity>
                     </View>
                 </View>
-                <ScrollView style={{ paddingBottom: 10 }}>
-                    <View style={[styles.settingsRow, {paddingTop: 0}]}>
-                        <Text style={styles.settingLabel}>Gurmukhi Font Size</Text>
-                        { this.renderPlusMinusButton('gurmukhiFontSize') }
-                    </View>
-                    <View style={styles.settingsRow}>
-                        <Text style={styles.settingLabel}>English Translation</Text>
-                        <Switch style={styles.switch} 
-                                value={this.state.showEnglish}
-                                onValueChange={(val) => { this.setState({showEnglish: val}); }} />
-                        { this.renderPlusMinusButton('englishFontSize') }
-                    </View>
-                    <View style={styles.settingsRow}>
-                        <Text style={styles.settingLabel}>Punjabi Translation</Text>
-                        <Switch style={styles.switch}
-                                value={this.state.showPunjabi}
-                                onValueChange={(val) => { this.setState({showPunjabi: val}); }} />
-                        { this.renderPlusMinusButton('punjabiFontSize') }
-                    </View>
-                    <View style={styles.settingsRow}>
-                        <Text style={[styles.settingLabel, { marginRight: 36 }]}>Group Stanzas</Text>
-                        <Switch style={styles.switch}
-                                value={this.state.groupStanzas}
-                                onValueChange={(val) => { 
-                                    val ? 
-                                    this.groupStanzas(()=> {this.setState({groupStanzas: val});}) : 
-                                    this.ungroupStanzas(()=> {this.setState({groupStanzas: val});})
-                                }} />
-                    </View>
-                    <View style={styles.settingsRow}>
-                        <Text style={[styles.settingLabel, { marginRight: 13 }]}>Center Alignment</Text>
-                        <Switch style={styles.switch}
-                                value={this.state.centerAlignment}
-                                onValueChange={(val) => { this.setState({centerAlignment: val}); }} />
+                <ScrollView>
+                    <View style={{ flexDirection: 'row', paddingBottom: 50 }}>
+                        <View style={{ flex: 1}}>
+                            <View style={{ flexDirection: 'row'}}>
+                                <View style={{flex: 1}}>
+                                    <Text style={styles.settingLabel}>Gurmukhi Font Size</Text>
+                                </View>
+                                <View style={{flex: 1}}>
+                                    <View style={styles.settingsRow}>
+                                        { this.renderPlusMinusButton('gurmukhiFontSize') }
+                                    </View>
+                                </View>
+                            </View>
+                            <View style={{ flexDirection: 'row'}}>
+                                <View style={{flex: 1}}>
+                                    <Text style={styles.settingLabel}>English Translation</Text>
+                                </View>
+                                <View style={{flex: 1}}>
+                                    <View style={styles.settingsRow}>
+                                        <Switch style={styles.switch} 
+                                                value={this.state.showEnglish}
+                                                onValueChange={(val) => { this.setState({showEnglish: val}); }} />
+                                        { this.renderPlusMinusButton('englishFontSize') }
+                                    </View>
+                                </View>
+                            </View>
+                            <View style={{ flexDirection: 'row'}}>
+                                <View style={{flex: 1}}>
+                                    <Text style={styles.settingLabel}>Punjabi Translation</Text>
+                                </View>
+                                <View style={{flex: 1}}>
+                                    <View style={styles.settingsRow}>
+                                        <Switch style={styles.switch}
+                                                value={this.state.showPunjabi}
+                                                onValueChange={(val) => { this.setState({showPunjabi: val}); }} />
+                                        { this.renderPlusMinusButton('punjabiFontSize') }
+                                    </View>
+                                </View>
+                            </View>
+                            <View style={{ flexDirection: 'row'}}>
+                                <View style={{flex: 1}}>
+                                    <Text style={styles.settingLabel}>Group Stanzas</Text>
+                                </View>
+                                <View style={{flex: 1}}>
+                                    <View style={styles.settingsRow}>
+                                        <Switch style={styles.switch}
+                                                value={this.state.groupStanzas}
+                                                onValueChange={(val) => { 
+                                                    val ? 
+                                                    this.groupStanzas(()=> {this.setState({groupStanzas: val});}) : 
+                                                    this.ungroupStanzas(()=> {this.setState({groupStanzas: val});})
+                                                }} />
+                                    </View>
+                                </View>
+                            </View>
+                            <View style={{ flexDirection: 'row'}}>
+                                <View style={{flex: 1}}>
+                                    <Text style={styles.settingLabel}>Center Alignment</Text>
+                                </View>
+                                <View style={{flex: 1}}>
+                                    <View style={styles.settingsRow}>
+                                        <Switch style={styles.switch}
+                                                value={this.state.centerAlignment}
+                                                onValueChange={(val) => { this.setState({centerAlignment: val}); }} />
+                                    </View>
+                                </View>
+                            </View>
+                        </View>
                     </View>
                 </ScrollView>
             </View>
@@ -446,7 +480,9 @@ const styles = StyleSheet.create({
     },
     settingLabel: {
         fontSize: 20,
-        paddingRight: 10,
+        paddingLeft: 10,
+        paddingTop: 7,
+        paddingBottom: 9,
         color: themes[THEME].translation
     },
     settingsRow: {
