@@ -166,11 +166,16 @@ export default class ShowBani extends Component {
                 <View style={styles.displaySettingsHeader}>
                     <View style={styles.resetButtonContainer}>
                         <TouchableOpacity style={styles.resetButton} onPress={() => {
-                            this.setState({gurmukhiFontSize: 25,
-                                            showEnglish: true,
-                                            englishFontSize: 19,
-                                            showPunjabi: false,
-                                            punjabiFontSize: 19});
+                            this.ungroupStanzas( () => {
+                                this.setState({gurmukhiFontSize: 25,
+                                                showEnglish: true,
+                                                englishFontSize: 19,
+                                                showPunjabi: false,
+                                                punjabiFontSize: 19,
+                                                groupStanzas: false,
+                                                centerAlignment: false});
+                                }
+                            );
                             }}>
                             <Text style={styles.resetButtonText} >Reset</Text>
                         </TouchableOpacity>
