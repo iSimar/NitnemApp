@@ -76,6 +76,14 @@ export default class DisplaySettings extends Component {
             name: 'on-off',
             configName: 'centerAlignment'
           }]
+        },
+        {
+          name: 'themes',
+          label: 'Theme',
+          types: [{
+            name: 'color-palette-selector',
+            configName: 'themeType'
+          }]
         }
       ]
     };
@@ -92,6 +100,43 @@ export default class DisplaySettings extends Component {
     this.setState(stateObj);
     this.props.onNewConfig(configObj);
     AsyncStorage.setItem('config', JSON.stringify(configObj));
+  }
+  renderColorPaletteSelector(typeObj) {
+    return (
+      <View style={styles.colorPaletteSelectorContainer}>
+        {
+          Object.keys(themes).map(theme => (
+            <TouchableOpacity
+              key={theme}
+              style={[styles.colorPaletteCellContainer, {
+                borderColor: this.state.config[typeObj.configName] === theme ?
+                themes[this.state.config.themeType].secondaryTextColor
+                :
+                themes[this.state.config.themeType].primaryButtons
+              }]}
+              onPress={() => {
+                const configObj = Object.assign({}, this.state.config);
+                configObj[typeObj.configName] = theme;
+                this.onSetNewConfig(configObj);
+              }}
+            >
+              {
+                Object.keys(themes[theme]).map(colorKey => (
+                  <View
+                    key={theme + colorKey}
+                    style={{
+                      backgroundColor: themes[theme][colorKey],
+                      flex: 1,
+                      height: 30
+                    }}
+                  />
+                ))
+              }
+            </TouchableOpacity>
+            ))
+        }
+      </View>
+    );
   }
   renderOnOff(typeObj) {
     return (
@@ -145,6 +190,8 @@ export default class DisplaySettings extends Component {
       return this.renderOnOff(typeObj);
     } else if (typeObj.name === 'plus-minus') {
       return this.renderPlusMinus(typeObj);
+    } else if (typeObj.name === 'color-palette-selector') {
+      return this.renderColorPaletteSelector(typeObj);
     }
     return null;
   }
@@ -154,7 +201,7 @@ export default class DisplaySettings extends Component {
         {
           obj.types.map(typeObj =>
             (
-              <View key={typeObj.name}>
+              <View key={typeObj.name} style={styles.settingsRowTypeContainer}>
                 { this.renderSettingsRowType(typeObj) }
               </View>
             ))
@@ -283,7 +330,11 @@ const styles = StyleSheet.create({
     paddingTop: 7,
     paddingBottom: 9
   },
+  settingsRowTypeContainer: {
+    flexDirection: 'row'
+  },
   settingsFormRowTypesContainer: {
+    flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
     paddingBottom: 5,
@@ -292,6 +343,7 @@ const styles = StyleSheet.create({
     paddingRight: 10
   },
   settingsRowTypes: {
+    flex: 1,
     flexDirection: 'row'
   },
   switch: {
@@ -318,6 +370,21 @@ const styles = StyleSheet.create({
     paddingBottom: Platform.OS === 'android' ? 1 : 3,
     borderRadius: 5,
     fontSize: 18
+  },
+  colorPaletteSelectorContainer: {
+    paddingTop: 5,
+    flex: 1,
+    flexDirection: 'column'
+  },
+  colorPaletteCellContainer: {
+    flex: 1,
+    marginBottom: 15,
+    borderWidth: 1.5,
+    borderRadius: 5,
+    flexDirection: 'row'
+  },
+  colorPaletteCellText: {
+    fontSize: 10
   }
 });
 

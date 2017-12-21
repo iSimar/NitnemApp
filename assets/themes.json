@@ -1,9 +1,16 @@
 {
-    "night": {
+    "Theme 1": {
         "primaryBackgroundColor": "#18303d",
         "secondaryBackgroundColor": "#24485b",
         "primaryTextColor": "#f9dd6b",
         "secondaryTextColor": "#4ff1ac",
         "primaryButtons": "#cccccc"
-    }  
+    },
+    "Theme 2": {
+        "primaryBackgroundColor": "#01407F",
+        "secondaryBackgroundColor": "#204F77",
+        "primaryTextColor": "#EBF2FA",
+        "secondaryTextColor": "#FEC84E",
+        "primaryButtons": "#E6F4F5"
+    }
 }

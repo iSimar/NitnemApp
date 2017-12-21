@@ -45,6 +45,10 @@ export default class App extends Component {
         />
       );
     }
-    return <Home config={savedConfig ? JSON.parse(savedConfig) : initalConfig} />;
+    return (<Home config={savedConfig ?
+        { ...initalConfig, ...JSON.parse(savedConfig) }
+        : initalConfig}
+    />
+    );
   }
 }
