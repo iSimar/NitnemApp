@@ -122,6 +122,7 @@ export default class DisplaySettings extends Component {
             >
               {
                 Object.keys(themes[theme]).map(colorKey => (
+                  typeof (themes[theme][colorKey]) === 'boolean' ? null :
                   <View
                     key={theme + colorKey}
                     style={{

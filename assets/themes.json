@@ -12,5 +12,35 @@
         "primaryTextColor": "#EBF2FA",
         "secondaryTextColor": "#FEC84E",
         "primaryButtons": "#E6F4F5"
+    },
+    "Theme 3": {
+        "primaryBackgroundColor": "#000000",
+        "secondaryBackgroundColor": "#454545",
+        "primaryTextColor": "#EBF2FA",
+        "secondaryTextColor": "#93C0F4",
+        "primaryButtons": "#E6F4F5"
+    },
+    "Theme 4": {
+        "primaryBackgroundColor": "#262626",
+        "secondaryBackgroundColor": "#333333",
+        "primaryTextColor": "#E7E7E7",
+        "secondaryTextColor": "#DB853C",
+        "primaryButtons": "#E6F4F5"
+    },
+    "Theme 5": {
+        "isLight": true,
+        "primaryBackgroundColor": "#E6E6E6",
+        "secondaryBackgroundColor": "#CCCCCC",
+        "primaryTextColor": "#333333",
+        "secondaryTextColor": "#128B4E",
+        "primaryButtons": "#333333"
+    },
+    "Theme 6": {
+        "isLight": true,
+        "primaryBackgroundColor": "#FFFFFF",
+        "secondaryBackgroundColor": "#f8f8f8",
+        "primaryTextColor": "#000000",
+        "secondaryTextColor": "gray",
+        "primaryButtons": "#000000"
     }
 }

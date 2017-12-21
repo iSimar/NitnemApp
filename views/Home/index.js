@@ -51,7 +51,7 @@ export default class Home extends Component {
     }
     return (
       <View style={styles.container}>
-        <StatusBar barStyle="light-content" />
+        <StatusBar barStyle={themes[this.state.config.themeType].isLight ? 'dark-content' : 'light-content'} />
         <FlatList
           style={[
             styles.banisList,

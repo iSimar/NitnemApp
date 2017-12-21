@@ -299,7 +299,7 @@ export default class Bani extends Component {
             backgroundColor: themes[this.state.config.themeType].primaryBackgroundColor
         }]}
       >
-        <StatusBar barStyle="light-content" />
+        <StatusBar barStyle={themes[this.state.config.themeType].isLight ? 'dark-content' : 'light-content'} />
         { this.renderHeader() }
         { this.renderContent() }
         { this.renderMenu() }
