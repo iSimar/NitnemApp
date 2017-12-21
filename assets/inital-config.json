@@ -1,0 +1,10 @@
+{
+  "gurmukhiFontSize": 25,
+  "showEnglish": true,
+  "englishFontSize": 19,
+  "showPunjabi": false,
+  "punjabiFontSize": 19,
+  "groupStanzas": false,
+  "centerAlignment": false,
+  "themeType": "night"
+}
