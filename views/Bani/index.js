@@ -12,7 +12,8 @@ import {
   StatusBar,
   TouchableOpacity,
   TouchableWithoutFeedback,
-  FlatList
+  FlatList,
+  BackAndroid
 } from 'react-native';
 
 import PropTypes from 'prop-types';
@@ -66,6 +67,10 @@ export default class Bani extends Component {
     if (this.props.config.groupStanzas) {
       await this.groupStanzas();
     }
+    BackAndroid.addEventListener('hardwareBackPress', () => {
+      this.props.onBack();
+      return true;
+    });
   }
   async componentWillUnmount() {
     if (this.sound) {
@@ -74,6 +79,10 @@ export default class Bani extends Component {
     }
     // passing up the new config to home
     this.props.onNewConfig(this.state.config);
+    BackAndroid.removeEventListener('hardwareBackPress', () => {
+      this.props.onBack();
+      return false;
+    });
   }
   async onPressMenuOption(name) {
     if (name === 'play-audio') {
