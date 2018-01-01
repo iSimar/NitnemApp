@@ -8,7 +8,8 @@ import {
   StyleSheet,
   StatusBar,
   FlatList,
-  TouchableOpacity
+  TouchableOpacity,
+  BackHandler
 } from 'react-native';
 
 import PropTypes from 'prop-types';
@@ -26,6 +27,19 @@ export default class Home extends Component {
       config: this.props.config,
       selectedBani: null
     };
+  }
+
+  async componentWillMount() {
+    BackHandler.addEventListener('hardwareBackPress', () => {
+      BackHandler.exitApp();
+      return true;
+    });
+  }
+  async componentWillUnmount() {
+    BackHandler.removeEventListener('hardwareBackPress', () => {
+      BackHandler.exitApp();
+      return false;
+    });
   }
 
   render() {

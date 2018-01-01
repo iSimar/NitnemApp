@@ -13,7 +13,7 @@ import {
   TouchableOpacity,
   TouchableWithoutFeedback,
   FlatList,
-  BackAndroid,
+  BackHandler,
   Clipboard
 } from 'react-native';
 
@@ -70,7 +70,7 @@ export default class Bani extends Component {
     if (this.props.config.groupStanzas) {
       await this.groupStanzas();
     }
-    BackAndroid.addEventListener('hardwareBackPress', () => {
+    BackHandler.addEventListener('hardwareBackPress', () => {
       this.props.onBack();
       return true;
     });
@@ -82,7 +82,7 @@ export default class Bani extends Component {
     }
     // passing up the new config to home
     this.props.onNewConfig(this.state.config);
-    BackAndroid.removeEventListener('hardwareBackPress', () => {
+    BackHandler.removeEventListener('hardwareBackPress', () => {
       this.props.onBack();
       return false;
     });
@@ -206,6 +206,7 @@ export default class Bani extends Component {
       if (bani[i].section_id === tmpSectionId) {
         obj.gurmukhi = `${obj.gurmukhi} ${bani[i].gurmukhi}`;
         obj.vishraam = `${obj.vishraam} ${bani[i].vishraam}`;
+        obj.gurmukhi_unicode = `${obj.gurmukhi_unicode} ${bani[i].gurmukhi_unicode}`;
         obj.translation_english = `${obj.translation_english} ${bani[i].translation_english}`;
         obj.translation_punjabi = `${obj.translation_punjabi} ${bani[i].translation_punjabi}`;
         obj.section_name_english = bani[i].section_name_english;
@@ -230,6 +231,7 @@ export default class Bani extends Component {
           tmpSectionId = bani[i].section_id;
           obj.gurmukhi = bani[i].gurmukhi;
           obj.vishraam = bani[i].vishraam;
+          obj.gurmukhi_unicode = bani[i].gurmukhi_unicode;
           obj.translation_english = bani[i].translation_english;
           obj.translation_punjabi = bani[i].translation_punjabi;
           obj.section_name_english = bani[i].section_name_english;
