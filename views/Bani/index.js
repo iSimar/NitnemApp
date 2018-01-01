@@ -183,7 +183,11 @@ export default class Bani extends Component {
           for (let i = 0; i < selectedIndexes.length; i++) {
             const obj = this.state.bani[selectedIndexes[i]];
             if (i === selectedIndexes.length - 1) {
-              str += `${obj.gurmukhi_unicode}\n`;
+              if (this.state.config.showEnglish || this.state.config.showPunjabi) {
+                str += `${obj.gurmukhi_unicode}\n\n`;
+              } else {
+                str += `${obj.gurmukhi_unicode}\n`;
+              }
               if (this.state.config.showEnglish) {
                 str += `${obj.translation_english}\n`;
               }
