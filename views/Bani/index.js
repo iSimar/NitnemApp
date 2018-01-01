@@ -182,27 +182,15 @@ export default class Bani extends Component {
           let str = '';
           for (let i = 0; i < selectedIndexes.length; i++) {
             const obj = this.state.bani[selectedIndexes[i]];
+            str += `${obj.gurmukhi_unicode}\n\n`;
+            if (this.state.config.showEnglish) {
+              str += `${obj.translation_english}\n\n`;
+            }
+            if (this.state.config.showPunjabi) {
+              str += `${obj.translation_punjabi}\n\n`;
+            }
             if (i === selectedIndexes.length - 1) {
-              if (this.state.config.showEnglish || this.state.config.showPunjabi) {
-                str += `${obj.gurmukhi_unicode}\n\n`;
-              } else {
-                str += `${obj.gurmukhi_unicode}\n`;
-              }
-              if (this.state.config.showEnglish) {
-                str += `${obj.translation_english}\n`;
-              }
-              if (this.state.config.showPunjabi) {
-                str += `${obj.translation_punjabi}\n`;
-              }
-              Clipboard.setString(str);
-            } else {
-              str += `${obj.gurmukhi_unicode}\n\n`;
-              if (this.state.config.showEnglish) {
-                str += `${obj.translation_english}\n\n`;
-              }
-              if (this.state.config.showPunjabi) {
-                str += `${obj.translation_punjabi}\n\n`;
-              }
+              Clipboard.setString(str.substring(0, str.length - 1));
             }
           }
         }
