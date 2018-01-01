@@ -2,11 +2,13 @@ const request = require('request');
 const fs = require('fs');
 const beautify = require('json-beautify');
 
-const inputJSON = require('../../assets/banis/japjisahib.json');
+// const runForOnly = null; // run for all .json files
+const runForOnly = 'ardaas.json';
 
-const outputJSON = [];
+const sourceBaniDirectory = '../../assets/banis';
 
-function main(input, i, cb) {
+
+function main(input, i, cb, output = []) {
   const lineObj = input[i];
   request.post({
     url: 'http://punjabi.aglsoft.com/punjabi/ajax.aspx',
@@ -34,18 +36,53 @@ function main(input, i, cb) {
   }, (e, r, res) => {
     console.log(res);
     lineObj.gurmukhi_unicode = res;
-    outputJSON.push(lineObj);
+    output.push(lineObj);
     if (i === input.length - 1) {
-      cb();
+      cb(output);
     } else {
-      main(input, i + 1, cb);
+      main(input, i + 1, cb, output);
     }
   });
 }
 
-main(inputJSON, 0, () => {
-  fs.writeFile('./output.json', beautify(outputJSON, null, 2, 80), (err) => {
-    if (err) throw err;
-    console.log('file saved');
+
+function readFiles(dirname, onFileContent, onError) {
+  fs.readdir(dirname, (err, filenames) => {
+    if (err) {
+      onError(err);
+      return;
+    }
+    filenames.forEach((filename) => {
+      if (runForOnly && filename === runForOnly) {
+        console.log(filename);
+        fs.readFile(`${dirname}/${filename}`, 'utf-8', (err2, content) => {
+          if (err2) {
+            onError(err2);
+            return;
+          }
+          onFileContent(filename, content);
+        });
+      } else if (!runForOnly && filename.indexOf('.json') !== -1) {
+        console.log(filename);
+        fs.readFile(`${dirname}/${filename}`, 'utf-8', (err2, content) => {
+          if (err2) {
+            onError(err2);
+            return;
+          }
+          onFileContent(filename, content);
+        });
+      }
+    });
   });
+}
+
+readFiles(sourceBaniDirectory, (filename, content) => {
+  main(JSON.parse(content), 0, (outputJSON) => {
+    fs.writeFile(`${sourceBaniDirectory}/${filename}`, beautify(outputJSON, null, 2, 80), (err) => {
+      if (err) throw err;
+      console.log('file saved');
+    });
+  });
+}, (err) => {
+  if (err) throw err;
 });
