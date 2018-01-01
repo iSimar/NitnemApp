@@ -21,6 +21,8 @@ const GURAKHAR_FONT = require('./assets/fonts/gurakhar.ttf');
 
 let savedConfig = null;
 
+// console.disableYellowBox = true;
+
 export default class App extends Component {
   constructor(props) {
     super(props);

@@ -13,14 +13,15 @@ import {
   TouchableOpacity,
   TouchableWithoutFeedback,
   FlatList,
-  BackAndroid
+  BackAndroid,
+  Clipboard
 } from 'react-native';
 
 import PropTypes from 'prop-types';
 
 import { Audio } from 'expo';
 
-import { Entypo, Ionicons } from '@expo/vector-icons';
+import { Entypo, Ionicons, MaterialIcons } from '@expo/vector-icons';
 
 import Menu from './views/Menu';
 
@@ -60,7 +61,9 @@ export default class Bani extends Component {
       bani,
       baniUngrouped: bani,
       showDisplaySettings: false,
-      config: this.props.config
+      config: this.props.config,
+      selectMode: false,
+      selectedIndexes: []
     };
   }
   async componentWillMount() {
@@ -109,7 +112,9 @@ export default class Bani extends Component {
     } else if (name === 'settings') {
       this.menu.hide();
       this.setState({
-        showDisplaySettings: true
+        showDisplaySettings: true,
+        selectMode: false,
+        selectedIndexes: []
       });
     }
   }
@@ -124,6 +129,72 @@ export default class Bani extends Component {
       });
     } else {
       this.setState({ config });
+    }
+  }
+  onBaniRowPress(data, index) {
+    const indexOfSelectedIndexes = this.state.selectedIndexes.indexOf(index);
+    if (indexOfSelectedIndexes === -1) {
+      // added to selected indexes
+      this.setState({
+        selectedIndexes: this.state.selectedIndexes.concat([index])
+      });
+    } else {
+      // unselect, remove from selected indexes
+      const newSelectedIndexes =
+      this.state.selectedIndexes.filter((_, i) => i !== indexOfSelectedIndexes);
+      if (this.state.selectedIndexes.length === 1) {
+        this.setState({
+          selectMode: false,
+          selectedIndexes: newSelectedIndexes
+        });
+      } else {
+        this.setState({
+          selectedIndexes: newSelectedIndexes
+        });
+      }
+    }
+  }
+  onBaniRowLongPress(data, index) {
+    this.setState({
+      selectMode: true,
+      selectedIndexes: [index],
+      showDisplaySettings: false
+    });
+  }
+  onPressMenuDots() {
+    this.menu.toggleShow(() => {
+      if (this.state.selectMode) {
+        this.setState({
+          selectMode: false,
+          selectedIndexes: []
+        });
+      }
+    });
+  }
+  onPressCopy() {
+    if (this.state.selectMode) {
+      const selectedIndexes = this.state.selectedIndexes.sort();
+      this.setState({
+        selectMode: false,
+        selectedIndexes: []
+      }, () => {
+        if (selectedIndexes.length > 0) {
+          let str = '';
+          for (let i = 0; i < selectedIndexes.length; i++) {
+            const obj = this.state.bani[selectedIndexes[i]];
+            str += `${obj.gurmukhi_unicode}\n\n`;
+            if (this.state.config.showEnglish) {
+              str += `${obj.translation_english}\n\n`;
+            }
+            if (this.state.config.showPunjabi) {
+              str += `${obj.translation_punjabi}\n\n`;
+            }
+            if (i === selectedIndexes.length - 1) {
+              Clipboard.setString(str);
+            }
+          }
+        }
+      });
     }
   }
   groupStanzas(cb) {
@@ -187,77 +258,102 @@ export default class Bani extends Component {
         >
           <Ionicons name="md-arrow-back" size={38} color={themes[this.state.config.themeType].primaryButtons} />
         </TouchableOpacity>
-        <TouchableOpacity
-          style={styles.headerRight}
-          onPress={() => this.menu.toggleShow()}
-        >
-          <Entypo name="dots-three-vertical" size={30} color={themes[this.state.config.themeType].primaryButtons} />
-        </TouchableOpacity>
+        <View style={styles.headerRight}>
+          {
+            this.state.selectMode ?
+              <TouchableOpacity
+                style={styles.headerRightButton}
+                onPress={() => this.onPressCopy()}
+              >
+                <MaterialIcons name="content-copy" size={30} color={themes[this.state.config.themeType].primaryButtons} />
+              </TouchableOpacity> : null
+          }
+          <TouchableOpacity
+            style={styles.headerRightLastButton}
+            onPress={() => this.onPressMenuDots()}
+          >
+            <Entypo name="dots-three-vertical" size={30} color={themes[this.state.config.themeType].primaryButtons} />
+          </TouchableOpacity>
+        </View>
       </View>
     );
   }
   renderBaniRow(data, index) {
     return (
-      <View>
-        <View style={[styles.baniRow, {
-            paddingBottom:
-            this.state.bani.length - 1 === index ? 60 :
-            (!this.state.config.showEnglish && !this.state.config.showPunjabi ? 0 : 15)
-          }]}
-        >
-          <Text style={[styles.baniText, {
-              color: themes[this.state.config.themeType].primaryTextColor,
-              textAlign: this.state.config.centerAlignment ? 'center' : 'left',
-              fontSize: this.state.config.gurmukhiFontSize
+      <TouchableWithoutFeedback
+        onPress={() => this.state.selectMode && this.onBaniRowPress(data, index)}
+        onLongPress={() => !this.state.selectMode && this.onBaniRowLongPress(data, index)}
+      >
+        <View>
+          <View style={[styles.baniRow, {
+              paddingTop:
+              !this.state.config.showEnglish && !this.state.config.showPunjabi ? 7.5 : 15,
+              paddingBottom:
+              this.state.bani.length - 1 === index ? 60 :
+              (!this.state.config.showEnglish && !this.state.config.showPunjabi ? 7.5 : 15),
+              backgroundColor: this.state.selectMode ?
+              (
+                this.state.selectedIndexes.indexOf(index) !== -1 ?
+                themes[this.state.config.themeType].secondaryBackgroundColor :
+                themes[this.state.config.themeType].primaryBackgroundColor
+              )
+              : themes[this.state.config.themeType].primaryBackgroundColor
             }]}
           >
-            {data.gurmukhi}
-          </Text>
-          {
-                this.state.config.showEnglish && data.translation_english !== '' ?
-                  <Text style={[styles.baniTranslation, {
-                      color: themes[this.state.config.themeType].secondaryTextColor,
-                      textAlign: this.state.config.centerAlignment ? 'center' : 'left',
-                      fontSize: this.state.config.englishFontSize
-                    }]}
-                  >
-                    {data.translation_english}
-                  </Text> : null
-            }
-          {
-                this.state.config.showPunjabi && data.translation_punjabi !== ' ' ?
-                  <Text style={[styles.baniTranslation, {
-                      color: themes[this.state.config.themeType].secondaryTextColor,
-                      textAlign: this.state.config.centerAlignment ? 'center' : 'left',
-                      fontSize: this.state.config.punjabiFontSize
-                    }]}
-                  >
-                    {data.translation_punjabi}
-                  </Text> : null
-            }
-        </View>
-        {
-            this.state.baniMetadata.next_index &&
-            this.state.baniMetadata.next_name_gurmukhi &&
-            this.state.bani.length - 1 === index ?
-              <View style={styles.nextBaniContainer}>
-                <TouchableOpacity
-                  style={styles.nextBaniTouchable}
-                  onPress={() => this.props.onNext(this.state.baniMetadata.next_index)}
-                >
-                  <Text style={[styles.baniText, {
-                      color: themes[this.state.config.themeType].primaryButtons,
-                      paddingRight: 10,
-                      fontSize: 33
+            <Text style={[styles.baniText, {
+                color: themes[this.state.config.themeType].primaryTextColor,
+                textAlign: this.state.config.centerAlignment ? 'center' : 'left',
+                fontSize: this.state.config.gurmukhiFontSize
+              }]}
+            >
+              {data.gurmukhi}
+            </Text>
+            {
+                  this.state.config.showEnglish && data.translation_english !== '' ?
+                    <Text style={[styles.baniTranslation, {
+                        color: themes[this.state.config.themeType].secondaryTextColor,
+                        textAlign: this.state.config.centerAlignment ? 'center' : 'left',
+                        fontSize: this.state.config.englishFontSize
                       }]}
+                    >
+                      {data.translation_english}
+                    </Text> : null
+              }
+            {
+                  this.state.config.showPunjabi && data.translation_punjabi !== ' ' ?
+                    <Text style={[styles.baniTranslation, {
+                        color: themes[this.state.config.themeType].secondaryTextColor,
+                        textAlign: this.state.config.centerAlignment ? 'center' : 'left',
+                        fontSize: this.state.config.punjabiFontSize
+                      }]}
+                    >
+                      {data.translation_punjabi}
+                    </Text> : null
+              }
+          </View>
+          {
+              this.state.baniMetadata.next_index &&
+              this.state.baniMetadata.next_name_gurmukhi &&
+              this.state.bani.length - 1 === index ?
+                <View style={styles.nextBaniContainer}>
+                  <TouchableOpacity
+                    style={styles.nextBaniTouchable}
+                    onPress={() => this.props.onNext(this.state.baniMetadata.next_index)}
                   >
-                    {this.state.baniMetadata.next_name_gurmukhi}
-                  </Text>
-                  <Ionicons name="md-arrow-forward" size={38} color={themes[this.state.config.themeType].primaryButtons} />
-                </TouchableOpacity>
-              </View> : null
-        }
-      </View>
+                    <Text style={[styles.baniText, {
+                        color: themes[this.state.config.themeType].primaryButtons,
+                        paddingRight: 10,
+                        fontSize: 33
+                        }]}
+                    >
+                      {this.state.baniMetadata.next_name_gurmukhi}
+                    </Text>
+                    <Ionicons name="md-arrow-forward" size={38} color={themes[this.state.config.themeType].primaryButtons} />
+                  </TouchableOpacity>
+                </View> : null
+          }
+        </View>
+      </TouchableWithoutFeedback>
     );
   }
   renderContent() {
@@ -334,10 +430,19 @@ const styles = StyleSheet.create({
   },
   headerRight: {
     flex: 1,
-    alignItems: 'flex-end',
-    justifyContent: 'center',
-    paddingRight: 20,
+    alignItems: 'center',
+    justifyContent: 'flex-end',
+    flexDirection: 'row',
     paddingTop: 20
+  },
+  headerRightLastButton: {
+    flex: 1,
+    alignItems: 'flex-end',
+    paddingRight: 20
+  },
+  headerRightButton: {
+    flex: 2,
+    alignItems: 'flex-end'
   },
   menuContainer: {
     justifyContent: 'center',

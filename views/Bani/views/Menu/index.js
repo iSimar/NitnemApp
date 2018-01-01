@@ -82,8 +82,8 @@ export default class Menu extends Component {
     }
     this.props.onPress(name);
   }
-  toggleShow() {
-    this.setState({ show: !this.state.show });
+  toggleShow(cb = () => {}) {
+    this.setState({ show: !this.state.show }, cb);
   }
   hide() {
     this.setState({ show: false });
