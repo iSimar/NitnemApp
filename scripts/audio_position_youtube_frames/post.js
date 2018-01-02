@@ -5,7 +5,8 @@ const beautify = require('json-beautify');
 
 const sourceBaniDirectory = '../../assets/banis';
 const runForOnly = 'kirtansohila.json';
-const offset = 21;
+const offset = 18;
+const delay = 1000;
 
 function readFiles(dirname, onFileContent, onError) {
   fs.readdir(dirname, (err, filenames) => {
@@ -47,7 +48,7 @@ async function main() {
   await rd.on('line', async (line) => {
     if (line.indexOf('pts: ') !== -1) {
       const milli = parseInt(line.substring(line.indexOf('pts: ') + 5, line.indexOf(' pts_time:')));
-      await millis.push(milli);
+      await millis.push(milli + delay);
     }
   });
 

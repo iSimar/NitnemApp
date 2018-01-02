@@ -330,13 +330,7 @@ export default class Bani extends Component {
   renderBaniRow(data, index) {
     return (
       <TouchableWithoutFeedback
-        onPress={() => {
-          if (this.sound) {
-            this.sound.getStatusAsync().then((obj) => {
-              console.log(`${data.gurmukhi_unicode}-${obj.positionMillis}`);
-            });
-          }
-        }}
+        onPress={() => this.state.selectMode && this.onBaniRowPress(data, index)}
         onLongPress={() => !this.state.selectMode && this.onBaniRowLongPress(data, index)}
       >
         <View>
