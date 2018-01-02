@@ -197,6 +197,44 @@ export default class Bani extends Component {
       });
     }
   }
+  async onPressPlaySelection() {
+    if (this.state.selectMode && this.state.selectedIndexes.length > 0) {
+      let startingPos;
+      let endingPos;
+      const selectedIndexes = await this.state.selectedIndexes.sort();
+      if (selectedIndexes.length > 1) {
+        // todo
+      } else {
+        startingPos = await this.state.bani[selectedIndexes[0]].audio_position;
+        if (selectedIndexes[0] < this.state.bani.length - 1) {
+          endingPos = await this.state.bani[selectedIndexes[0] + 1].audio_position;
+        }
+      }
+
+      this.setState({
+        selectMode: false,
+        selectedIndexes: [],
+        showDisplaySettings: false
+      }, async () => {
+        if (startingPos) {
+          await Audio.setIsEnabledAsync(true);
+          const sound = new Audio.Sound();
+          await sound.loadAsync({
+            uri: this.props.bani.audio
+          }, {
+            shouldPlay: true,
+            positionMillis: startingPos
+          });
+          await sound.playAsync();
+          await sound.setOnPlaybackStatusUpdate((obj) => {
+            if (endingPos && obj.positionMillis && obj.positionMillis >= endingPos) {
+              sound.stopAsync();
+            }
+          });
+        }
+      });
+    }
+  }
   groupStanzas(cb) {
     const { bani } = this.state;
     const rows = [];
@@ -236,6 +274,7 @@ export default class Bani extends Component {
           obj.translation_punjabi = bani[i].translation_punjabi;
           obj.section_name_english = bani[i].section_name_english;
           obj.section_name_gurmukhi = bani[i].section_name_gurmukhi;
+          obj.audio_position = bani[i].audio_position;
 
           if (i === bani.length - 1) {
             if (obj != null) {
@@ -263,12 +302,20 @@ export default class Bani extends Component {
         <View style={styles.headerRight}>
           {
             this.state.selectMode ?
-              <TouchableOpacity
-                style={styles.headerRightButton}
-                onPress={() => this.onPressCopy()}
-              >
-                <MaterialIcons name="content-copy" size={30} color={themes[this.state.config.themeType].primaryButtons} />
-              </TouchableOpacity> : null
+              <View style={styles.headerSelectionButtons}>
+                <TouchableOpacity
+                  style={styles.headerRightButton}
+                  onPress={() => this.onPressCopy()}
+                >
+                  <MaterialIcons name="content-copy" size={30} color={themes[this.state.config.themeType].primaryButtons} />
+                </TouchableOpacity>
+                <TouchableOpacity
+                  style={styles.headerRightButton}
+                  onPress={() => this.onPressPlaySelection()}
+                >
+                  <MaterialIcons name="play-arrow" size={35} color={themes[this.state.config.themeType].primaryButtons} />
+                </TouchableOpacity>
+              </View> : null
           }
           <TouchableOpacity
             style={styles.headerRightLastButton}
@@ -283,7 +330,13 @@ export default class Bani extends Component {
   renderBaniRow(data, index) {
     return (
       <TouchableWithoutFeedback
-        onPress={() => this.state.selectMode && this.onBaniRowPress(data, index)}
+        onPress={() => {
+          if (this.sound) {
+            this.sound.getStatusAsync().then((obj) => {
+              console.log(`${data.gurmukhi_unicode}-${obj.positionMillis}`);
+            });
+          }
+        }}
         onLongPress={() => !this.state.selectMode && this.onBaniRowLongPress(data, index)}
       >
         <View>
@@ -443,8 +496,13 @@ const styles = StyleSheet.create({
     paddingRight: 20
   },
   headerRightButton: {
-    flex: 2,
+    flex: 1,
     alignItems: 'flex-end'
+  },
+  headerSelectionButtons: {
+    flexDirection: 'row',
+    flex: 2,
+    alignItems: 'center'
   },
   menuContainer: {
     justifyContent: 'center',

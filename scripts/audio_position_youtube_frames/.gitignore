@@ -1,0 +1,5 @@
+/node_modules
+/tmp
+*.jpg
+*.mp4
+res.txt

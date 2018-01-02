@@ -1,0 +1,16 @@
+{
+  "name": "audio_position_youtube_frames",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js > res.txt && rm -rf *.jpg && rm -rf *.mp4 && node post.js && rm -rf res.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-beautify": "^1.0.1",
+    "youtube-video-to-frames": "git://github.com/iSimar/youtube-video-to-frames.git#master"
+  }
+}
