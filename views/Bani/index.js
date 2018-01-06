@@ -309,12 +309,12 @@ export default class Bani extends Component {
                 >
                   <MaterialIcons name="content-copy" size={30} color={themes[this.state.config.themeType].primaryButtons} />
                 </TouchableOpacity>
-                <TouchableOpacity
+                {/* <TouchableOpacity
                   style={styles.headerRightButton}
                   onPress={() => this.onPressPlaySelection()}
                 >
                   <MaterialIcons name="play-arrow" size={35} color={themes[this.state.config.themeType].primaryButtons} />
-                </TouchableOpacity>
+                </TouchableOpacity> */}
               </View> : null
           }
           <TouchableOpacity
