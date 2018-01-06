@@ -8,7 +8,8 @@
     "section_id": 1,
     "section_name_english": "Mool Mantar",
     "section_name_gurmukhi": "mUl mMqr",
-    "gurmukhi_unicode": "ੴ ਸਤਿਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਨਿਰਭਉ ਨਿਰਵੈਰੁ ਅਕਾਲ ਮੂਰਤਿ ਅਜੂਨੀ ਸੈਭੰ ਗੁਰਪ੍ਰਸਾਦਿ ॥"
+    "gurmukhi_unicode": "ੴ ਸਤਿਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਨਿਰਭਉ ਨਿਰਵੈਰੁ ਅਕਾਲ ਮੂਰਤਿ ਅਜੂਨੀ ਸੈਭੰ ਗੁਰਪ੍ਰਸਾਦਿ ॥",
+    "audio_position": 3280
   },
   {
     "gurmukhi": "] jpu ]",
@@ -19,7 +20,8 @@
     "section_id": 2,
     "section_name_english": "Mool Mantar",
     "section_name_gurmukhi": "mUl mMqr",
-    "gurmukhi_unicode": "॥ ਜਪੁ ॥"
+    "gurmukhi_unicode": "॥ ਜਪੁ ॥",
+    "audio_position": 19320
   },
   {
     "gurmukhi": "Awid scu jugwid scu ]",
@@ -30,7 +32,8 @@
     "section_id": 60003,
     "section_name_english": "Mool Mantar",
     "section_name_gurmukhi": "mUl mMqr",
-    "gurmukhi_unicode": "ਆਦਿ ਸਚੁ ਜੁਗਾਦਿ ਸਚੁ ॥"
+    "gurmukhi_unicode": "ਆਦਿ ਸਚੁ ਜੁਗਾਦਿ ਸਚੁ ॥",
+    "audio_position": 23480
   },
   {
     "gurmukhi": "hY BI scu nwnk hosI BI scu ]1]",
@@ -41,7 +44,8 @@
     "section_id": 60003,
     "section_name_english": "Mool Mantar",
     "section_name_gurmukhi": "mUl mMqr",
-    "gurmukhi_unicode": "ਹੈ ਭੀ ਸਚੁ ਨਾਨਕ ਹੋਸੀ ਭੀ ਸਚੁ ॥੧॥"
+    "gurmukhi_unicode": "ਹੈ ਭੀ ਸਚੁ ਨਾਨਕ ਹੋਸੀ ਭੀ ਸਚੁ ॥੧॥",
+    "audio_position": 27680
   },
   {
     "gurmukhi": "socY soic n hoveI jy socI lK vwr ]",
@@ -52,7 +56,8 @@
     "section_id": 60004,
     "section_name_english": "Pauri 1",
     "section_name_gurmukhi": "pauVI 1",
-    "gurmukhi_unicode": "ਸੋਚੈ ਸੋਚਿ ਨ ਹੋਵਈ ਜੇ ਸੋਚੀ ਲਖ ਵਾਰ ॥"
+    "gurmukhi_unicode": "ਸੋਚੈ ਸੋਚਿ ਨ ਹੋਵਈ ਜੇ ਸੋਚੀ ਲਖ ਵਾਰ ॥",
+    "audio_position": 31720
   },
   {
     "gurmukhi": "cupY cuip n hoveI jy lwie rhw ilv qwr ]",
@@ -63,7 +68,8 @@
     "section_id": 60004,
     "section_name_english": "Pauri 1",
     "section_name_gurmukhi": "pauVI 1",
-    "gurmukhi_unicode": "ਚੁਪੈ ਚੁਪਿ ਨ ਹੋਵਈ ਜੇ ਲਾਇ ਰਹਾ ਲਿਵ ਤਾਰ ॥"
+    "gurmukhi_unicode": "ਚੁਪੈ ਚੁਪਿ ਨ ਹੋਵਈ ਜੇ ਲਾਇ ਰਹਾ ਲਿਵ ਤਾਰ ॥",
+    "audio_position": 35240
   },
   {
     "gurmukhi": "BuiKAw BuK n auqrI jy bMnw purIAw Bwr ]",
@@ -74,7 +80,8 @@
     "section_id": 60004,
     "section_name_english": "Pauri 1",
     "section_name_gurmukhi": "pauVI 1",
-    "gurmukhi_unicode": "ਭੁਖਿਆ ਭੁਖ ਨ ਉਤਰੀ ਜੇ ਬੰਨਾ ਪੁਰੀਆ ਭਾਰ ॥"
+    "gurmukhi_unicode": "ਭੁਖਿਆ ਭੁਖ ਨ ਉਤਰੀ ਜੇ ਬੰਨਾ ਪੁਰੀਆ ਭਾਰ ॥",
+    "audio_position": 39000
   },
   {
     "gurmukhi": "shs isAwxpw lK hoih q iek n clY nwil ]",
@@ -85,7 +92,8 @@
     "section_id": 60004,
     "section_name_english": "Pauri 1",
     "section_name_gurmukhi": "pauVI 1",
-    "gurmukhi_unicode": "ਸਹਸ ਸਿਆਣਪਾ ਲਖ ਹੋਹਿ ਤ ਇਕ ਨ ਚਲੈ ਨਾਲਿ ॥"
+    "gurmukhi_unicode": "ਸਹਸ ਸਿਆਣਪਾ ਲਖ ਹੋਹਿ ਤ ਇਕ ਨ ਚਲੈ ਨਾਲਿ ॥",
+    "audio_position": 42840
   },
   {
     "gurmukhi": "ikv sicAwrw hoeIAY ikv kUVY qutY pwil ]",
@@ -96,7 +104,8 @@
     "section_id": 60004,
     "section_name_english": "Pauri 1",
     "section_name_gurmukhi": "pauVI 1",
-    "gurmukhi_unicode": "ਕਿਵ ਸਚਿਆਰਾ ਹੋਈਐ ਕਿਵ ਕੂੜੈ ਤੁਟੈ ਪਾਲਿ ॥"
+    "gurmukhi_unicode": "ਕਿਵ ਸਚਿਆਰਾ ਹੋਈਐ ਕਿਵ ਕੂੜੈ ਤੁਟੈ ਪਾਲਿ ॥",
+    "audio_position": 46680
   },
   {
     "gurmukhi": "hukim rjweI clxw nwnk iliKAw nwil ]1]",
@@ -107,7 +116,8 @@
     "section_id": 60004,
     "section_name_english": "Pauri 1",
     "section_name_gurmukhi": "pauVI 1",
-    "gurmukhi_unicode": "ਹੁਕਮਿ ਰਜਾਈ ਚਲਣਾ ਨਾਨਕ ਲਿਖਿਆ ਨਾਲਿ ॥੧॥"
+    "gurmukhi_unicode": "ਹੁਕਮਿ ਰਜਾਈ ਚਲਣਾ ਨਾਨਕ ਲਿਖਿਆ ਨਾਲਿ ॥੧॥",
+    "audio_position": 49960
   },
   {
     "gurmukhi": "hukmI hovin Awkwr hukmu n kihAw jweI ]",
@@ -118,7 +128,8 @@
     "section_id": 60005,
     "section_name_english": "Pauri 2",
     "section_name_gurmukhi": "pauVI 2",
-    "gurmukhi_unicode": "ਹੁਕਮੀ ਹੋਵਨਿ ਆਕਾਰ ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ ॥"
+    "gurmukhi_unicode": "ਹੁਕਮੀ ਹੋਵਨਿ ਆਕਾਰ ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ ॥",
+    "audio_position": 53880
   },
   {
     "gurmukhi": "hukmI hovin jIA hukim imlY vifAweI ]",
@@ -129,7 +140,8 @@
     "section_id": 60005,
     "section_name_english": "Pauri 2",
     "section_name_gurmukhi": "pauVI 2",
-    "gurmukhi_unicode": "ਹੁਕਮੀ ਹੋਵਨਿ ਜੀਅ ਹੁਕਮਿ ਮਿਲੈ ਵਡਿਆਈ ॥"
+    "gurmukhi_unicode": "ਹੁਕਮੀ ਹੋਵਨਿ ਜੀਅ ਹੁਕਮਿ ਮਿਲੈ ਵਡਿਆਈ ॥",
+    "audio_position": 56920
   },
   {
     "gurmukhi": "hukmI auqmu nIcu hukim iliK duK suK pweIAih ]",
@@ -140,7 +152,8 @@
     "section_id": 60005,
     "section_name_english": "Pauri 2",
     "section_name_gurmukhi": "pauVI 2",
-    "gurmukhi_unicode": "ਹੁਕਮੀ ਉਤਮੁ ਨੀਚੁ ਹੁਕਮਿ ਲਿਖਿ ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ ॥"
+    "gurmukhi_unicode": "ਹੁਕਮੀ ਉਤਮੁ ਨੀਚੁ ਹੁਕਮਿ ਲਿਖਿ ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ ॥",
+    "audio_position": 61160
   },
   {
     "gurmukhi": "ieknw hukmI bKsIs ieik hukmI sdw BvweIAih ]",
@@ -151,7 +164,8 @@
     "section_id": 60005,
     "section_name_english": "Pauri 2",
     "section_name_gurmukhi": "pauVI 2",
-    "gurmukhi_unicode": "ਇਕਨਾ ਹੁਕਮੀ ਬਖਸੀਸ ਇਕਿ ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ ॥"
+    "gurmukhi_unicode": "ਇਕਨਾ ਹੁਕਮੀ ਬਖਸੀਸ ਇਕਿ ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ ॥",
+    "audio_position": 64840
   },
   {
     "gurmukhi": "hukmY AMdir sBu ko bwhir hukm n koie ]",
@@ -162,7 +176,8 @@
     "section_id": 60005,
     "section_name_english": "Pauri 2",
     "section_name_gurmukhi": "pauVI 2",
-    "gurmukhi_unicode": "ਹੁਕਮੈ ਅੰਦਰਿ ਸਭੁ ਕੋ ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ ॥"
+    "gurmukhi_unicode": "ਹੁਕਮੈ ਅੰਦਰਿ ਸਭੁ ਕੋ ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ ॥",
+    "audio_position": 68200
   },
   {
     "gurmukhi": "nwnk hukmY jy buJY q haumY khY n koie ]2]",
@@ -173,7 +188,8 @@
     "section_id": 60005,
     "section_name_english": "Pauri 2",
     "section_name_gurmukhi": "pauVI 2",
-    "gurmukhi_unicode": "ਨਾਨਕ ਹੁਕਮੈ ਜੇ ਬੁਝੈ ਤ ਹਉਮੈ ਕਹੈ ਨ ਕੋਇ ॥੨॥"
+    "gurmukhi_unicode": "ਨਾਨਕ ਹੁਕਮੈ ਜੇ ਬੁਝੈ ਤ ਹਉਮੈ ਕਹੈ ਨ ਕੋਇ ॥੨॥",
+    "audio_position": 71880
   },
   {
     "gurmukhi": "gwvY ko qwxu hovY iksY qwxu ]",
@@ -184,7 +200,8 @@
     "section_id": 60006,
     "section_name_english": "Pauri 3",
     "section_name_gurmukhi": "pauVI 3",
-    "gurmukhi_unicode": "ਗਾਵੈ ਕੋ ਤਾਣੁ ਹੋਵੈ ਕਿਸੈ ਤਾਣੁ ॥"
+    "gurmukhi_unicode": "ਗਾਵੈ ਕੋ ਤਾਣੁ ਹੋਵੈ ਕਿਸੈ ਤਾਣੁ ॥",
+    "audio_position": 75160
   },
   {
     "gurmukhi": "gwvY ko dwiq jwxY nIswxu ]",
@@ -195,7 +212,8 @@
     "section_id": 60006,
     "section_name_english": "Pauri 3",
     "section_name_gurmukhi": "pauVI 3",
-    "gurmukhi_unicode": "ਗਾਵੈ ਕੋ ਦਾਤਿ ਜਾਣੈ ਨੀਸਾਣੁ ॥"
+    "gurmukhi_unicode": "ਗਾਵੈ ਕੋ ਦਾਤਿ ਜਾਣੈ ਨੀਸਾਣੁ ॥",
+    "audio_position": 78200
   },
   {
     "gurmukhi": "gwvY ko gux vifAweIAw cwr ]",
@@ -206,7 +224,8 @@
     "section_id": 60006,
     "section_name_english": "Pauri 3",
     "section_name_gurmukhi": "pauVI 3",
-    "gurmukhi_unicode": "ਗਾਵੈ ਕੋ ਗੁਣ ਵਡਿਆਈਆ ਚਾਰ ॥"
+    "gurmukhi_unicode": "ਗਾਵੈ ਕੋ ਗੁਣ ਵਡਿਆਈਆ ਚਾਰ ॥",
+    "audio_position": 80880
   },
   {
     "gurmukhi": "gwvY ko ividAw ivKmu vIcwru ]",
@@ -217,7 +236,8 @@
     "section_id": 60006,
     "section_name_english": "Pauri 3",
     "section_name_gurmukhi": "pauVI 3",
-    "gurmukhi_unicode": "ਗਾਵੈ ਕੋ ਵਿਦਿਆ ਵਿਖਮੁ ਵੀਚਾਰੁ ॥"
+    "gurmukhi_unicode": "ਗਾਵੈ ਕੋ ਵਿਦਿਆ ਵਿਖਮੁ ਵੀਚਾਰੁ ॥",
+    "audio_position": 83160
   },
   {
     "gurmukhi": "gwvY ko swij kry qnu Kyh ]",
@@ -228,7 +248,8 @@
     "section_id": 60006,
     "section_name_english": "Pauri 3",
     "section_name_gurmukhi": "pauVI 3",
-    "gurmukhi_unicode": "ਗਾਵੈ ਕੋ ਸਾਜਿ ਕਰੇ ਤਨੁ ਖੇਹ ॥"
+    "gurmukhi_unicode": "ਗਾਵੈ ਕੋ ਸਾਜਿ ਕਰੇ ਤਨੁ ਖੇਹ ॥",
+    "audio_position": 85880
   },
   {
     "gurmukhi": "gwvY ko jIA lY iPir dyh ]",
@@ -239,7 +260,8 @@
     "section_id": 60006,
     "section_name_english": "Pauri 3",
     "section_name_gurmukhi": "pauVI 3",
-    "gurmukhi_unicode": "ਗਾਵੈ ਕੋ ਜੀਅ ਲੈ ਫਿਰਿ ਦੇਹ ॥"
+    "gurmukhi_unicode": "ਗਾਵੈ ਕੋ ਜੀਅ ਲੈ ਫਿਰਿ ਦੇਹ ॥",
+    "audio_position": 88560
   },
   {
     "gurmukhi": "gwvY ko jwpY idsY dUir ]",
@@ -250,7 +272,8 @@
     "section_id": 60006,
     "section_name_english": "Pauri 3",
     "section_name_gurmukhi": "pauVI 3",
-    "gurmukhi_unicode": "ਗਾਵੈ ਕੋ ਜਾਪੈ ਦਿਸੈ ਦੂਰਿ ॥"
+    "gurmukhi_unicode": "ਗਾਵੈ ਕੋ ਜਾਪੈ ਦਿਸੈ ਦੂਰਿ ॥",
+    "audio_position": 91640
   },
   {
     "gurmukhi": "gwvY ko vyKY hwdrw hdUir ]",
@@ -261,7 +284,8 @@
     "section_id": 60006,
     "section_name_english": "Pauri 3",
     "section_name_gurmukhi": "pauVI 3",
-    "gurmukhi_unicode": "ਗਾਵੈ ਕੋ ਵੇਖੈ ਹਾਦਰਾ ਹਦੂਰਿ ॥"
+    "gurmukhi_unicode": "ਗਾਵੈ ਕੋ ਵੇਖੈ ਹਾਦਰਾ ਹਦੂਰਿ ॥",
+    "audio_position": 94040
   },
   {
     "gurmukhi": "kQnw kQI n AwvY qoit ]",
@@ -272,7 +296,8 @@
     "section_id": 60006,
     "section_name_english": "Pauri 3",
     "section_name_gurmukhi": "pauVI 3",
-    "gurmukhi_unicode": "ਕਥਨਾ ਕਥੀ ਨ ਆਵੈ ਤੋਟਿ ॥"
+    "gurmukhi_unicode": "ਕਥਨਾ ਕਥੀ ਨ ਆਵੈ ਤੋਟਿ ॥",
+    "audio_position": 96040
   },
   {
     "gurmukhi": "kiQ kiQ kQI kotI koit koit ]",
@@ -283,7 +308,8 @@
     "section_id": 60006,
     "section_name_english": "Pauri 3",
     "section_name_gurmukhi": "pauVI 3",
-    "gurmukhi_unicode": "ਕਥਿ ਕਥਿ ਕਥੀ ਕੋਟੀ ਕੋਟਿ ਕੋਟਿ ॥"
+    "gurmukhi_unicode": "ਕਥਿ ਕਥਿ ਕਥੀ ਕੋਟੀ ਕੋਟਿ ਕੋਟਿ ॥",
+    "audio_position": 99040
   },
   {
     "gurmukhi": "dydw dy lYdy Qik pwih ]",
@@ -294,7 +320,8 @@
     "section_id": 60006,
     "section_name_english": "Pauri 3",
     "section_name_gurmukhi": "pauVI 3",
-    "gurmukhi_unicode": "ਦੇਦਾ ਦੇ ਲੈਦੇ ਥਕਿ ਪਾਹਿ ॥"
+    "gurmukhi_unicode": "ਦੇਦਾ ਦੇ ਲੈਦੇ ਥਕਿ ਪਾਹਿ ॥",
+    "audio_position": 102120
   },
   {
     "gurmukhi": "jugw jugµqir KwhI Kwih ]",
@@ -305,7 +332,8 @@
     "section_id": 60006,
     "section_name_english": "Pauri 3",
     "section_name_gurmukhi": "pauVI 3",
-    "gurmukhi_unicode": "ਜੁਗਾ ਜੁਗੰਤਰਿ ਖਾਹੀ ਖਾਹਿ ॥"
+    "gurmukhi_unicode": "ਜੁਗਾ ਜੁਗੰਤਰਿ ਖਾਹੀ ਖਾਹਿ ॥",
+    "audio_position": 104120
   },
   {
     "gurmukhi": "hukmI hukmu clwey rwhu ]",
@@ -316,7 +344,8 @@
     "section_id": 60006,
     "section_name_english": "Pauri 3",
     "section_name_gurmukhi": "pauVI 3",
-    "gurmukhi_unicode": "ਹੁਕਮੀ ਹੁਕਮੁ ਚਲਾਏ ਰਾਹੁ ॥"
+    "gurmukhi_unicode": "ਹੁਕਮੀ ਹੁਕਮੁ ਚਲਾਏ ਰਾਹੁ ॥",
+    "audio_position": 106040
   },
   {
     "gurmukhi": "nwnk ivgsY vyprvwhu ]3]",
@@ -327,7 +356,8 @@
     "section_id": 60006,
     "section_name_english": "Pauri 3",
     "section_name_gurmukhi": "pauVI 3",
-    "gurmukhi_unicode": "ਨਾਨਕ ਵਿਗਸੈ ਵੇਪਰਵਾਹੁ ॥੩॥"
+    "gurmukhi_unicode": "ਨਾਨਕ ਵਿਗਸੈ ਵੇਪਰਵਾਹੁ ॥੩॥",
+    "audio_position": 108280
   },
   {
     "gurmukhi": "swcw swihbu swcu nwie BwiKAw Bwau Apwru ]",
@@ -338,7 +368,8 @@
     "section_id": 60007,
     "section_name_english": "Pauri 4",
     "section_name_gurmukhi": "pauVI 4",
-    "gurmukhi_unicode": "ਸਾਚਾ ਸਾਹਿਬੁ ਸਾਚੁ ਨਾਇ ਭਾਖਿਆ ਭਾਉ ਅਪਾਰੁ ॥"
+    "gurmukhi_unicode": "ਸਾਚਾ ਸਾਹਿਬੁ ਸਾਚੁ ਨਾਇ ਭਾਖਿਆ ਭਾਉ ਅਪਾਰੁ ॥",
+    "audio_position": 112720
   },
   {
     "gurmukhi": "AwKih mMgih dyih dyih dwiq kry dwqwru ]",
@@ -349,7 +380,8 @@
     "section_id": 60007,
     "section_name_english": "Pauri 4",
     "section_name_gurmukhi": "pauVI 4",
-    "gurmukhi_unicode": "ਆਖਹਿ ਮੰਗਹਿ ਦੇਹਿ ਦੇਹਿ ਦਾਤਿ ਕਰੇ ਦਾਤਾਰੁ ॥"
+    "gurmukhi_unicode": "ਆਖਹਿ ਮੰਗਹਿ ਦੇਹਿ ਦੇਹਿ ਦਾਤਿ ਕਰੇ ਦਾਤਾਰੁ ॥",
+    "audio_position": 116840
   },
   {
     "gurmukhi": "Pyir ik AgY rKIAY ijqu idsY drbwru ]",
@@ -360,7 +392,8 @@
     "section_id": 60007,
     "section_name_english": "Pauri 4",
     "section_name_gurmukhi": "pauVI 4",
-    "gurmukhi_unicode": "ਫੇਰਿ ਕਿ ਅਗੈ ਰਖੀਐ ਜਿਤੁ ਦਿਸੈ ਦਰਬਾਰੁ ॥"
+    "gurmukhi_unicode": "ਫੇਰਿ ਕਿ ਅਗੈ ਰਖੀਐ ਜਿਤੁ ਦਿਸੈ ਦਰਬਾਰੁ ॥",
+    "audio_position": 120240
   },
   {
     "gurmukhi": "muhO ik bolxu bolIAY ijqu suix Dry ipAwru ]",
@@ -371,7 +404,8 @@
     "section_id": 60007,
     "section_name_english": "Pauri 4",
     "section_name_gurmukhi": "pauVI 4",
-    "gurmukhi_unicode": "ਮੁਹੌ ਕਿ ਬੋਲਣੁ ਬੋਲੀਐ ਜਿਤੁ ਸੁਣਿ ਧਰੇ ਪਿਆਰੁ ॥"
+    "gurmukhi_unicode": "ਮੁਹੌ ਕਿ ਬੋਲਣੁ ਬੋਲੀਐ ਜਿਤੁ ਸੁਣਿ ਧਰੇ ਪਿਆਰੁ ॥",
+    "audio_position": 124040
   },
   {
     "gurmukhi": "AMimRq vylw scu nwau vifAweI vIcwru ]",
@@ -382,7 +416,8 @@
     "section_id": 60007,
     "section_name_english": "Pauri 4",
     "section_name_gurmukhi": "pauVI 4",
-    "gurmukhi_unicode": "ਅੰਮ੍ਰਿਤ ਵੇਲਾ ਸਚੁ ਨਾਉ ਵਡਿਆਈ ਵੀਚਾਰੁ ॥"
+    "gurmukhi_unicode": "ਅੰਮ੍ਰਿਤ ਵੇਲਾ ਸਚੁ ਨਾਉ ਵਡਿਆਈ ਵੀਚਾਰੁ ॥",
+    "audio_position": 127560
   },
   {
     "gurmukhi": "krmI AwvY kpVw ndrI moKu duAwru ]",
@@ -393,7 +428,8 @@
     "section_id": 60007,
     "section_name_english": "Pauri 4",
     "section_name_gurmukhi": "pauVI 4",
-    "gurmukhi_unicode": "ਕਰਮੀ ਆਵੈ ਕਪੜਾ ਨਦਰੀ ਮੋਖੁ ਦੁਆਰੁ ॥"
+    "gurmukhi_unicode": "ਕਰਮੀ ਆਵੈ ਕਪੜਾ ਨਦਰੀ ਮੋਖੁ ਦੁਆਰੁ ॥",
+    "audio_position": 130440
   },
   {
     "gurmukhi": "nwnk eyvY jwxIAY sBu Awpy sicAwru ]4]",
@@ -404,7 +440,8 @@
     "section_id": 60007,
     "section_name_english": "Pauri 4",
     "section_name_gurmukhi": "pauVI 4",
-    "gurmukhi_unicode": "ਨਾਨਕ ਏਵੈ ਜਾਣੀਐ ਸਭੁ ਆਪੇ ਸਚਿਆਰੁ ॥੪॥"
+    "gurmukhi_unicode": "ਨਾਨਕ ਏਵੈ ਜਾਣੀਐ ਸਭੁ ਆਪੇ ਸਚਿਆਰੁ ॥੪॥",
+    "audio_position": 133880
   },
   {
     "gurmukhi": "QwipAw n jwie kIqw n hoie ]",
@@ -415,7 +452,8 @@
     "section_id": 60008,
     "section_name_english": "Pauri 5",
     "section_name_gurmukhi": "pauVI 5",
-    "gurmukhi_unicode": "ਥਾਪਿਆ ਨ ਜਾਇ ਕੀਤਾ ਨ ਹੋਇ ॥"
+    "gurmukhi_unicode": "ਥਾਪਿਆ ਨ ਜਾਇ ਕੀਤਾ ਨ ਹੋਇ ॥",
+    "audio_position": 136840
   },
   {
     "gurmukhi": "Awpy Awip inrµjnu soie ]",
@@ -426,7 +464,8 @@
     "section_id": 60008,
     "section_name_english": "Pauri 5",
     "section_name_gurmukhi": "pauVI 5",
-    "gurmukhi_unicode": "ਆਪੇ ਆਪਿ ਨਿਰੰਜਨੁ ਸੋਇ ॥"
+    "gurmukhi_unicode": "ਆਪੇ ਆਪਿ ਨਿਰੰਜਨੁ ਸੋਇ ॥",
+    "audio_position": 139160
   },
   {
     "gurmukhi": "ijin syivAw iqin pwieAw mwnu ]",
@@ -437,7 +476,8 @@
     "section_id": 60008,
     "section_name_english": "Pauri 5",
     "section_name_gurmukhi": "pauVI 5",
-    "gurmukhi_unicode": "ਜਿਨਿ ਸੇਵਿਆ ਤਿਨਿ ਪਾਇਆ ਮਾਨੁ ॥"
+    "gurmukhi_unicode": "ਜਿਨਿ ਸੇਵਿਆ ਤਿਨਿ ਪਾਇਆ ਮਾਨੁ ॥",
+    "audio_position": 141760
   },
   {
     "gurmukhi": "nwnk gwvIAY guxI inDwnu ]",
@@ -448,7 +488,8 @@
     "section_id": 60008,
     "section_name_english": "Pauri 5",
     "section_name_gurmukhi": "pauVI 5",
-    "gurmukhi_unicode": "ਨਾਨਕ ਗਾਵੀਐ ਗੁਣੀ ਨਿਧਾਨੁ ॥"
+    "gurmukhi_unicode": "ਨਾਨਕ ਗਾਵੀਐ ਗੁਣੀ ਨਿਧਾਨੁ ॥",
+    "audio_position": 144440
   },
   {
     "gurmukhi": "gwvIAY suxIAY min rKIAY Bwau ]",
@@ -459,7 +500,8 @@
     "section_id": 60008,
     "section_name_english": "Pauri 5",
     "section_name_gurmukhi": "pauVI 5",
-    "gurmukhi_unicode": "ਗਾਵੀਐ ਸੁਣੀਐ ਮਨਿ ਰਖੀਐ ਭਾਉ ॥"
+    "gurmukhi_unicode": "ਗਾਵੀਐ ਸੁਣੀਐ ਮਨਿ ਰਖੀਐ ਭਾਉ ॥",
+    "audio_position": 147800
   },
   {
     "gurmukhi": "duKu prhir suKu Gir lY jwie ]",
@@ -470,7 +512,8 @@
     "section_id": 60008,
     "section_name_english": "Pauri 5",
     "section_name_gurmukhi": "pauVI 5",
-    "gurmukhi_unicode": "ਦੁਖੁ ਪਰਹਰਿ ਸੁਖੁ ਘਰਿ ਲੈ ਜਾਇ ॥"
+    "gurmukhi_unicode": "ਦੁਖੁ ਪਰਹਰਿ ਸੁਖੁ ਘਰਿ ਲੈ ਜਾਇ ॥",
+    "audio_position": 150120
   },
   {
     "gurmukhi": "gurmuiK nwdµ gurmuiK vydµ gurmuiK rihAw smweI ]",
@@ -481,7 +524,8 @@
     "section_id": 60008,
     "section_name_english": "Pauri 5",
     "section_name_gurmukhi": "pauVI 5",
-    "gurmukhi_unicode": "ਗੁਰਮੁਖਿ ਨਾਦੰ ਗੁਰਮੁਖਿ ਵੇਦੰ ਗੁਰਮੁਖਿ ਰਹਿਆ ਸਮਾਈ ॥"
+    "gurmukhi_unicode": "ਗੁਰਮੁਖਿ ਨਾਦੰ ਗੁਰਮੁਖਿ ਵੇਦੰ ਗੁਰਮੁਖਿ ਰਹਿਆ ਸਮਾਈ ॥",
+    "audio_position": 154400
   },
   {
     "gurmukhi": "guru eIsru guru gorKu brmw guru pwrbqI mweI ]",
@@ -492,7 +536,8 @@
     "section_id": 60008,
     "section_name_english": "Pauri 5",
     "section_name_gurmukhi": "pauVI 5",
-    "gurmukhi_unicode": "ਗੁਰੁ ਈਸਰੁ ਗੁਰੁ ਗੋਰਖੁ ਬਰਮਾ ਗੁਰੁ ਪਾਰਬਤੀ ਮਾਈ ॥"
+    "gurmukhi_unicode": "ਗੁਰੁ ਈਸਰੁ ਗੁਰੁ ਗੋਰਖੁ ਬਰਮਾ ਗੁਰੁ ਪਾਰਬਤੀ ਮਾਈ ॥",
+    "audio_position": 159400
   },
   {
     "gurmukhi": "jy hau jwxw AwKw nwhI khxw kQnu n jweI ]",
@@ -503,7 +548,8 @@
     "section_id": 60008,
     "section_name_english": "Pauri 5",
     "section_name_gurmukhi": "pauVI 5",
-    "gurmukhi_unicode": "ਜੇ ਹਉ ਜਾਣਾ ਆਖਾ ਨਾਹੀ ਕਹਣਾ ਕਥਨੁ ਨ ਜਾਈ ॥"
+    "gurmukhi_unicode": "ਜੇ ਹਉ ਜਾਣਾ ਆਖਾ ਨਾਹੀ ਕਹਣਾ ਕਥਨੁ ਨ ਜਾਈ ॥",
+    "audio_position": 163360
   },
   {
     "gurmukhi": "gurw iek dyih buJweI ]",
@@ -514,7 +560,8 @@
     "section_id": 60008,
     "section_name_english": "Pauri 5",
     "section_name_gurmukhi": "pauVI 5",
-    "gurmukhi_unicode": "ਗੁਰਾ ਇਕ ਦੇਹਿ ਬੁਝਾਈ ॥"
+    "gurmukhi_unicode": "ਗੁਰਾ ਇਕ ਦੇਹਿ ਬੁਝਾਈ ॥",
+    "audio_position": 165640
   },
   {
     "gurmukhi": "sBnw jIAw kw ieku dwqw so mY ivsir n jweI ]5]",
@@ -525,7 +572,8 @@
     "section_id": 60008,
     "section_name_english": "Pauri 5",
     "section_name_gurmukhi": "pauVI 5",
-    "gurmukhi_unicode": "ਸਭਨਾ ਜੀਆ ਕਾ ਇਕੁ ਦਾਤਾ ਸੋ ਮੈ ਵਿਸਰਿ ਨ ਜਾਈ ॥੫॥"
+    "gurmukhi_unicode": "ਸਭਨਾ ਜੀਆ ਕਾ ਇਕੁ ਦਾਤਾ ਸੋ ਮੈ ਵਿਸਰਿ ਨ ਜਾਈ ॥੫॥",
+    "audio_position": 169320
   },
   {
     "gurmukhi": "qIriQ nwvw jy iqsu Bwvw ivxu Bwxy ik nwie krI ]",
@@ -536,7 +584,8 @@
     "section_id": 60009,
     "section_name_english": "Pauri 6",
     "section_name_gurmukhi": "pauVI 6",
-    "gurmukhi_unicode": "ਤੀਰਥਿ ਨਾਵਾ ਜੇ ਤਿਸੁ ਭਾਵਾ ਵਿਣੁ ਭਾਣੇ ਕਿ ਨਾਇ ਕਰੀ ॥"
+    "gurmukhi_unicode": "ਤੀਰਥਿ ਨਾਵਾ ਜੇ ਤਿਸੁ ਭਾਵਾ ਵਿਣੁ ਭਾਣੇ ਕਿ ਨਾਇ ਕਰੀ ॥",
+    "audio_position": 173240
   },
   {
     "gurmukhi": "jyqI isriT aupweI vyKw ivxu krmw ik imlY leI ]",
@@ -547,7 +596,8 @@
     "section_id": 60009,
     "section_name_english": "Pauri 6",
     "section_name_gurmukhi": "pauVI 6",
-    "gurmukhi_unicode": "ਜੇਤੀ ਸਿਰਠਿ ਉਪਾਈ ਵੇਖਾ ਵਿਣੁ ਕਰਮਾ ਕਿ ਮਿਲੈ ਲਈ ॥"
+    "gurmukhi_unicode": "ਜੇਤੀ ਸਿਰਠਿ ਉਪਾਈ ਵੇਖਾ ਵਿਣੁ ਕਰਮਾ ਕਿ ਮਿਲੈ ਲਈ ॥",
+    "audio_position": 177400
   },
   {
     "gurmukhi": "miq ivic rqn jvwhr mwixk jy iek gur kI isK suxI ]",
@@ -558,7 +608,8 @@
     "section_id": 60009,
     "section_name_english": "Pauri 6",
     "section_name_gurmukhi": "pauVI 6",
-    "gurmukhi_unicode": "ਮਤਿ ਵਿਚਿ ਰਤਨ ਜਵਾਹਰ ਮਾਣਿਕ ਜੇ ਇਕ ਗੁਰ ਕੀ ਸਿਖ ਸੁਣੀ ॥"
+    "gurmukhi_unicode": "ਮਤਿ ਵਿਚਿ ਰਤਨ ਜਵਾਹਰ ਮਾਣਿਕ ਜੇ ਇਕ ਗੁਰ ਕੀ ਸਿਖ ਸੁਣੀ ॥",
+    "audio_position": 181480
   },
   {
     "gurmukhi": "gurw iek dyih buJweI ]",
@@ -569,7 +620,8 @@
     "section_id": 60009,
     "section_name_english": "Pauri 6",
     "section_name_gurmukhi": "pauVI 6",
-    "gurmukhi_unicode": "ਗੁਰਾ ਇਕ ਦੇਹਿ ਬੁਝਾਈ ॥"
+    "gurmukhi_unicode": "ਗੁਰਾ ਇਕ ਦੇਹਿ ਬੁਝਾਈ ॥",
+    "audio_position": 183560
   },
   {
     "gurmukhi": "sBnw jIAw kw ieku dwqw so mY ivsir n jweI ]6]",
@@ -580,7 +632,8 @@
     "section_id": 60009,
     "section_name_english": "Pauri 6",
     "section_name_gurmukhi": "pauVI 6",
-    "gurmukhi_unicode": "ਸਭਨਾ ਜੀਆ ਕਾ ਇਕੁ ਦਾਤਾ ਸੋ ਮੈ ਵਿਸਰਿ ਨ ਜਾਈ ॥੬॥"
+    "gurmukhi_unicode": "ਸਭਨਾ ਜੀਆ ਕਾ ਇਕੁ ਦਾਤਾ ਸੋ ਮੈ ਵਿਸਰਿ ਨ ਜਾਈ ॥੬॥",
+    "audio_position": 187800
   },
   {
     "gurmukhi": "jy jug cwry Awrjw hor dsUxI hoie ]",
@@ -591,7 +644,8 @@
     "section_id": 60010,
     "section_name_english": "Pauri 7",
     "section_name_gurmukhi": "pauVI 7",
-    "gurmukhi_unicode": "ਜੇ ਜੁਗ ਚਾਰੇ ਆਰਜਾ ਹੋਰ ਦਸੂਣੀ ਹੋਇ ॥"
+    "gurmukhi_unicode": "ਜੇ ਜੁਗ ਚਾਰੇ ਆਰਜਾ ਹੋਰ ਦਸੂਣੀ ਹੋਇ ॥",
+    "audio_position": 191040
   },
   {
     "gurmukhi": "nvw KMfw ivic jwxIAY nwil clY sBu koie ]",
@@ -602,7 +656,8 @@
     "section_id": 60010,
     "section_name_english": "Pauri 7",
     "section_name_gurmukhi": "pauVI 7",
-    "gurmukhi_unicode": "ਨਵਾ ਖੰਡਾ ਵਿਚਿ ਜਾਣੀਐ ਨਾਲਿ ਚਲੈ ਸਭੁ ਕੋਇ ॥"
+    "gurmukhi_unicode": "ਨਵਾ ਖੰਡਾ ਵਿਚਿ ਜਾਣੀਐ ਨਾਲਿ ਚਲੈ ਸਭੁ ਕੋਇ ॥",
+    "audio_position": 195200
   },
   {
     "gurmukhi": "cµgw nwau rKwie kY jsu kIriq jig lyie ]",
@@ -613,7 +668,8 @@
     "section_id": 60010,
     "section_name_english": "Pauri 7",
     "section_name_gurmukhi": "pauVI 7",
-    "gurmukhi_unicode": "ਚੰਗਾ ਨਾਉ ਰਖਾਇ ਕੈ ਜਸੁ ਕੀਰਤਿ ਜਗਿ ਲੇਇ ॥"
+    "gurmukhi_unicode": "ਚੰਗਾ ਨਾਉ ਰਖਾਇ ਕੈ ਜਸੁ ਕੀਰਤਿ ਜਗਿ ਲੇਇ ॥",
+    "audio_position": 199520
   },
   {
     "gurmukhi": "jy iqsu ndir n AwveI q vwq n puCY ky ]",
@@ -624,7 +680,8 @@
     "section_id": 60010,
     "section_name_english": "Pauri 7",
     "section_name_gurmukhi": "pauVI 7",
-    "gurmukhi_unicode": "ਜੇ ਤਿਸੁ ਨਦਰਿ ਨ ਆਵਈ ਤ ਵਾਤ ਨ ਪੁਛੈ ਕੇ ॥"
+    "gurmukhi_unicode": "ਜੇ ਤਿਸੁ ਨਦਰਿ ਨ ਆਵਈ ਤ ਵਾਤ ਨ ਪੁਛੈ ਕੇ ॥",
+    "audio_position": 203080
   },
   {
     "gurmukhi": "kItw AMdir kItu kir dosI dosu Dry ]",
@@ -635,7 +692,8 @@
     "section_id": 60010,
     "section_name_english": "Pauri 7",
     "section_name_gurmukhi": "pauVI 7",
-    "gurmukhi_unicode": "ਕੀਟਾ ਅੰਦਰਿ ਕੀਟੁ ਕਰਿ ਦੋਸੀ ਦੋਸੁ ਧਰੇ ॥"
+    "gurmukhi_unicode": "ਕੀਟਾ ਅੰਦਰਿ ਕੀਟੁ ਕਰਿ ਦੋਸੀ ਦੋਸੁ ਧਰੇ ॥",
+    "audio_position": 207080
   },
   {
     "gurmukhi": "nwnk inrguix guxu kry guxvµiqAw guxu dy ]",
@@ -646,7 +704,8 @@
     "section_id": 60010,
     "section_name_english": "Pauri 7",
     "section_name_gurmukhi": "pauVI 7",
-    "gurmukhi_unicode": "ਨਾਨਕ ਨਿਰਗੁਣਿ ਗੁਣੁ ਕਰੇ ਗੁਣਵੰਤਿਆ ਗੁਣੁ ਦੇ ॥"
+    "gurmukhi_unicode": "ਨਾਨਕ ਨਿਰਗੁਣਿ ਗੁਣੁ ਕਰੇ ਗੁਣਵੰਤਿਆ ਗੁਣੁ ਦੇ ॥",
+    "audio_position": 210280
   },
   {
     "gurmukhi": "qyhw koie n suJeI ij iqsu guxu koie kry ]7]",
@@ -657,7 +716,8 @@
     "section_id": 60010,
     "section_name_english": "Pauri 7",
     "section_name_gurmukhi": "pauVI 7",
-    "gurmukhi_unicode": "ਤੇਹਾ ਕੋਇ ਨ ਸੁਝਈ ਜਿ ਤਿਸੁ ਗੁਣੁ ਕੋਇ ਕਰੇ ॥੭॥"
+    "gurmukhi_unicode": "ਤੇਹਾ ਕੋਇ ਨ ਸੁਝਈ ਜਿ ਤਿਸੁ ਗੁਣੁ ਕੋਇ ਕਰੇ ॥੭॥",
+    "audio_position": 214000
   },
   {
     "gurmukhi": "suixAY isD pIr suir nwQ ]",
@@ -668,7 +728,8 @@
     "section_id": 60011,
     "section_name_english": "Pauri 8",
     "section_name_gurmukhi": "pauVI 8",
-    "gurmukhi_unicode": "ਸੁਣਿਐ ਸਿਧ ਪੀਰ ਸੁਰਿ ਨਾਥ ॥"
+    "gurmukhi_unicode": "ਸੁਣਿਐ ਸਿਧ ਪੀਰ ਸੁਰਿ ਨਾਥ ॥",
+    "audio_position": 217720
   },
   {
     "gurmukhi": "suixAY Driq Dvl Awkws ]",
@@ -679,7 +740,8 @@
     "section_id": 60011,
     "section_name_english": "Pauri 8",
     "section_name_gurmukhi": "pauVI 8",
-    "gurmukhi_unicode": "ਸੁਣਿਐ ਧਰਤਿ ਧਵਲ ਆਕਾਸ ॥"
+    "gurmukhi_unicode": "ਸੁਣਿਐ ਧਰਤਿ ਧਵਲ ਆਕਾਸ ॥",
+    "audio_position": 220200
   },
   {
     "gurmukhi": "suixAY dIp loA pwqwl ]",
@@ -690,7 +752,8 @@
     "section_id": 60011,
     "section_name_english": "Pauri 8",
     "section_name_gurmukhi": "pauVI 8",
-    "gurmukhi_unicode": "ਸੁਣਿਐ ਦੀਪ ਲੋਅ ਪਾਤਾਲ ॥"
+    "gurmukhi_unicode": "ਸੁਣਿਐ ਦੀਪ ਲੋਅ ਪਾਤਾਲ ॥",
+    "audio_position": 222760
   },
   {
     "gurmukhi": "suixAY poih n skY kwlu ]",
@@ -701,7 +764,8 @@
     "section_id": 60011,
     "section_name_english": "Pauri 8",
     "section_name_gurmukhi": "pauVI 8",
-    "gurmukhi_unicode": "ਸੁਣਿਐ ਪੋਹਿ ਨ ਸਕੈ ਕਾਲੁ ॥"
+    "gurmukhi_unicode": "ਸੁਣਿਐ ਪੋਹਿ ਨ ਸਕੈ ਕਾਲੁ ॥",
+    "audio_position": 225280
   },
   {
     "gurmukhi": "nwnk Bgqw sdw ivgwsu ]",
@@ -712,7 +776,8 @@
     "section_id": 60011,
     "section_name_english": "Pauri 8",
     "section_name_gurmukhi": "pauVI 8",
-    "gurmukhi_unicode": "ਨਾਨਕ ਭਗਤਾ ਸਦਾ ਵਿਗਾਸੁ ॥"
+    "gurmukhi_unicode": "ਨਾਨਕ ਭਗਤਾ ਸਦਾ ਵਿਗਾਸੁ ॥",
+    "audio_position": 228440
   },
   {
     "gurmukhi": "suixAY dUK pwp kw nwsu ]8]",
@@ -723,7 +788,8 @@
     "section_id": 60011,
     "section_name_english": "Pauri 8",
     "section_name_gurmukhi": "pauVI 8",
-    "gurmukhi_unicode": "ਸੁਣਿਐ ਦੂਖ ਪਾਪ ਕਾ ਨਾਸੁ ॥੮॥"
+    "gurmukhi_unicode": "ਸੁਣਿਐ ਦੂਖ ਪਾਪ ਕਾ ਨਾਸੁ ॥੮॥",
+    "audio_position": 230680
   },
   {
     "gurmukhi": "suixAY eIsru brmw ieMdu ]",
@@ -734,7 +800,8 @@
     "section_id": 60012,
     "section_name_english": "Pauri 9",
     "section_name_gurmukhi": "pauVI 9",
-    "gurmukhi_unicode": "ਸੁਣਿਐ ਈਸਰੁ ਬਰਮਾ ਇੰਦੁ ॥"
+    "gurmukhi_unicode": "ਸੁਣਿਐ ਈਸਰੁ ਬਰਮਾ ਇੰਦੁ ॥",
+    "audio_position": 231560
   },
   {
     "gurmukhi": "suixAY muiK swlwhx mMdu ]",
@@ -745,7 +812,8 @@
     "section_id": 60012,
     "section_name_english": "Pauri 9",
     "section_name_gurmukhi": "pauVI 9",
-    "gurmukhi_unicode": "ਸੁਣਿਐ ਮੁਖਿ ਸਾਲਾਹਣ ਮੰਦੁ ॥"
+    "gurmukhi_unicode": "ਸੁਣਿਐ ਮੁਖਿ ਸਾਲਾਹਣ ਮੰਦੁ ॥",
+    "audio_position": 235400
   },
   {
     "gurmukhi": "suixAY jog jugiq qin Byd ]",
@@ -756,7 +824,8 @@
     "section_id": 60012,
     "section_name_english": "Pauri 9",
     "section_name_gurmukhi": "pauVI 9",
-    "gurmukhi_unicode": "ਸੁਣਿਐ ਜੋਗ ਜੁਗਤਿ ਤਨਿ ਭੇਦ ॥"
+    "gurmukhi_unicode": "ਸੁਣਿਐ ਜੋਗ ਜੁਗਤਿ ਤਨਿ ਭੇਦ ॥",
+    "audio_position": 238280
   },
   {
     "gurmukhi": "suixAY swsq isimRiq vyd ]",
@@ -767,7 +836,8 @@
     "section_id": 60012,
     "section_name_english": "Pauri 9",
     "section_name_gurmukhi": "pauVI 9",
-    "gurmukhi_unicode": "ਸੁਣਿਐ ਸਾਸਤ ਸਿਮ੍ਰਿਤਿ ਵੇਦ ॥"
+    "gurmukhi_unicode": "ਸੁਣਿਐ ਸਾਸਤ ਸਿਮ੍ਰਿਤਿ ਵੇਦ ॥",
+    "audio_position": 240440
   },
   {
     "gurmukhi": "nwnk Bgqw sdw ivgwsu ]",
@@ -778,7 +848,8 @@
     "section_id": 60012,
     "section_name_english": "Pauri 9",
     "section_name_gurmukhi": "pauVI 9",
-    "gurmukhi_unicode": "ਨਾਨਕ ਭਗਤਾ ਸਦਾ ਵਿਗਾਸੁ ॥"
+    "gurmukhi_unicode": "ਨਾਨਕ ਭਗਤਾ ਸਦਾ ਵਿਗਾਸੁ ॥",
+    "audio_position": 242600
   },
   {
     "gurmukhi": "suixAY dUK pwp kw nwsu ]9]",
@@ -789,7 +860,8 @@
     "section_id": 60012,
     "section_name_english": "Pauri 9",
     "section_name_gurmukhi": "pauVI 9",
-    "gurmukhi_unicode": "ਸੁਣਿਐ ਦੂਖ ਪਾਪ ਕਾ ਨਾਸੁ ॥੯॥"
+    "gurmukhi_unicode": "ਸੁਣਿਐ ਦੂਖ ਪਾਪ ਕਾ ਨਾਸੁ ॥੯॥",
+    "audio_position": 245080
   },
   {
     "gurmukhi": "suixAY squ sµqoKu igAwnu ]",
@@ -800,7 +872,8 @@
     "section_id": 60013,
     "section_name_english": "Pauri 10",
     "section_name_gurmukhi": "pauVI 10",
-    "gurmukhi_unicode": "ਸੁਣਿਐ ਸਤੁ ਸੰਤੋਖੁ ਗਿਆਨੁ ॥"
+    "gurmukhi_unicode": "ਸੁਣਿਐ ਸਤੁ ਸੰਤੋਖੁ ਗਿਆਨੁ ॥",
+    "audio_position": 247880
   },
   {
     "gurmukhi": "suixAY ATsiT kw iesnwnu ]",
@@ -811,7 +884,8 @@
     "section_id": 60013,
     "section_name_english": "Pauri 10",
     "section_name_gurmukhi": "pauVI 10",
-    "gurmukhi_unicode": "ਸੁਣਿਐ ਅਠਸਠਿ ਕਾ ਇਸਨਾਨੁ ॥"
+    "gurmukhi_unicode": "ਸੁਣਿਐ ਅਠਸਠਿ ਕਾ ਇਸਨਾਨੁ ॥",
+    "audio_position": 250000
   },
   {
     "gurmukhi": "suixAY piV piV pwvih mwnu ]",
@@ -822,7 +896,8 @@
     "section_id": 60013,
     "section_name_english": "Pauri 10",
     "section_name_gurmukhi": "pauVI 10",
-    "gurmukhi_unicode": "ਸੁਣਿਐ ਪੜਿ ਪੜਿ ਪਾਵਹਿ ਮਾਨੁ ॥"
+    "gurmukhi_unicode": "ਸੁਣਿਐ ਪੜਿ ਪੜਿ ਪਾਵਹਿ ਮਾਨੁ ॥",
+    "audio_position": 252280
   },
   {
     "gurmukhi": "suixAY lwgY shij iDAwnu ]",
@@ -833,7 +908,8 @@
     "section_id": 60013,
     "section_name_english": "Pauri 10",
     "section_name_gurmukhi": "pauVI 10",
-    "gurmukhi_unicode": "ਸੁਣਿਐ ਲਾਗੈ ਸਹਜਿ ਧਿਆਨੁ ॥"
+    "gurmukhi_unicode": "ਸੁਣਿਐ ਲਾਗੈ ਸਹਜਿ ਧਿਆਨੁ ॥",
+    "audio_position": 254840
   },
   {
     "gurmukhi": "nwnk Bgqw sdw ivgwsu ]",
@@ -844,7 +920,8 @@
     "section_id": 60013,
     "section_name_english": "Pauri 10",
     "section_name_gurmukhi": "pauVI 10",
-    "gurmukhi_unicode": "ਨਾਨਕ ਭਗਤਾ ਸਦਾ ਵਿਗਾਸੁ ॥"
+    "gurmukhi_unicode": "ਨਾਨਕ ਭਗਤਾ ਸਦਾ ਵਿਗਾਸੁ ॥",
+    "audio_position": 257960
   },
   {
     "gurmukhi": "suixAY dUK pwp kw nwsu ]10]",
@@ -855,7 +932,8 @@
     "section_id": 60013,
     "section_name_english": "Pauri 10",
     "section_name_gurmukhi": "pauVI 10",
-    "gurmukhi_unicode": "ਸੁਣਿਐ ਦੂਖ ਪਾਪ ਕਾ ਨਾਸੁ ॥੧੦॥"
+    "gurmukhi_unicode": "ਸੁਣਿਐ ਦੂਖ ਪਾਪ ਕਾ ਨਾਸੁ ॥੧੦॥",
+    "audio_position": 260200
   },
   {
     "gurmukhi": "suixAY srw guxw ky gwh ]",
@@ -866,7 +944,8 @@
     "section_id": 60014,
     "section_name_english": "Pauri 11",
     "section_name_gurmukhi": "pauVI 11",
-    "gurmukhi_unicode": "ਸੁਣਿਐ ਸਰਾ ਗੁਣਾ ਕੇ ਗਾਹ ॥"
+    "gurmukhi_unicode": "ਸੁਣਿਐ ਸਰਾ ਗੁਣਾ ਕੇ ਗਾਹ ॥",
+    "audio_position": 262440
   },
   {
     "gurmukhi": "suixAY syK pIr pwiqswh ]",
@@ -877,7 +956,8 @@
     "section_id": 60014,
     "section_name_english": "Pauri 11",
     "section_name_gurmukhi": "pauVI 11",
-    "gurmukhi_unicode": "ਸੁਣਿਐ ਸੇਖ ਪੀਰ ਪਾਤਿਸਾਹ ॥"
+    "gurmukhi_unicode": "ਸੁਣਿਐ ਸੇਖ ਪੀਰ ਪਾਤਿਸਾਹ ॥",
+    "audio_position": 265320
   },
   {
     "gurmukhi": "suixAY AMDy pwvih rwhu ]",
@@ -888,7 +968,8 @@
     "section_id": 60014,
     "section_name_english": "Pauri 11",
     "section_name_gurmukhi": "pauVI 11",
-    "gurmukhi_unicode": "ਸੁਣਿਐ ਅੰਧੇ ਪਾਵਹਿ ਰਾਹੁ ॥"
+    "gurmukhi_unicode": "ਸੁਣਿਐ ਅੰਧੇ ਪਾਵਹਿ ਰਾਹੁ ॥",
+    "audio_position": 267880
   },
   {
     "gurmukhi": "suixAY hwQ hovY Asgwhu ]",
@@ -899,7 +980,8 @@
     "section_id": 60014,
     "section_name_english": "Pauri 11",
     "section_name_gurmukhi": "pauVI 11",
-    "gurmukhi_unicode": "ਸੁਣਿਐ ਹਾਥ ਹੋਵੈ ਅਸਗਾਹੁ ॥"
+    "gurmukhi_unicode": "ਸੁਣਿਐ ਹਾਥ ਹੋਵੈ ਅਸਗਾਹੁ ॥",
+    "audio_position": 269800
   },
   {
     "gurmukhi": "nwnk Bgqw sdw ivgwsu ]",
@@ -910,7 +992,8 @@
     "section_id": 60014,
     "section_name_english": "Pauri 11",
     "section_name_gurmukhi": "pauVI 11",
-    "gurmukhi_unicode": "ਨਾਨਕ ਭਗਤਾ ਸਦਾ ਵਿਗਾਸੁ ॥"
+    "gurmukhi_unicode": "ਨਾਨਕ ਭਗਤਾ ਸਦਾ ਵਿਗਾਸੁ ॥",
+    "audio_position": 272040
   },
   {
     "gurmukhi": "suixAY dUK pwp kw nwsu ]11]",
@@ -921,7 +1004,8 @@
     "section_id": 60014,
     "section_name_english": "Pauri 11",
     "section_name_gurmukhi": "pauVI 11",
-    "gurmukhi_unicode": "ਸੁਣਿਐ ਦੂਖ ਪਾਪ ਕਾ ਨਾਸੁ ॥੧੧॥"
+    "gurmukhi_unicode": "ਸੁਣਿਐ ਦੂਖ ਪਾਪ ਕਾ ਨਾਸੁ ॥੧੧॥",
+    "audio_position": 274440
   },
   {
     "gurmukhi": "mMny kI giq khI n jwie ]",
@@ -932,7 +1016,8 @@
     "section_id": 60015,
     "section_name_english": "Pauri 12",
     "section_name_gurmukhi": "pauVI 12",
-    "gurmukhi_unicode": "ਮੰਨੇ ਕੀ ਗਤਿ ਕਹੀ ਨ ਜਾਇ ॥"
+    "gurmukhi_unicode": "ਮੰਨੇ ਕੀ ਗਤਿ ਕਹੀ ਨ ਜਾਇ ॥",
+    "audio_position": 277480
   },
   {
     "gurmukhi": "jy ko khY ipCY pCuqwie ]",
@@ -943,7 +1028,8 @@
     "section_id": 60015,
     "section_name_english": "Pauri 12",
     "section_name_gurmukhi": "pauVI 12",
-    "gurmukhi_unicode": "ਜੇ ਕੋ ਕਹੈ ਪਿਛੈ ਪਛੁਤਾਇ ॥"
+    "gurmukhi_unicode": "ਜੇ ਕੋ ਕਹੈ ਪਿਛੈ ਪਛੁਤਾਇ ॥",
+    "audio_position": 279360
   },
   {
     "gurmukhi": "kwgid klm n ilKxhwru ]",
@@ -954,7 +1040,8 @@
     "section_id": 60015,
     "section_name_english": "Pauri 12",
     "section_name_gurmukhi": "pauVI 12",
-    "gurmukhi_unicode": "ਕਾਗਦਿ ਕਲਮ ਨ ਲਿਖਣਹਾਰੁ ॥"
+    "gurmukhi_unicode": "ਕਾਗਦਿ ਕਲਮ ਨ ਲਿਖਣਹਾਰੁ ॥",
+    "audio_position": 281720
   },
   {
     "gurmukhi": "mMny kw bih krin vIcwru ]",
@@ -965,7 +1052,8 @@
     "section_id": 60015,
     "section_name_english": "Pauri 12",
     "section_name_gurmukhi": "pauVI 12",
-    "gurmukhi_unicode": "ਮੰਨੇ ਕਾ ਬਹਿ ਕਰਨਿ ਵੀਚਾਰੁ ॥"
+    "gurmukhi_unicode": "ਮੰਨੇ ਕਾ ਬਹਿ ਕਰਨਿ ਵੀਚਾਰੁ ॥",
+    "audio_position": 284440
   },
   {
     "gurmukhi": "AYsw nwmu inrµjnu hoie ]",
@@ -976,7 +1064,8 @@
     "section_id": 60015,
     "section_name_english": "Pauri 12",
     "section_name_gurmukhi": "pauVI 12",
-    "gurmukhi_unicode": "ਐਸਾ ਨਾਮੁ ਨਿਰੰਜਨੁ ਹੋਇ ॥"
+    "gurmukhi_unicode": "ਐਸਾ ਨਾਮੁ ਨਿਰੰਜਨੁ ਹੋਇ ॥",
+    "audio_position": 287640
   },
   {
     "gurmukhi": "jy ko mMin jwxY min koie ]12]",
@@ -987,7 +1076,8 @@
     "section_id": 60015,
     "section_name_english": "Pauri 12",
     "section_name_gurmukhi": "pauVI 12",
-    "gurmukhi_unicode": "ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ ਮਨਿ ਕੋਇ ॥੧੨॥"
+    "gurmukhi_unicode": "ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ ਮਨਿ ਕੋਇ ॥੧੨॥",
+    "audio_position": 289880
   },
   {
     "gurmukhi": "mMnY suriq hovY min buiD ]",
@@ -998,7 +1088,8 @@
     "section_id": 60016,
     "section_name_english": "Pauri 13",
     "section_name_gurmukhi": "pauVI 13",
-    "gurmukhi_unicode": "ਮੰਨੈ ਸੁਰਤਿ ਹੋਵੈ ਮਨਿ ਬੁਧਿ ॥"
+    "gurmukhi_unicode": "ਮੰਨੈ ਸੁਰਤਿ ਹੋਵੈ ਮਨਿ ਬੁਧਿ ॥",
+    "audio_position": 292280
   },
   {
     "gurmukhi": "mMnY sgl Bvx kI suiD ]",
@@ -1009,7 +1100,8 @@
     "section_id": 60016,
     "section_name_english": "Pauri 13",
     "section_name_gurmukhi": "pauVI 13",
-    "gurmukhi_unicode": "ਮੰਨੈ ਸਗਲ ਭਵਣ ਕੀ ਸੁਧਿ ॥"
+    "gurmukhi_unicode": "ਮੰਨੈ ਸਗਲ ਭਵਣ ਕੀ ਸੁਧਿ ॥",
+    "audio_position": 294520
   },
   {
     "gurmukhi": "mMnY muih cotw nw Kwie ]",
@@ -1020,7 +1112,8 @@
     "section_id": 60016,
     "section_name_english": "Pauri 13",
     "section_name_gurmukhi": "pauVI 13",
-    "gurmukhi_unicode": "ਮੰਨੈ ਮੁਹਿ ਚੋਟਾ ਨਾ ਖਾਇ ॥"
+    "gurmukhi_unicode": "ਮੰਨੈ ਮੁਹਿ ਚੋਟਾ ਨਾ ਖਾਇ ॥",
+    "audio_position": 297400
   },
   {
     "gurmukhi": "mMnY jm kY swiQ n jwie ]",
@@ -1031,7 +1124,8 @@
     "section_id": 60016,
     "section_name_english": "Pauri 13",
     "section_name_gurmukhi": "pauVI 13",
-    "gurmukhi_unicode": "ਮੰਨੈ ਜਮ ਕੈ ਸਾਥਿ ਨ ਜਾਇ ॥"
+    "gurmukhi_unicode": "ਮੰਨੈ ਜਮ ਕੈ ਸਾਥਿ ਨ ਜਾਇ ॥",
+    "audio_position": 299640
   },
   {
     "gurmukhi": "AYsw nwmu inrµjnu hoie ]",
@@ -1042,7 +1136,8 @@
     "section_id": 60016,
     "section_name_english": "Pauri 13",
     "section_name_gurmukhi": "pauVI 13",
-    "gurmukhi_unicode": "ਐਸਾ ਨਾਮੁ ਨਿਰੰਜਨੁ ਹੋਇ ॥"
+    "gurmukhi_unicode": "ਐਸਾ ਨਾਮੁ ਨਿਰੰਜਨੁ ਹੋਇ ॥",
+    "audio_position": 301920
   },
   {
     "gurmukhi": "jy ko mMin jwxY min koie ]13]",
@@ -1053,7 +1148,8 @@
     "section_id": 60016,
     "section_name_english": "Pauri 13",
     "section_name_gurmukhi": "pauVI 13",
-    "gurmukhi_unicode": "ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ ਮਨਿ ਕੋਇ ॥੧੩॥"
+    "gurmukhi_unicode": "ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ ਮਨਿ ਕੋਇ ॥੧੩॥",
+    "audio_position": 304360
   },
   {
     "gurmukhi": "mMnY mwrig Twk n pwie ]",
@@ -1064,7 +1160,8 @@
     "section_id": 60017,
     "section_name_english": "Pauri 14",
     "section_name_gurmukhi": "pauVI 14",
-    "gurmukhi_unicode": "ਮੰਨੈ ਮਾਰਗਿ ਠਾਕ ਨ ਪਾਇ ॥"
+    "gurmukhi_unicode": "ਮੰਨੈ ਮਾਰਗਿ ਠਾਕ ਨ ਪਾਇ ॥",
+    "audio_position": 307320
   },
   {
     "gurmukhi": "mMnY piq isau prgtu jwie ]",
@@ -1075,7 +1172,8 @@
     "section_id": 60017,
     "section_name_english": "Pauri 14",
     "section_name_gurmukhi": "pauVI 14",
-    "gurmukhi_unicode": "ਮੰਨੈ ਪਤਿ ਸਿਉ ਪਰਗਟੁ ਜਾਇ ॥"
+    "gurmukhi_unicode": "ਮੰਨੈ ਪਤਿ ਸਿਉ ਪਰਗਟੁ ਜਾਇ ॥",
+    "audio_position": 309320
   },
   {
     "gurmukhi": "mMnY mgu n clY pMQu ]",
@@ -1086,7 +1184,8 @@
     "section_id": 60017,
     "section_name_english": "Pauri 14",
     "section_name_gurmukhi": "pauVI 14",
-    "gurmukhi_unicode": "ਮੰਨੈ ਮਗੁ ਨ ਚਲੈ ਪੰਥੁ ॥"
+    "gurmukhi_unicode": "ਮੰਨੈ ਮਗੁ ਨ ਚਲੈ ਪੰਥੁ ॥",
+    "audio_position": 311560
   },
   {
     "gurmukhi": "mMnY Drm syqI snbµDu ]",
@@ -1097,7 +1196,8 @@
     "section_id": 60017,
     "section_name_english": "Pauri 14",
     "section_name_gurmukhi": "pauVI 14",
-    "gurmukhi_unicode": "ਮੰਨੈ ਧਰਮ ਸੇਤੀ ਸਨਬੰਧੁ ॥"
+    "gurmukhi_unicode": "ਮੰਨੈ ਧਰਮ ਸੇਤੀ ਸਨਬੰਧੁ ॥",
+    "audio_position": 313840
   },
   {
     "gurmukhi": "AYsw nwmu inrµjnu hoie ]",
@@ -1108,7 +1208,8 @@
     "section_id": 60017,
     "section_name_english": "Pauri 14",
     "section_name_gurmukhi": "pauVI 14",
-    "gurmukhi_unicode": "ਐਸਾ ਨਾਮੁ ਨਿਰੰਜਨੁ ਹੋਇ ॥"
+    "gurmukhi_unicode": "ਐਸਾ ਨਾਮੁ ਨਿਰੰਜਨੁ ਹੋਇ ॥",
+    "audio_position": 316360
   },
   {
     "gurmukhi": "jy ko mMin jwxY min koie ]14]",
@@ -1119,7 +1220,8 @@
     "section_id": 60017,
     "section_name_english": "Pauri 14",
     "section_name_gurmukhi": "pauVI 14",
-    "gurmukhi_unicode": "ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ ਮਨਿ ਕੋਇ ॥੧੪॥"
+    "gurmukhi_unicode": "ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ ਮਨਿ ਕੋਇ ॥੧੪॥",
+    "audio_position": 318440
   },
   {
     "gurmukhi": "mMnY pwvih moKu duAwru ]",
@@ -1130,7 +1232,8 @@
     "section_id": 60018,
     "section_name_english": "Pauri 15",
     "section_name_gurmukhi": "pauVI 15",
-    "gurmukhi_unicode": "ਮੰਨੈ ਪਾਵਹਿ ਮੋਖੁ ਦੁਆਰੁ ॥"
+    "gurmukhi_unicode": "ਮੰਨੈ ਪਾਵਹਿ ਮੋਖੁ ਦੁਆਰੁ ॥",
+    "audio_position": 320600
   },
   {
     "gurmukhi": "mMnY prvwrY swDwru ]",
@@ -1141,7 +1244,8 @@
     "section_id": 60018,
     "section_name_english": "Pauri 15",
     "section_name_gurmukhi": "pauVI 15",
-    "gurmukhi_unicode": "ਮੰਨੈ ਪਰਵਾਰੈ ਸਾਧਾਰੁ ॥"
+    "gurmukhi_unicode": "ਮੰਨੈ ਪਰਵਾਰੈ ਸਾਧਾਰੁ ॥",
+    "audio_position": 322840
   },
   {
     "gurmukhi": "mMnY qrY qwry guruisK ]",
@@ -1152,7 +1256,8 @@
     "section_id": 60018,
     "section_name_english": "Pauri 15",
     "section_name_gurmukhi": "pauVI 15",
-    "gurmukhi_unicode": "ਮੰਨੈ ਤਰੈ ਤਾਰੇ ਗੁਰੁਸਿਖ ॥"
+    "gurmukhi_unicode": "ਮੰਨੈ ਤਰੈ ਤਾਰੇ ਗੁਰੁਸਿਖ ॥",
+    "audio_position": 325720
   },
   {
     "gurmukhi": "mMnY nwnk Bvih n iBK ]",
@@ -1163,7 +1268,8 @@
     "section_id": 60018,
     "section_name_english": "Pauri 15",
     "section_name_gurmukhi": "pauVI 15",
-    "gurmukhi_unicode": "ਮੰਨੈ ਨਾਨਕ ਭਵਹਿ ਨ ਭਿਖ ॥"
+    "gurmukhi_unicode": "ਮੰਨੈ ਨਾਨਕ ਭਵਹਿ ਨ ਭਿਖ ॥",
+    "audio_position": 327840
   },
   {
     "gurmukhi": "AYsw nwmu inrµjnu hoie ]",
@@ -1174,7 +1280,8 @@
     "section_id": 60018,
     "section_name_english": "Pauri 15",
     "section_name_gurmukhi": "pauVI 15",
-    "gurmukhi_unicode": "ਐਸਾ ਨਾਮੁ ਨਿਰੰਜਨੁ ਹੋਇ ॥"
+    "gurmukhi_unicode": "ਐਸਾ ਨਾਮੁ ਨਿਰੰਜਨੁ ਹੋਇ ॥",
+    "audio_position": 329880
   },
   {
     "gurmukhi": "jy ko mMin jwxY min koie ]15]",
@@ -1185,7 +1292,8 @@
     "section_id": 60018,
     "section_name_english": "Pauri 15",
     "section_name_gurmukhi": "pauVI 15",
-    "gurmukhi_unicode": "ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ ਮਨਿ ਕੋਇ ॥੧੫॥"
+    "gurmukhi_unicode": "ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ ਮਨਿ ਕੋਇ ॥੧੫॥",
+    "audio_position": 332480
   },
   {
     "gurmukhi": "pMc prvwx pMc prDwnu ]",
@@ -1196,7 +1304,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਪੰਚ ਪਰਵਾਣ ਪੰਚ ਪਰਧਾਨੁ ॥"
+    "gurmukhi_unicode": "ਪੰਚ ਪਰਵਾਣ ਪੰਚ ਪਰਧਾਨੁ ॥",
+    "audio_position": 335320
   },
   {
     "gurmukhi": "pMcy pwvih drgih mwnu ]",
@@ -1207,7 +1316,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਪੰਚੇ ਪਾਵਹਿ ਦਰਗਹਿ ਮਾਨੁ ॥"
+    "gurmukhi_unicode": "ਪੰਚੇ ਪਾਵਹਿ ਦਰਗਹਿ ਮਾਨੁ ॥",
+    "audio_position": 337520
   },
   {
     "gurmukhi": "pMcy sohih dir rwjwnu ]",
@@ -1218,7 +1328,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਪੰਚੇ ਸੋਹਹਿ ਦਰਿ ਰਾਜਾਨੁ ॥"
+    "gurmukhi_unicode": "ਪੰਚੇ ਸੋਹਹਿ ਦਰਿ ਰਾਜਾਨੁ ॥",
+    "audio_position": 340200
   },
   {
     "gurmukhi": "pMcw kw guru eyku iDAwnu ]",
@@ -1229,7 +1340,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਪੰਚਾ ਕਾ ਗੁਰੁ ਏਕੁ ਧਿਆਨੁ ॥"
+    "gurmukhi_unicode": "ਪੰਚਾ ਕਾ ਗੁਰੁ ਏਕੁ ਧਿਆਨੁ ॥",
+    "audio_position": 342920
   },
   {
     "gurmukhi": "jy ko khY krY vIcwru ]",
@@ -1240,7 +1352,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਜੇ ਕੋ ਕਹੈ ਕਰੈ ਵੀਚਾਰੁ ॥"
+    "gurmukhi_unicode": "ਜੇ ਕੋ ਕਹੈ ਕਰੈ ਵੀਚਾਰੁ ॥",
+    "audio_position": 345000
   },
   {
     "gurmukhi": "krqy kY krxY nwhI sumwru ]",
@@ -1251,7 +1364,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਕਰਤੇ ਕੈ ਕਰਣੈ ਨਾਹੀ ਸੁਮਾਰੁ ॥"
+    "gurmukhi_unicode": "ਕਰਤੇ ਕੈ ਕਰਣੈ ਨਾਹੀ ਸੁਮਾਰੁ ॥",
+    "audio_position": 347600
   },
   {
     "gurmukhi": "DOlu Drmu dieAw kw pUqu ]",
@@ -1262,7 +1376,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਧੌਲੁ ਧਰਮੁ ਦਇਆ ਕਾ ਪੂਤੁ ॥"
+    "gurmukhi_unicode": "ਧੌਲੁ ਧਰਮੁ ਦਇਆ ਕਾ ਪੂਤੁ ॥",
+    "audio_position": 350360
   },
   {
     "gurmukhi": "sµqoKu Qwip riKAw ijin sUiq ]",
@@ -1273,7 +1388,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਸੰਤੋਖੁ ਥਾਪਿ ਰਖਿਆ ਜਿਨਿ ਸੂਤਿ ॥"
+    "gurmukhi_unicode": "ਸੰਤੋਖੁ ਥਾਪਿ ਰਖਿਆ ਜਿਨਿ ਸੂਤਿ ॥",
+    "audio_position": 353080
   },
   {
     "gurmukhi": "jy ko buJY hovY sicAwru ]",
@@ -1284,7 +1400,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਜੇ ਕੋ ਬੁਝੈ ਹੋਵੈ ਸਚਿਆਰੁ ॥"
+    "gurmukhi_unicode": "ਜੇ ਕੋ ਬੁਝੈ ਹੋਵੈ ਸਚਿਆਰੁ ॥",
+    "audio_position": 355000
   },
   {
     "gurmukhi": "DvlY aupir kyqw Bwru ]",
@@ -1295,7 +1412,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਧਵਲੈ ਉਪਰਿ ਕੇਤਾ ਭਾਰੁ ॥"
+    "gurmukhi_unicode": "ਧਵਲੈ ਉਪਰਿ ਕੇਤਾ ਭਾਰੁ ॥",
+    "audio_position": 357720
   },
   {
     "gurmukhi": "DrqI horu prY horu horu ]",
@@ -1306,7 +1424,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਧਰਤੀ ਹੋਰੁ ਪਰੈ ਹੋਰੁ ਹੋਰੁ ॥"
+    "gurmukhi_unicode": "ਧਰਤੀ ਹੋਰੁ ਪਰੈ ਹੋਰੁ ਹੋਰੁ ॥",
+    "audio_position": 361120
   },
   {
     "gurmukhi": "iqs qy Bwru qlY kvxu joru ]",
@@ -1317,7 +1436,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਤਿਸ ਤੇ ਭਾਰੁ ਤਲੈ ਕਵਣੁ ਜੋਰੁ ॥"
+    "gurmukhi_unicode": "ਤਿਸ ਤੇ ਭਾਰੁ ਤਲੈ ਕਵਣੁ ਜੋਰੁ ॥",
+    "audio_position": 363480
   },
   {
     "gurmukhi": "jIA jwiq rMgw ky nwv ]",
@@ -1328,7 +1448,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਜੀਅ ਜਾਤਿ ਰੰਗਾ ਕੇ ਨਾਵ ॥"
+    "gurmukhi_unicode": "ਜੀਅ ਜਾਤਿ ਰੰਗਾ ਕੇ ਨਾਵ ॥",
+    "audio_position": 365960
   },
   {
     "gurmukhi": "sBnw iliKAw vuVI klwm ]",
@@ -1339,7 +1460,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਸਭਨਾ ਲਿਖਿਆ ਵੁੜੀ ਕਲਾਮ ॥"
+    "gurmukhi_unicode": "ਸਭਨਾ ਲਿਖਿਆ ਵੁੜੀ ਕਲਾਮ ॥",
+    "audio_position": 368120
   },
   {
     "gurmukhi": "eyhu lyKw iliK jwxY koie ]",
@@ -1350,7 +1472,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਏਹੁ ਲੇਖਾ ਲਿਖਿ ਜਾਣੈ ਕੋਇ ॥"
+    "gurmukhi_unicode": "ਏਹੁ ਲੇਖਾ ਲਿਖਿ ਜਾਣੈ ਕੋਇ ॥",
+    "audio_position": 370720
   },
   {
     "gurmukhi": "lyKw iliKAw kyqw hoie ]",
@@ -1361,7 +1484,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਲੇਖਾ ਲਿਖਿਆ ਕੇਤਾ ਹੋਇ ॥"
+    "gurmukhi_unicode": "ਲੇਖਾ ਲਿਖਿਆ ਕੇਤਾ ਹੋਇ ॥",
+    "audio_position": 372520
   },
   {
     "gurmukhi": "kyqw qwxu suAwilhu rUpu ]",
@@ -1372,7 +1496,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਕੇਤਾ ਤਾਣੁ ਸੁਆਲਿਹੁ ਰੂਪੁ ॥"
+    "gurmukhi_unicode": "ਕੇਤਾ ਤਾਣੁ ਸੁਆਲਿਹੁ ਰੂਪੁ ॥",
+    "audio_position": 374920
   },
   {
     "gurmukhi": "kyqI dwiq jwxY kOxu kUqu ]",
@@ -1383,7 +1508,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਕੇਤੀ ਦਾਤਿ ਜਾਣੈ ਕੌਣੁ ਕੂਤੁ ॥"
+    "gurmukhi_unicode": "ਕੇਤੀ ਦਾਤਿ ਜਾਣੈ ਕੌਣੁ ਕੂਤੁ ॥",
+    "audio_position": 377800
   },
   {
     "gurmukhi": "kIqw pswau eyko kvwau ]",
@@ -1394,7 +1520,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਕੀਤਾ ਪਸਾਉ ਏਕੋ ਕਵਾਉ ॥"
+    "gurmukhi_unicode": "ਕੀਤਾ ਪਸਾਉ ਏਕੋ ਕਵਾਉ ॥",
+    "audio_position": 380640
   },
   {
     "gurmukhi": "iqs qy hoey lK drIAwau ]",
@@ -1405,7 +1532,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਤਿਸ ਤੇ ਹੋਏ ਲਖ ਦਰੀਆਉ ॥"
+    "gurmukhi_unicode": "ਤਿਸ ਤੇ ਹੋਏ ਲਖ ਦਰੀਆਉ ॥",
+    "audio_position": 382440
   },
   {
     "gurmukhi": "kudriq kvx khw vIcwru ]",
@@ -1416,7 +1544,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਕੁਦਰਤਿ ਕਵਣ ਕਹਾ ਵੀਚਾਰੁ ॥"
+    "gurmukhi_unicode": "ਕੁਦਰਤਿ ਕਵਣ ਕਹਾ ਵੀਚਾਰੁ ॥",
+    "audio_position": 384600
   },
   {
     "gurmukhi": "vwirAw n jwvw eyk vwr ]",
@@ -1427,7 +1556,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਵਾਰਿਆ ਨ ਜਾਵਾ ਏਕ ਵਾਰ ॥"
+    "gurmukhi_unicode": "ਵਾਰਿਆ ਨ ਜਾਵਾ ਏਕ ਵਾਰ ॥",
+    "audio_position": 386760
   },
   {
     "gurmukhi": "jo quDu BwvY sweI BlI kwr ]",
@@ -1438,7 +1568,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਜੋ ਤੁਧੁ ਭਾਵੈ ਸਾਈ ਭਲੀ ਕਾਰ ॥"
+    "gurmukhi_unicode": "ਜੋ ਤੁਧੁ ਭਾਵੈ ਸਾਈ ਭਲੀ ਕਾਰ ॥",
+    "audio_position": 389800
   },
   {
     "gurmukhi": "qU sdw slwmiq inrµkwr ]16]",
@@ -1449,7 +1580,8 @@
     "section_id": 60019,
     "section_name_english": "Pauri 16",
     "section_name_gurmukhi": "pauVI 16",
-    "gurmukhi_unicode": "ਤੂ ਸਦਾ ਸਲਾਮਤਿ ਨਿਰੰਕਾਰ ॥੧੬॥"
+    "gurmukhi_unicode": "ਤੂ ਸਦਾ ਸਲਾਮਤਿ ਨਿਰੰਕਾਰ ॥੧੬॥",
+    "audio_position": 392360
   },
   {
     "gurmukhi": "AsµK jp AsµK Bwau ]",
@@ -1460,7 +1592,8 @@
     "section_id": 60020,
     "section_name_english": "Pauri 17",
     "section_name_gurmukhi": "pauVI 17",
-    "gurmukhi_unicode": "ਅਸੰਖ ਜਪ ਅਸੰਖ ਭਾਉ ॥"
+    "gurmukhi_unicode": "ਅਸੰਖ ਜਪ ਅਸੰਖ ਭਾਉ ॥",
+    "audio_position": 394600
   },
   {
     "gurmukhi": "AsµK pUjw AsµK qp qwau ]",
@@ -1471,7 +1604,8 @@
     "section_id": 60020,
     "section_name_english": "Pauri 17",
     "section_name_gurmukhi": "pauVI 17",
-    "gurmukhi_unicode": "ਅਸੰਖ ਪੂਜਾ ਅਸੰਖ ਤਪ ਤਾਉ ॥"
+    "gurmukhi_unicode": "ਅਸੰਖ ਪੂਜਾ ਅਸੰਖ ਤਪ ਤਾਉ ॥",
+    "audio_position": 396680
   },
   {
     "gurmukhi": "AsµK grµQ muiK vyd pwT ]",
@@ -1482,7 +1616,8 @@
     "section_id": 60020,
     "section_name_english": "Pauri 17",
     "section_name_gurmukhi": "pauVI 17",
-    "gurmukhi_unicode": "ਅਸੰਖ ਗਰੰਥ ਮੁਖਿ ਵੇਦ ਪਾਠ ॥"
+    "gurmukhi_unicode": "ਅਸੰਖ ਗਰੰਥ ਮੁਖਿ ਵੇਦ ਪਾਠ ॥",
+    "audio_position": 399400
   },
   {
     "gurmukhi": "AsµK jog min rhih audws ]",
@@ -1493,7 +1628,8 @@
     "section_id": 60020,
     "section_name_english": "Pauri 17",
     "section_name_gurmukhi": "pauVI 17",
-    "gurmukhi_unicode": "ਅਸੰਖ ਜੋਗ ਮਨਿ ਰਹਹਿ ਉਦਾਸ ॥"
+    "gurmukhi_unicode": "ਅਸੰਖ ਜੋਗ ਮਨਿ ਰਹਹਿ ਉਦਾਸ ॥",
+    "audio_position": 402160
   },
   {
     "gurmukhi": "AsµK Bgq gux igAwn vIcwr ]",
@@ -1504,7 +1640,8 @@
     "section_id": 60020,
     "section_name_english": "Pauri 17",
     "section_name_gurmukhi": "pauVI 17",
-    "gurmukhi_unicode": "ਅਸੰਖ ਭਗਤ ਗੁਣ ਗਿਆਨ ਵੀਚਾਰ ॥"
+    "gurmukhi_unicode": "ਅਸੰਖ ਭਗਤ ਗੁਣ ਗਿਆਨ ਵੀਚਾਰ ॥",
+    "audio_position": 405080
   },
   {
     "gurmukhi": "AsµK sqI AsµK dwqwr ]",
@@ -1515,7 +1652,8 @@
     "section_id": 60020,
     "section_name_english": "Pauri 17",
     "section_name_gurmukhi": "pauVI 17",
-    "gurmukhi_unicode": "ਅਸੰਖ ਸਤੀ ਅਸੰਖ ਦਾਤਾਰ ॥"
+    "gurmukhi_unicode": "ਅਸੰਖ ਸਤੀ ਅਸੰਖ ਦਾਤਾਰ ॥",
+    "audio_position": 407240
   },
   {
     "gurmukhi": "AsµK sUr muh BK swr ]",
@@ -1526,7 +1664,8 @@
     "section_id": 60020,
     "section_name_english": "Pauri 17",
     "section_name_gurmukhi": "pauVI 17",
-    "gurmukhi_unicode": "ਅਸੰਖ ਸੂਰ ਮੁਹ ਭਖ ਸਾਰ ॥"
+    "gurmukhi_unicode": "ਅਸੰਖ ਸੂਰ ਮੁਹ ਭਖ ਸਾਰ ॥",
+    "audio_position": 409640
   },
   {
     "gurmukhi": "AsµK moin ilv lwie qwr ]",
@@ -1537,7 +1676,8 @@
     "section_id": 60020,
     "section_name_english": "Pauri 17",
     "section_name_gurmukhi": "pauVI 17",
-    "gurmukhi_unicode": "ਅਸੰਖ ਮੋਨਿ ਲਿਵ ਲਾਇ ਤਾਰ ॥"
+    "gurmukhi_unicode": "ਅਸੰਖ ਮੋਨਿ ਲਿਵ ਲਾਇ ਤਾਰ ॥",
+    "audio_position": 411960
   },
   {
     "gurmukhi": "kudriq kvx khw vIcwru ]6]",
@@ -1548,7 +1688,8 @@
     "section_id": 60020,
     "section_name_english": "Pauri 17",
     "section_name_gurmukhi": "pauVI 17",
-    "gurmukhi_unicode": "ਕੁਦਰਤਿ ਕਵਣ ਕਹਾ ਵੀਚਾਰੁ ॥੬॥"
+    "gurmukhi_unicode": "ਕੁਦਰਤਿ ਕਵਣ ਕਹਾ ਵੀਚਾਰੁ ॥੬॥",
+    "audio_position": 414600
   },
   {
     "gurmukhi": "vwirAw n jwvw eyk vwr ]",
@@ -1559,7 +1700,8 @@
     "section_id": 60020,
     "section_name_english": "Pauri 17",
     "section_name_gurmukhi": "pauVI 17",
-    "gurmukhi_unicode": "ਵਾਰਿਆ ਨ ਜਾਵਾ ਏਕ ਵਾਰ ॥"
+    "gurmukhi_unicode": "ਵਾਰਿਆ ਨ ਜਾਵਾ ਏਕ ਵਾਰ ॥",
+    "audio_position": 416760
   },
   {
     "gurmukhi": "jo quDu BwvY sweI BlI kwr ]",
@@ -1570,7 +1712,8 @@
     "section_id": 60020,
     "section_name_english": "Pauri 17",
     "section_name_gurmukhi": "pauVI 17",
-    "gurmukhi_unicode": "ਜੋ ਤੁਧੁ ਭਾਵੈ ਸਾਈ ਭਲੀ ਕਾਰ ॥"
+    "gurmukhi_unicode": "ਜੋ ਤੁਧੁ ਭਾਵੈ ਸਾਈ ਭਲੀ ਕਾਰ ॥",
+    "audio_position": 419160
   },
   {
     "gurmukhi": "qU sdw slwmiq inrµkwr ]17]",
@@ -1581,7 +1724,8 @@
     "section_id": 60020,
     "section_name_english": "Pauri 17",
     "section_name_gurmukhi": "pauVI 17",
-    "gurmukhi_unicode": "ਤੂ ਸਦਾ ਸਲਾਮਤਿ ਨਿਰੰਕਾਰ ॥੧੭॥"
+    "gurmukhi_unicode": "ਤੂ ਸਦਾ ਸਲਾਮਤਿ ਨਿਰੰਕਾਰ ॥੧੭॥",
+    "audio_position": 421880
   },
   {
     "gurmukhi": "AsµK mUrK AMD Gor ]",
@@ -1592,7 +1736,8 @@
     "section_id": 60021,
     "section_name_english": "Pauri 18",
     "section_name_gurmukhi": "pauVI 18",
-    "gurmukhi_unicode": "ਅਸੰਖ ਮੂਰਖ ਅੰਧ ਘੋਰ ॥"
+    "gurmukhi_unicode": "ਅਸੰਖ ਮੂਰਖ ਅੰਧ ਘੋਰ ॥",
+    "audio_position": 424400
   },
   {
     "gurmukhi": "AsµK cor hrwmKor ]",
@@ -1603,7 +1748,8 @@
     "section_id": 60021,
     "section_name_english": "Pauri 18",
     "section_name_gurmukhi": "pauVI 18",
-    "gurmukhi_unicode": "ਅਸੰਖ ਚੋਰ ਹਰਾਮਖੋਰ ॥"
+    "gurmukhi_unicode": "ਅਸੰਖ ਚੋਰ ਹਰਾਮਖੋਰ ॥",
+    "audio_position": 426400
   },
   {
     "gurmukhi": "AsµK Amr kir jwih jor ]",
@@ -1614,7 +1760,8 @@
     "section_id": 60021,
     "section_name_english": "Pauri 18",
     "section_name_gurmukhi": "pauVI 18",
-    "gurmukhi_unicode": "ਅਸੰਖ ਅਮਰ ਕਰਿ ਜਾਹਿ ਜੋਰ ॥"
+    "gurmukhi_unicode": "ਅਸੰਖ ਅਮਰ ਕਰਿ ਜਾਹਿ ਜੋਰ ॥",
+    "audio_position": 428840
   },
   {
     "gurmukhi": "AsµK glvF hiqAw kmwih ]",
@@ -1625,7 +1772,8 @@
     "section_id": 60021,
     "section_name_english": "Pauri 18",
     "section_name_gurmukhi": "pauVI 18",
-    "gurmukhi_unicode": "ਅਸੰਖ ਗਲਵਢ ਹਤਿਆ ਕਮਾਹਿ ॥"
+    "gurmukhi_unicode": "ਅਸੰਖ ਗਲਵਢ ਹਤਿਆ ਕਮਾਹਿ ॥",
+    "audio_position": 431160
   },
   {
     "gurmukhi": "AsµK pwpI pwpu kir jwih ]",
@@ -1636,7 +1784,8 @@
     "section_id": 60021,
     "section_name_english": "Pauri 18",
     "section_name_gurmukhi": "pauVI 18",
-    "gurmukhi_unicode": "ਅਸੰਖ ਪਾਪੀ ਪਾਪੁ ਕਰਿ ਜਾਹਿ ॥"
+    "gurmukhi_unicode": "ਅਸੰਖ ਪਾਪੀ ਪਾਪੁ ਕਰਿ ਜਾਹਿ ॥",
+    "audio_position": 433480
   },
   {
     "gurmukhi": "AsµK kUiVAwr kUVy iPrwih ]",
@@ -1647,7 +1796,8 @@
     "section_id": 60021,
     "section_name_english": "Pauri 18",
     "section_name_gurmukhi": "pauVI 18",
-    "gurmukhi_unicode": "ਅਸੰਖ ਕੂੜਿਆਰ ਕੂੜੇ ਫਿਰਾਹਿ ॥"
+    "gurmukhi_unicode": "ਅਸੰਖ ਕੂੜਿਆਰ ਕੂੜੇ ਫਿਰਾਹਿ ॥",
+    "audio_position": 435560
   },
   {
     "gurmukhi": "AsµK mlyC mlu BiK Kwih ]",
@@ -1658,7 +1808,8 @@
     "section_id": 60021,
     "section_name_english": "Pauri 18",
     "section_name_gurmukhi": "pauVI 18",
-    "gurmukhi_unicode": "ਅਸੰਖ ਮਲੇਛ ਮਲੁ ਭਖਿ ਖਾਹਿ ॥"
+    "gurmukhi_unicode": "ਅਸੰਖ ਮਲੇਛ ਮਲੁ ਭਖਿ ਖਾਹਿ ॥",
+    "audio_position": 438480
   },
   {
     "gurmukhi": "AsµK inMdk isir krih Bwru ]",
@@ -1669,7 +1820,8 @@
     "section_id": 60021,
     "section_name_english": "Pauri 18",
     "section_name_gurmukhi": "pauVI 18",
-    "gurmukhi_unicode": "ਅਸੰਖ ਨਿੰਦਕ ਸਿਰਿ ਕਰਹਿ ਭਾਰੁ ॥"
+    "gurmukhi_unicode": "ਅਸੰਖ ਨਿੰਦਕ ਸਿਰਿ ਕਰਹਿ ਭਾਰੁ ॥",
+    "audio_position": 441680
   },
   {
     "gurmukhi": "nwnku nIcu khY vIcwru ]",
@@ -1680,7 +1832,8 @@
     "section_id": 60021,
     "section_name_english": "Pauri 18",
     "section_name_gurmukhi": "pauVI 18",
-    "gurmukhi_unicode": "ਨਾਨਕੁ ਨੀਚੁ ਕਹੈ ਵੀਚਾਰੁ ॥"
+    "gurmukhi_unicode": "ਨਾਨਕੁ ਨੀਚੁ ਕਹੈ ਵੀਚਾਰੁ ॥",
+    "audio_position": 444120
   },
   {
     "gurmukhi": "vwirAw n jwvw eyk vwr ]",
@@ -1691,7 +1844,8 @@
     "section_id": 60021,
     "section_name_english": "Pauri 18",
     "section_name_gurmukhi": "pauVI 18",
-    "gurmukhi_unicode": "ਵਾਰਿਆ ਨ ਜਾਵਾ ਏਕ ਵਾਰ ॥"
+    "gurmukhi_unicode": "ਵਾਰਿਆ ਨ ਜਾਵਾ ਏਕ ਵਾਰ ॥",
+    "audio_position": 446200
   },
   {
     "gurmukhi": "jo quDu BwvY sweI BlI kwr ]",
@@ -1702,7 +1856,8 @@
     "section_id": 60021,
     "section_name_english": "Pauri 18",
     "section_name_gurmukhi": "pauVI 18",
-    "gurmukhi_unicode": "ਜੋ ਤੁਧੁ ਭਾਵੈ ਸਾਈ ਭਲੀ ਕਾਰ ॥"
+    "gurmukhi_unicode": "ਜੋ ਤੁਧੁ ਭਾਵੈ ਸਾਈ ਭਲੀ ਕਾਰ ॥",
+    "audio_position": 448520
   },
   {
     "gurmukhi": "qU sdw slwmiq inrµkwr ]18]",
@@ -1713,7 +1868,8 @@
     "section_id": 60021,
     "section_name_english": "Pauri 18",
     "section_name_gurmukhi": "pauVI 18",
-    "gurmukhi_unicode": "ਤੂ ਸਦਾ ਸਲਾਮਤਿ ਨਿਰੰਕਾਰ ॥੧੮॥"
+    "gurmukhi_unicode": "ਤੂ ਸਦਾ ਸਲਾਮਤਿ ਨਿਰੰਕਾਰ ॥੧੮॥",
+    "audio_position": 451560
   },
   {
     "gurmukhi": "AsµK nwv AsµK Qwv ]",
@@ -1724,7 +1880,8 @@
     "section_id": 60022,
     "section_name_english": "Pauri 19",
     "section_name_gurmukhi": "pauVI 19",
-    "gurmukhi_unicode": "ਅਸੰਖ ਨਾਵ ਅਸੰਖ ਥਾਵ ॥"
+    "gurmukhi_unicode": "ਅਸੰਖ ਨਾਵ ਅਸੰਖ ਥਾਵ ॥",
+    "audio_position": 454840
   },
   {
     "gurmukhi": "Agµm Agµm AsµK loA ]",
@@ -1735,7 +1892,8 @@
     "section_id": 60022,
     "section_name_english": "Pauri 19",
     "section_name_gurmukhi": "pauVI 19",
-    "gurmukhi_unicode": "ਅਗੰਮ ਅਗੰਮ ਅਸੰਖ ਲੋਅ ॥"
+    "gurmukhi_unicode": "ਅਗੰਮ ਅਗੰਮ ਅਸੰਖ ਲੋਅ ॥",
+    "audio_position": 457160
   },
   {
     "gurmukhi": "AsµK khih isir Bwru hoie ]",
@@ -1746,7 +1904,8 @@
     "section_id": 60022,
     "section_name_english": "Pauri 19",
     "section_name_gurmukhi": "pauVI 19",
-    "gurmukhi_unicode": "ਅਸੰਖ ਕਹਹਿ ਸਿਰਿ ਭਾਰੁ ਹੋਇ ॥"
+    "gurmukhi_unicode": "ਅਸੰਖ ਕਹਹਿ ਸਿਰਿ ਭਾਰੁ ਹੋਇ ॥",
+    "audio_position": 459400
   },
   {
     "gurmukhi": "AKrI nwmu AKrI swlwh ]",
@@ -1757,7 +1916,8 @@
     "section_id": 60022,
     "section_name_english": "Pauri 19",
     "section_name_gurmukhi": "pauVI 19",
-    "gurmukhi_unicode": "ਅਖਰੀ ਨਾਮੁ ਅਖਰੀ ਸਾਲਾਹ ॥"
+    "gurmukhi_unicode": "ਅਖਰੀ ਨਾਮੁ ਅਖਰੀ ਸਾਲਾਹ ॥",
+    "audio_position": 461400
   },
   {
     "gurmukhi": "AKrI igAwnu gIq gux gwh ]",
@@ -1768,7 +1928,8 @@
     "section_id": 60022,
     "section_name_english": "Pauri 19",
     "section_name_gurmukhi": "pauVI 19",
-    "gurmukhi_unicode": "ਅਖਰੀ ਗਿਆਨੁ ਗੀਤ ਗੁਣ ਗਾਹ ॥"
+    "gurmukhi_unicode": "ਅਖਰੀ ਗਿਆਨੁ ਗੀਤ ਗੁਣ ਗਾਹ ॥",
+    "audio_position": 464040
   },
   {
     "gurmukhi": "AKrI ilKxu bolxu bwix ]",
@@ -1779,7 +1940,8 @@
     "section_id": 60022,
     "section_name_english": "Pauri 19",
     "section_name_gurmukhi": "pauVI 19",
-    "gurmukhi_unicode": "ਅਖਰੀ ਲਿਖਣੁ ਬੋਲਣੁ ਬਾਣਿ ॥"
+    "gurmukhi_unicode": "ਅਖਰੀ ਲਿਖਣੁ ਬੋਲਣੁ ਬਾਣਿ ॥",
+    "audio_position": 466760
   },
   {
     "gurmukhi": "AKrw isir sµjogu vKwix ]",
@@ -1790,7 +1952,8 @@
     "section_id": 60022,
     "section_name_english": "Pauri 19",
     "section_name_gurmukhi": "pauVI 19",
-    "gurmukhi_unicode": "ਅਖਰਾ ਸਿਰਿ ਸੰਜੋਗੁ ਵਖਾਣਿ ॥"
+    "gurmukhi_unicode": "ਅਖਰਾ ਸਿਰਿ ਸੰਜੋਗੁ ਵਖਾਣਿ ॥",
+    "audio_position": 469000
   },
   {
     "gurmukhi": "ijin eyih ilKy iqsu isir nwih ]",
@@ -1801,7 +1964,8 @@
     "section_id": 60022,
     "section_name_english": "Pauri 19",
     "section_name_gurmukhi": "pauVI 19",
-    "gurmukhi_unicode": "ਜਿਨਿ ਏਹਿ ਲਿਖੇ ਤਿਸੁ ਸਿਰਿ ਨਾਹਿ ॥"
+    "gurmukhi_unicode": "ਜਿਨਿ ਏਹਿ ਲਿਖੇ ਤਿਸੁ ਸਿਰਿ ਨਾਹਿ ॥",
+    "audio_position": 471320
   },
   {
     "gurmukhi": "ijv Purmwey iqv iqv pwih ]",
@@ -1812,7 +1976,8 @@
     "section_id": 60022,
     "section_name_english": "Pauri 19",
     "section_name_gurmukhi": "pauVI 19",
-    "gurmukhi_unicode": "ਜਿਵ ਫੁਰਮਾਏ ਤਿਵ ਤਿਵ ਪਾਹਿ ॥"
+    "gurmukhi_unicode": "ਜਿਵ ਫੁਰਮਾਏ ਤਿਵ ਤਿਵ ਪਾਹਿ ॥",
+    "audio_position": 473400
   },
   {
     "gurmukhi": "jyqw kIqw qyqw nwau ]",
@@ -1823,7 +1988,8 @@
     "section_id": 60022,
     "section_name_english": "Pauri 19",
     "section_name_gurmukhi": "pauVI 19",
-    "gurmukhi_unicode": "ਜੇਤਾ ਕੀਤਾ ਤੇਤਾ ਨਾਉ ॥"
+    "gurmukhi_unicode": "ਜੇਤਾ ਕੀਤਾ ਤੇਤਾ ਨਾਉ ॥",
+    "audio_position": 475400
   },
   {
     "gurmukhi": "ivxu nwvY nwhI ko Qwau ]",
@@ -1834,7 +2000,8 @@
     "section_id": 60022,
     "section_name_english": "Pauri 19",
     "section_name_gurmukhi": "pauVI 19",
-    "gurmukhi_unicode": "ਵਿਣੁ ਨਾਵੈ ਨਾਹੀ ਕੋ ਥਾਉ ॥"
+    "gurmukhi_unicode": "ਵਿਣੁ ਨਾਵੈ ਨਾਹੀ ਕੋ ਥਾਉ ॥",
+    "audio_position": 477800
   },
   {
     "gurmukhi": "kudriq kvx khw vIcwru ]",
@@ -1845,7 +2012,8 @@
     "section_id": 60022,
     "section_name_english": "Pauri 19",
     "section_name_gurmukhi": "pauVI 19",
-    "gurmukhi_unicode": "ਕੁਦਰਤਿ ਕਵਣ ਕਹਾ ਵੀਚਾਰੁ ॥"
+    "gurmukhi_unicode": "ਕੁਦਰਤਿ ਕਵਣ ਕਹਾ ਵੀਚਾਰੁ ॥",
+    "audio_position": 480520
   },
   {
     "gurmukhi": "vwirAw n jwvw eyk vwr ]",
@@ -1856,7 +2024,8 @@
     "section_id": 60022,
     "section_name_english": "Pauri 19",
     "section_name_gurmukhi": "pauVI 19",
-    "gurmukhi_unicode": "ਵਾਰਿਆ ਨ ਜਾਵਾ ਏਕ ਵਾਰ ॥"
+    "gurmukhi_unicode": "ਵਾਰਿਆ ਨ ਜਾਵਾ ਏਕ ਵਾਰ ॥",
+    "audio_position": 482400
   },
   {
     "gurmukhi": "jo quDu BwvY sweI BlI kwr ]",
@@ -1867,7 +2036,8 @@
     "section_id": 60022,
     "section_name_english": "Pauri 19",
     "section_name_gurmukhi": "pauVI 19",
-    "gurmukhi_unicode": "ਜੋ ਤੁਧੁ ਭਾਵੈ ਸਾਈ ਭਲੀ ਕਾਰ ॥"
+    "gurmukhi_unicode": "ਜੋ ਤੁਧੁ ਭਾਵੈ ਸਾਈ ਭਲੀ ਕਾਰ ॥",
+    "audio_position": 485000
   },
   {
     "gurmukhi": "qU sdw slwmiq inrµkwr ]19]",
@@ -1878,7 +2048,8 @@
     "section_id": 60022,
     "section_name_english": "Pauri 19",
     "section_name_gurmukhi": "pauVI 19",
-    "gurmukhi_unicode": "ਤੂ ਸਦਾ ਸਲਾਮਤਿ ਨਿਰੰਕਾਰ ॥੧੯॥"
+    "gurmukhi_unicode": "ਤੂ ਸਦਾ ਸਲਾਮਤਿ ਨਿਰੰਕਾਰ ॥੧੯॥",
+    "audio_position": 487640
   },
   {
     "gurmukhi": "BrIAY hQu pYru qnu dyh ]",
@@ -1889,7 +2060,8 @@
     "section_id": 60023,
     "section_name_english": "Pauri 20",
     "section_name_gurmukhi": "pauVI 20",
-    "gurmukhi_unicode": "ਭਰੀਐ ਹਥੁ ਪੈਰੁ ਤਨੁ ਦੇਹ ॥"
+    "gurmukhi_unicode": "ਭਰੀਐ ਹਥੁ ਪੈਰੁ ਤਨੁ ਦੇਹ ॥",
+    "audio_position": 490680
   },
   {
     "gurmukhi": "pwxI DoqY auqr su Kyh ]",
@@ -1900,7 +2072,8 @@
     "section_id": 60023,
     "section_name_english": "Pauri 20",
     "section_name_gurmukhi": "pauVI 20",
-    "gurmukhi_unicode": "ਪਾਣੀ ਧੋਤੈ ਉਤਰ ਸੁ ਖੇਹ ॥"
+    "gurmukhi_unicode": "ਪਾਣੀ ਧੋਤੈ ਉਤਰ ਸੁ ਖੇਹ ॥",
+    "audio_position": 492920
   },
   {
     "gurmukhi": "mUq plIqI kpVu hoie ]",
@@ -1911,7 +2084,8 @@
     "section_id": 60023,
     "section_name_english": "Pauri 20",
     "section_name_gurmukhi": "pauVI 20",
-    "gurmukhi_unicode": "ਮੂਤ ਪਲੀਤੀ ਕਪੜੁ ਹੋਇ ॥"
+    "gurmukhi_unicode": "ਮੂਤ ਪਲੀਤੀ ਕਪੜੁ ਹੋਇ ॥",
+    "audio_position": 494720
   },
   {
     "gurmukhi": "dy swbUxu leIAY Ehu Doie ]",
@@ -1922,7 +2096,8 @@
     "section_id": 60023,
     "section_name_english": "Pauri 20",
     "section_name_gurmukhi": "pauVI 20",
-    "gurmukhi_unicode": "ਦੇ ਸਾਬੂਣੁ ਲਈਐ ਓਹੁ ਧੋਇ ॥"
+    "gurmukhi_unicode": "ਦੇ ਸਾਬੂਣੁ ਲਈਐ ਓਹੁ ਧੋਇ ॥",
+    "audio_position": 497560
   },
   {
     "gurmukhi": "BrIAY miq pwpw kY sµig ]",
@@ -1933,7 +2108,8 @@
     "section_id": 60023,
     "section_name_english": "Pauri 20",
     "section_name_gurmukhi": "pauVI 20",
-    "gurmukhi_unicode": "ਭਰੀਐ ਮਤਿ ਪਾਪਾ ਕੈ ਸੰਗਿ ॥"
+    "gurmukhi_unicode": "ਭਰੀਐ ਮਤਿ ਪਾਪਾ ਕੈ ਸੰਗਿ ॥",
+    "audio_position": 500520
   },
   {
     "gurmukhi": "Ehu DopY nwvY kY rµig ]",
@@ -1944,7 +2120,8 @@
     "section_id": 60023,
     "section_name_english": "Pauri 20",
     "section_name_gurmukhi": "pauVI 20",
-    "gurmukhi_unicode": "ਓਹੁ ਧੋਪੈ ਨਾਵੈ ਕੈ ਰੰਗਿ ॥"
+    "gurmukhi_unicode": "ਓਹੁ ਧੋਪੈ ਨਾਵੈ ਕੈ ਰੰਗਿ ॥",
+    "audio_position": 502680
   },
   {
     "gurmukhi": "puMnI pwpI AwKxu nwih ]",
@@ -1955,7 +2132,8 @@
     "section_id": 60023,
     "section_name_english": "Pauri 20",
     "section_name_gurmukhi": "pauVI 20",
-    "gurmukhi_unicode": "ਪੁੰਨੀ ਪਾਪੀ ਆਖਣੁ ਨਾਹਿ ॥"
+    "gurmukhi_unicode": "ਪੁੰਨੀ ਪਾਪੀ ਆਖਣੁ ਨਾਹਿ ॥",
+    "audio_position": 504600
   },
   {
     "gurmukhi": "kir kir krxw iliK lY jwhu ]",
@@ -1966,7 +2144,8 @@
     "section_id": 60023,
     "section_name_english": "Pauri 20",
     "section_name_gurmukhi": "pauVI 20",
-    "gurmukhi_unicode": "ਕਰਿ ਕਰਿ ਕਰਣਾ ਲਿਖਿ ਲੈ ਜਾਹੁ ॥"
+    "gurmukhi_unicode": "ਕਰਿ ਕਰਿ ਕਰਣਾ ਲਿਖਿ ਲੈ ਜਾਹੁ ॥",
+    "audio_position": 506720
   },
   {
     "gurmukhi": "Awpy bIij Awpy hI Kwhu ]",
@@ -1977,7 +2156,8 @@
     "section_id": 60023,
     "section_name_english": "Pauri 20",
     "section_name_gurmukhi": "pauVI 20",
-    "gurmukhi_unicode": "ਆਪੇ ਬੀਜਿ ਆਪੇ ਹੀ ਖਾਹੁ ॥"
+    "gurmukhi_unicode": "ਆਪੇ ਬੀਜਿ ਆਪੇ ਹੀ ਖਾਹੁ ॥",
+    "audio_position": 508920
   },
   {
     "gurmukhi": "nwnk hukmI Awvhu jwhu ]20]",
@@ -1988,7 +2168,8 @@
     "section_id": 60023,
     "section_name_english": "Pauri 20",
     "section_name_gurmukhi": "pauVI 20",
-    "gurmukhi_unicode": "ਨਾਨਕ ਹੁਕਮੀ ਆਵਹੁ ਜਾਹੁ ॥੨੦॥"
+    "gurmukhi_unicode": "ਨਾਨਕ ਹੁਕਮੀ ਆਵਹੁ ਜਾਹੁ ॥੨੦॥",
+    "audio_position": 511240
   },
   {
     "gurmukhi": "qIrQu qpu dieAw dqu dwnu ]",
@@ -1999,7 +2180,8 @@
     "section_id": 60024,
     "section_name_english": "Pauri 21",
     "section_name_gurmukhi": "pauVI 21",
-    "gurmukhi_unicode": "ਤੀਰਥੁ ਤਪੁ ਦਇਆ ਦਤੁ ਦਾਨੁ ॥"
+    "gurmukhi_unicode": "ਤੀਰਥੁ ਤਪੁ ਦਇਆ ਦਤੁ ਦਾਨੁ ॥",
+    "audio_position": 514600
   },
   {
     "gurmukhi": "jy ko pwvY iql kw mwnu ]",
@@ -2010,7 +2192,8 @@
     "section_id": 60024,
     "section_name_english": "Pauri 21",
     "section_name_gurmukhi": "pauVI 21",
-    "gurmukhi_unicode": "ਜੇ ਕੋ ਪਾਵੈ ਤਿਲ ਕਾ ਮਾਨੁ ॥"
+    "gurmukhi_unicode": "ਜੇ ਕੋ ਪਾਵੈ ਤਿਲ ਕਾ ਮਾਨੁ ॥",
+    "audio_position": 516840
   },
   {
     "gurmukhi": "suixAw mMinAw min kIqw Bwau ]",
@@ -2021,7 +2204,8 @@
     "section_id": 60024,
     "section_name_english": "Pauri 21",
     "section_name_gurmukhi": "pauVI 21",
-    "gurmukhi_unicode": "ਸੁਣਿਆ ਮੰਨਿਆ ਮਨਿ ਕੀਤਾ ਭਾਉ ॥"
+    "gurmukhi_unicode": "ਸੁਣਿਆ ਮੰਨਿਆ ਮਨਿ ਕੀਤਾ ਭਾਉ ॥",
+    "audio_position": 519240
   },
   {
     "gurmukhi": "AMqrgiq qIriQ mil nwau ]",
@@ -2032,7 +2216,8 @@
     "section_id": 60024,
     "section_name_english": "Pauri 21",
     "section_name_gurmukhi": "pauVI 21",
-    "gurmukhi_unicode": "ਅੰਤਰਗਤਿ ਤੀਰਥਿ ਮਲਿ ਨਾਉ ॥"
+    "gurmukhi_unicode": "ਅੰਤਰਗਤਿ ਤੀਰਥਿ ਮਲਿ ਨਾਉ ॥",
+    "audio_position": 522320
   },
   {
     "gurmukhi": "siB gux qyry mY nwhI koie ]",
@@ -2043,7 +2228,8 @@
     "section_id": 60024,
     "section_name_english": "Pauri 21",
     "section_name_gurmukhi": "pauVI 21",
-    "gurmukhi_unicode": "ਸਭਿ ਗੁਣ ਤੇਰੇ ਮੈ ਨਾਹੀ ਕੋਇ ॥"
+    "gurmukhi_unicode": "ਸਭਿ ਗੁਣ ਤੇਰੇ ਮੈ ਨਾਹੀ ਕੋਇ ॥",
+    "audio_position": 525560
   },
   {
     "gurmukhi": "ivxu gux kIqy Bgiq n hoie ]",
@@ -2054,7 +2240,8 @@
     "section_id": 60024,
     "section_name_english": "Pauri 21",
     "section_name_gurmukhi": "pauVI 21",
-    "gurmukhi_unicode": "ਵਿਣੁ ਗੁਣ ਕੀਤੇ ਭਗਤਿ ਨ ਹੋਇ ॥"
+    "gurmukhi_unicode": "ਵਿਣੁ ਗੁਣ ਕੀਤੇ ਭਗਤਿ ਨ ਹੋਇ ॥",
+    "audio_position": 527600
   },
   {
     "gurmukhi": "suAsiq AwiQ bwxI brmwau ]",
@@ -2065,7 +2252,8 @@
     "section_id": 60024,
     "section_name_english": "Pauri 21",
     "section_name_gurmukhi": "pauVI 21",
-    "gurmukhi_unicode": "ਸੁਅਸਤਿ ਆਥਿ ਬਾਣੀ ਬਰਮਾਉ ॥"
+    "gurmukhi_unicode": "ਸੁਅਸਤਿ ਆਥਿ ਬਾਣੀ ਬਰਮਾਉ ॥",
+    "audio_position": 529960
   },
   {
     "gurmukhi": "siq suhwxu sdw min cwau ]",
@@ -2076,7 +2264,8 @@
     "section_id": 60024,
     "section_name_english": "Pauri 21",
     "section_name_gurmukhi": "pauVI 21",
-    "gurmukhi_unicode": "ਸਤਿ ਸੁਹਾਣੁ ਸਦਾ ਮਨਿ ਚਾਉ ॥"
+    "gurmukhi_unicode": "ਸਤਿ ਸੁਹਾਣੁ ਸਦਾ ਮਨਿ ਚਾਉ ॥",
+    "audio_position": 532680
   },
   {
     "gurmukhi": "kvxu su vylw vKqu kvxu kvx iQiq kvxu vwru ]",
@@ -2087,7 +2276,8 @@
     "section_id": 60024,
     "section_name_english": "Pauri 21",
     "section_name_gurmukhi": "pauVI 21",
-    "gurmukhi_unicode": "ਕਵਣੁ ਸੁ ਵੇਲਾ ਵਖਤੁ ਕਵਣੁ ਕਵਣ ਥਿਤਿ ਕਵਣੁ ਵਾਰੁ ॥"
+    "gurmukhi_unicode": "ਕਵਣੁ ਸੁ ਵੇਲਾ ਵਖਤੁ ਕਵਣੁ ਕਵਣ ਥਿਤਿ ਕਵਣੁ ਵਾਰੁ ॥",
+    "audio_position": 536760
   },
   {
     "gurmukhi": "kvix is ruqI mwhu kvxu ijqu hoAw Awkwru ]",
@@ -2098,7 +2288,8 @@
     "section_id": 60024,
     "section_name_english": "Pauri 21",
     "section_name_gurmukhi": "pauVI 21",
-    "gurmukhi_unicode": "ਕਵਣਿ ਸਿ ਰੁਤੀ ਮਾਹੁ ਕਵਣੁ ਜਿਤੁ ਹੋਆ ਆਕਾਰੁ ॥"
+    "gurmukhi_unicode": "ਕਵਣਿ ਸਿ ਰੁਤੀ ਮਾਹੁ ਕਵਣੁ ਜਿਤੁ ਹੋਆ ਆਕਾਰੁ ॥",
+    "audio_position": 540280
   },
   {
     "gurmukhi": "vyl n pweIAw pMfqI ij hovY lyKu purwxu ]",
@@ -2109,7 +2300,8 @@
     "section_id": 60024,
     "section_name_english": "Pauri 21",
     "section_name_gurmukhi": "pauVI 21",
-    "gurmukhi_unicode": "ਵੇਲ ਨ ਪਾਈਆ ਪੰਡਤੀ ਜਿ ਹੋਵੈ ਲੇਖੁ ਪੁਰਾਣੁ ॥"
+    "gurmukhi_unicode": "ਵੇਲ ਨ ਪਾਈਆ ਪੰਡਤੀ ਜਿ ਹੋਵੈ ਲੇਖੁ ਪੁਰਾਣੁ ॥",
+    "audio_position": 543640
   },
   {
     "gurmukhi": "vKqu n pwieE kwdIAw ij ilKin lyKu kurwxu ]",
@@ -2120,7 +2312,8 @@
     "section_id": 60024,
     "section_name_english": "Pauri 21",
     "section_name_gurmukhi": "pauVI 21",
-    "gurmukhi_unicode": "ਵਖਤੁ ਨ ਪਾਇਓ ਕਾਦੀਆ ਜਿ ਲਿਖਨਿ ਲੇਖੁ ਕੁਰਾਣੁ ॥"
+    "gurmukhi_unicode": "ਵਖਤੁ ਨ ਪਾਇਓ ਕਾਦੀਆ ਜਿ ਲਿਖਨਿ ਲੇਖੁ ਕੁਰਾਣੁ ॥",
+    "audio_position": 547280
   },
   {
     "gurmukhi": "iQiq vwru nw jogI jwxY ruiq mwhu nw koeI ]",
@@ -2131,7 +2324,8 @@
     "section_id": 60024,
     "section_name_english": "Pauri 21",
     "section_name_gurmukhi": "pauVI 21",
-    "gurmukhi_unicode": "ਥਿਤਿ ਵਾਰੁ ਨਾ ਜੋਗੀ ਜਾਣੈ ਰੁਤਿ ਮਾਹੁ ਨਾ ਕੋਈ ॥"
+    "gurmukhi_unicode": "ਥਿਤਿ ਵਾਰੁ ਨਾ ਜੋਗੀ ਜਾਣੈ ਰੁਤਿ ਮਾਹੁ ਨਾ ਕੋਈ ॥",
+    "audio_position": 551720
   },
   {
     "gurmukhi": "jw krqw isrTI kau swjy Awpy jwxY soeI ]",
@@ -2142,7 +2336,8 @@
     "section_id": 60024,
     "section_name_english": "Pauri 21",
     "section_name_gurmukhi": "pauVI 21",
-    "gurmukhi_unicode": "ਜਾ ਕਰਤਾ ਸਿਰਠੀ ਕਉ ਸਾਜੇ ਆਪੇ ਜਾਣੈ ਸੋਈ ॥"
+    "gurmukhi_unicode": "ਜਾ ਕਰਤਾ ਸਿਰਠੀ ਕਉ ਸਾਜੇ ਆਪੇ ਜਾਣੈ ਸੋਈ ॥",
+    "audio_position": 555080
   },
   {
     "gurmukhi": "ikv kir AwKw ikv swlwhI ikau vrnI ikv jwxw ]",
@@ -2153,7 +2348,8 @@
     "section_id": 60024,
     "section_name_english": "Pauri 21",
     "section_name_gurmukhi": "pauVI 21",
-    "gurmukhi_unicode": "ਕਿਵ ਕਰਿ ਆਖਾ ਕਿਵ ਸਾਲਾਹੀ ਕਿਉ ਵਰਨੀ ਕਿਵ ਜਾਣਾ ॥"
+    "gurmukhi_unicode": "ਕਿਵ ਕਰਿ ਆਖਾ ਕਿਵ ਸਾਲਾਹੀ ਕਿਉ ਵਰਨੀ ਕਿਵ ਜਾਣਾ ॥",
+    "audio_position": 558480
   },
   {
     "gurmukhi": "nwnk AwKix sBu ko AwKY iekdU ieku isAwxw ]",
@@ -2164,7 +2360,8 @@
     "section_id": 60024,
     "section_name_english": "Pauri 21",
     "section_name_gurmukhi": "pauVI 21",
-    "gurmukhi_unicode": "ਨਾਨਕ ਆਖਣਿ ਸਭੁ ਕੋ ਆਖੈ ਇਕਦੂ ਇਕੁ ਸਿਆਣਾ ॥"
+    "gurmukhi_unicode": "ਨਾਨਕ ਆਖਣਿ ਸਭੁ ਕੋ ਆਖੈ ਇਕਦੂ ਇਕੁ ਸਿਆਣਾ ॥",
+    "audio_position": 562480
   },
   {
     "gurmukhi": "vfw swihbu vfI nweI kIqw jw kw hovY ]",
@@ -2175,7 +2372,8 @@
     "section_id": 60024,
     "section_name_english": "Pauri 21",
     "section_name_gurmukhi": "pauVI 21",
-    "gurmukhi_unicode": "ਵਡਾ ਸਾਹਿਬੁ ਵਡੀ ਨਾਈ ਕੀਤਾ ਜਾ ਕਾ ਹੋਵੈ ॥"
+    "gurmukhi_unicode": "ਵਡਾ ਸਾਹਿਬੁ ਵਡੀ ਨਾਈ ਕੀਤਾ ਜਾ ਕਾ ਹੋਵੈ ॥",
+    "audio_position": 567000
   },
   {
     "gurmukhi": "nwnk jy ko AwpO jwxY AgY gieAw n sohY ]21]",
@@ -2186,7 +2384,8 @@
     "section_id": 60024,
     "section_name_english": "Pauri 21",
     "section_name_gurmukhi": "pauVI 21",
-    "gurmukhi_unicode": "ਨਾਨਕ ਜੇ ਕੋ ਆਪੌ ਜਾਣੈ ਅਗੈ ਗਇਆ ਨ ਸੋਹੈ ॥੨੧॥"
+    "gurmukhi_unicode": "ਨਾਨਕ ਜੇ ਕੋ ਆਪੌ ਜਾਣੈ ਅਗੈ ਗਇਆ ਨ ਸੋਹੈ ॥੨੧॥",
+    "audio_position": 571040
   },
   {
     "gurmukhi": "pwqwlw pwqwl lK Awgwsw Awgws ]",
@@ -2197,7 +2396,8 @@
     "section_id": 60025,
     "section_name_english": "Pauri 22",
     "section_name_gurmukhi": "pauVI 22",
-    "gurmukhi_unicode": "ਪਾਤਾਲਾ ਪਾਤਾਲ ਲਖ ਆਗਾਸਾ ਆਗਾਸ ॥"
+    "gurmukhi_unicode": "ਪਾਤਾਲਾ ਪਾਤਾਲ ਲਖ ਆਗਾਸਾ ਆਗਾਸ ॥",
+    "audio_position": 574680
   },
   {
     "gurmukhi": "EVk EVk Bwil Qky vyd khin iek vwq ]",
@@ -2208,7 +2408,8 @@
     "section_id": 60025,
     "section_name_english": "Pauri 22",
     "section_name_gurmukhi": "pauVI 22",
-    "gurmukhi_unicode": "ਓੜਕ ਓੜਕ ਭਾਲਿ ਥਕੇ ਵੇਦ ਕਹਨਿ ਇਕ ਵਾਤ ॥"
+    "gurmukhi_unicode": "ਓੜਕ ਓੜਕ ਭਾਲਿ ਥਕੇ ਵੇਦ ਕਹਨਿ ਇਕ ਵਾਤ ॥",
+    "audio_position": 578880
   },
   {
     "gurmukhi": "shs ATwrh khin kqybw AsulU ieku Dwqu ]",
@@ -2219,7 +2420,8 @@
     "section_id": 60025,
     "section_name_english": "Pauri 22",
     "section_name_gurmukhi": "pauVI 22",
-    "gurmukhi_unicode": "ਸਹਸ ਅਠਾਰਹ ਕਹਨਿ ਕਤੇਬਾ ਅਸੁਲੂ ਇਕੁ ਧਾਤੁ ॥"
+    "gurmukhi_unicode": "ਸਹਸ ਅਠਾਰਹ ਕਹਨਿ ਕਤੇਬਾ ਅਸੁਲੂ ਇਕੁ ਧਾਤੁ ॥",
+    "audio_position": 582600
   },
   {
     "gurmukhi": "lyKw hoie q ilKIAY lyKY hoie ivxwsu ]",
@@ -2230,7 +2432,8 @@
     "section_id": 60025,
     "section_name_english": "Pauri 22",
     "section_name_gurmukhi": "pauVI 22",
-    "gurmukhi_unicode": "ਲੇਖਾ ਹੋਇ ਤ ਲਿਖੀਐ ਲੇਖੈ ਹੋਇ ਵਿਣਾਸੁ ॥"
+    "gurmukhi_unicode": "ਲੇਖਾ ਹੋਇ ਤ ਲਿਖੀਐ ਲੇਖੈ ਹੋਇ ਵਿਣਾਸੁ ॥",
+    "audio_position": 585520
   },
   {
     "gurmukhi": "nwnk vfw AwKIAY Awpy jwxY Awpu ]22]",
@@ -2241,7 +2444,8 @@
     "section_id": 60025,
     "section_name_english": "Pauri 22",
     "section_name_gurmukhi": "pauVI 22",
-    "gurmukhi_unicode": "ਨਾਨਕ ਵਡਾ ਆਖੀਐ ਆਪੇ ਜਾਣੈ ਆਪੁ ॥੨੨॥"
+    "gurmukhi_unicode": "ਨਾਨਕ ਵਡਾ ਆਖੀਐ ਆਪੇ ਜਾਣੈ ਆਪੁ ॥੨੨॥",
+    "audio_position": 588840
   },
   {
     "gurmukhi": "swlwhI swlwih eyqI suriq n pweIAw ]",
@@ -2252,7 +2456,8 @@
     "section_id": 60026,
     "section_name_english": "Pauri 23",
     "section_name_gurmukhi": "pauVI 23",
-    "gurmukhi_unicode": "ਸਾਲਾਹੀ ਸਾਲਾਹਿ ਏਤੀ ਸੁਰਤਿ ਨ ਪਾਈਆ ॥"
+    "gurmukhi_unicode": "ਸਾਲਾਹੀ ਸਾਲਾਹਿ ਏਤੀ ਸੁਰਤਿ ਨ ਪਾਈਆ ॥",
+    "audio_position": 592440
   },
   {
     "gurmukhi": "ndIAw AqY vwh pvih smuMid n jwxIAih ]",
@@ -2263,7 +2468,8 @@
     "section_id": 60026,
     "section_name_english": "Pauri 23",
     "section_name_gurmukhi": "pauVI 23",
-    "gurmukhi_unicode": "ਨਦੀਆ ਅਤੈ ਵਾਹ ਪਵਹਿ ਸਮੁੰਦਿ ਨ ਜਾਣੀਅਹਿ ॥"
+    "gurmukhi_unicode": "ਨਦੀਆ ਅਤੈ ਵਾਹ ਪਵਹਿ ਸਮੁੰਦਿ ਨ ਜਾਣੀਅਹਿ ॥",
+    "audio_position": 595640
   },
   {
     "gurmukhi": "smuMd swh sulqwn igrhw syqI mwlu Dnu ]",
@@ -2274,7 +2480,8 @@
     "section_id": 60026,
     "section_name_english": "Pauri 23",
     "section_name_gurmukhi": "pauVI 23",
-    "gurmukhi_unicode": "ਸਮੁੰਦ ਸਾਹ ਸੁਲਤਾਨ ਗਿਰਹਾ ਸੇਤੀ ਮਾਲੁ ਧਨੁ ॥"
+    "gurmukhi_unicode": "ਸਮੁੰਦ ਸਾਹ ਸੁਲਤਾਨ ਗਿਰਹਾ ਸੇਤੀ ਮਾਲੁ ਧਨੁ ॥",
+    "audio_position": 599560
   },
   {
     "gurmukhi": "kIVI quil n hovnI jy iqsu mnhu n vIsrih ]23]",
@@ -2285,7 +2492,8 @@
     "section_id": 60026,
     "section_name_english": "Pauri 23",
     "section_name_gurmukhi": "pauVI 23",
-    "gurmukhi_unicode": "ਕੀੜੀ ਤੁਲਿ ਨ ਹੋਵਨੀ ਜੇ ਤਿਸੁ ਮਨਹੁ ਨ ਵੀਸਰਹਿ ॥੨੩॥"
+    "gurmukhi_unicode": "ਕੀੜੀ ਤੁਲਿ ਨ ਹੋਵਨੀ ਜੇ ਤਿਸੁ ਮਨਹੁ ਨ ਵੀਸਰਹਿ ॥੨੩॥",
+    "audio_position": 603720
   },
   {
     "gurmukhi": "AMqu n isPqI khix n AMqu ]",
@@ -2296,7 +2504,8 @@
     "section_id": 60027,
     "section_name_english": "Pauri 24",
     "section_name_gurmukhi": "pauVI 24",
-    "gurmukhi_unicode": "ਅੰਤੁ ਨ ਸਿਫਤੀ ਕਹਣਿ ਨ ਅੰਤੁ ॥"
+    "gurmukhi_unicode": "ਅੰਤੁ ਨ ਸਿਫਤੀ ਕਹਣਿ ਨ ਅੰਤੁ ॥",
+    "audio_position": 606480
   },
   {
     "gurmukhi": "AMqu n krxY dyix n AMqu ]",
@@ -2307,7 +2516,8 @@
     "section_id": 60027,
     "section_name_english": "Pauri 24",
     "section_name_gurmukhi": "pauVI 24",
-    "gurmukhi_unicode": "ਅੰਤੁ ਨ ਕਰਣੈ ਦੇਣਿ ਨ ਅੰਤੁ ॥"
+    "gurmukhi_unicode": "ਅੰਤੁ ਨ ਕਰਣੈ ਦੇਣਿ ਨ ਅੰਤੁ ॥",
+    "audio_position": 609360
   },
   {
     "gurmukhi": "AMqu n vyKix suxix n AMqu ]",
@@ -2318,7 +2528,8 @@
     "section_id": 60027,
     "section_name_english": "Pauri 24",
     "section_name_gurmukhi": "pauVI 24",
-    "gurmukhi_unicode": "ਅੰਤੁ ਨ ਵੇਖਣਿ ਸੁਣਣਿ ਨ ਅੰਤੁ ॥"
+    "gurmukhi_unicode": "ਅੰਤੁ ਨ ਵੇਖਣਿ ਸੁਣਣਿ ਨ ਅੰਤੁ ॥",
+    "audio_position": 612640
   },
   {
     "gurmukhi": "AMqu n jwpY ikAw min mMqu ]",
@@ -2329,7 +2540,8 @@
     "section_id": 60027,
     "section_name_english": "Pauri 24",
     "section_name_gurmukhi": "pauVI 24",
-    "gurmukhi_unicode": "ਅੰਤੁ ਨ ਜਾਪੈ ਕਿਆ ਮਨਿ ਮੰਤੁ ॥"
+    "gurmukhi_unicode": "ਅੰਤੁ ਨ ਜਾਪੈ ਕਿਆ ਮਨਿ ਮੰਤੁ ॥",
+    "audio_position": 615080
   },
   {
     "gurmukhi": "AMqu n jwpY kIqw Awkwru ]",
@@ -2340,7 +2552,8 @@
     "section_id": 60027,
     "section_name_english": "Pauri 24",
     "section_name_gurmukhi": "pauVI 24",
-    "gurmukhi_unicode": "ਅੰਤੁ ਨ ਜਾਪੈ ਕੀਤਾ ਆਕਾਰੁ ॥"
+    "gurmukhi_unicode": "ਅੰਤੁ ਨ ਜਾਪੈ ਕੀਤਾ ਆਕਾਰੁ ॥",
+    "audio_position": 617400
   },
   {
     "gurmukhi": "AMqu n jwpY pwrwvwru ]",
@@ -2351,7 +2564,8 @@
     "section_id": 60027,
     "section_name_english": "Pauri 24",
     "section_name_gurmukhi": "pauVI 24",
-    "gurmukhi_unicode": "ਅੰਤੁ ਨ ਜਾਪੈ ਪਾਰਾਵਾਰੁ ॥"
+    "gurmukhi_unicode": "ਅੰਤੁ ਨ ਜਾਪੈ ਪਾਰਾਵਾਰੁ ॥",
+    "audio_position": 620040
   },
   {
     "gurmukhi": "AMq kwrix kyqy ibllwih ]",
@@ -2362,7 +2576,8 @@
     "section_id": 60027,
     "section_name_english": "Pauri 24",
     "section_name_gurmukhi": "pauVI 24",
-    "gurmukhi_unicode": "ਅੰਤ ਕਾਰਣਿ ਕੇਤੇ ਬਿਲਲਾਹਿ ॥"
+    "gurmukhi_unicode": "ਅੰਤ ਕਾਰਣਿ ਕੇਤੇ ਬਿਲਲਾਹਿ ॥",
+    "audio_position": 626800
   },
   {
     "gurmukhi": "qw ky AMq n pwey jwih ]",
@@ -2373,7 +2588,8 @@
     "section_id": 60027,
     "section_name_english": "Pauri 24",
     "section_name_gurmukhi": "pauVI 24",
-    "gurmukhi_unicode": "ਤਾ ਕੇ ਅੰਤ ਨ ਪਾਏ ਜਾਹਿ ॥"
+    "gurmukhi_unicode": "ਤਾ ਕੇ ਅੰਤ ਨ ਪਾਏ ਜਾਹਿ ॥",
+    "audio_position": 629080
   },
   {
     "gurmukhi": "eyhu AMqu n jwxY koie ]",
@@ -2384,7 +2600,8 @@
     "section_id": 60027,
     "section_name_english": "Pauri 24",
     "section_name_gurmukhi": "pauVI 24",
-    "gurmukhi_unicode": "ਏਹੁ ਅੰਤੁ ਨ ਜਾਣੈ ਕੋਇ ॥"
+    "gurmukhi_unicode": "ਏਹੁ ਅੰਤੁ ਨ ਜਾਣੈ ਕੋਇ ॥",
+    "audio_position": 631600
   },
   {
     "gurmukhi": "bhuqw khIAY bhuqw hoie ]",
@@ -2395,7 +2612,8 @@
     "section_id": 60027,
     "section_name_english": "Pauri 24",
     "section_name_gurmukhi": "pauVI 24",
-    "gurmukhi_unicode": "ਬਹੁਤਾ ਕਹੀਐ ਬਹੁਤਾ ਹੋਇ ॥"
+    "gurmukhi_unicode": "ਬਹੁਤਾ ਕਹੀਐ ਬਹੁਤਾ ਹੋਇ ॥",
+    "audio_position": 633400
   },
   {
     "gurmukhi": "vfw swihbu aUcw Qwau ]",
@@ -2406,7 +2624,8 @@
     "section_id": 60027,
     "section_name_english": "Pauri 24",
     "section_name_gurmukhi": "pauVI 24",
-    "gurmukhi_unicode": "ਵਡਾ ਸਾਹਿਬੁ ਊਚਾ ਥਾਉ ॥"
+    "gurmukhi_unicode": "ਵਡਾ ਸਾਹਿਬੁ ਊਚਾ ਥਾਉ ॥",
+    "audio_position": 635160
   },
   {
     "gurmukhi": "aUcy aupir aUcw nwau ]",
@@ -2417,7 +2636,8 @@
     "section_id": 60027,
     "section_name_english": "Pauri 24",
     "section_name_gurmukhi": "pauVI 24",
-    "gurmukhi_unicode": "ਊਚੇ ਉਪਰਿ ਊਚਾ ਨਾਉ ॥"
+    "gurmukhi_unicode": "ਊਚੇ ਉਪਰਿ ਊਚਾ ਨਾਉ ॥",
+    "audio_position": 637440
   },
   {
     "gurmukhi": "eyvfu aUcw hovY koie ]",
@@ -2428,7 +2648,8 @@
     "section_id": 60027,
     "section_name_english": "Pauri 24",
     "section_name_gurmukhi": "pauVI 24",
-    "gurmukhi_unicode": "ਏਵਡੁ ਊਚਾ ਹੋਵੈ ਕੋਇ ॥"
+    "gurmukhi_unicode": "ਏਵਡੁ ਊਚਾ ਹੋਵੈ ਕੋਇ ॥",
+    "audio_position": 640680
   },
   {
     "gurmukhi": "iqsu aUcy kau jwxY soie ]",
@@ -2439,7 +2660,8 @@
     "section_id": 60027,
     "section_name_english": "Pauri 24",
     "section_name_gurmukhi": "pauVI 24",
-    "gurmukhi_unicode": "ਤਿਸੁ ਊਚੇ ਕਉ ਜਾਣੈ ਸੋਇ ॥"
+    "gurmukhi_unicode": "ਤਿਸੁ ਊਚੇ ਕਉ ਜਾਣੈ ਸੋਇ ॥",
+    "audio_position": 643000
   },
   {
     "gurmukhi": "jyvfu Awip jwxY Awip Awip ]",
@@ -2450,7 +2672,8 @@
     "section_id": 60027,
     "section_name_english": "Pauri 24",
     "section_name_gurmukhi": "pauVI 24",
-    "gurmukhi_unicode": "ਜੇਵਡੁ ਆਪਿ ਜਾਣੈ ਆਪਿ ਆਪਿ ॥"
+    "gurmukhi_unicode": "ਜੇਵਡੁ ਆਪਿ ਜਾਣੈ ਆਪਿ ਆਪਿ ॥",
+    "audio_position": 645640
   },
   {
     "gurmukhi": "nwnk ndrI krmI dwiq ]24]",
@@ -2461,7 +2684,8 @@
     "section_id": 60027,
     "section_name_english": "Pauri 24",
     "section_name_gurmukhi": "pauVI 24",
-    "gurmukhi_unicode": "ਨਾਨਕ ਨਦਰੀ ਕਰਮੀ ਦਾਤਿ ॥੨੪॥"
+    "gurmukhi_unicode": "ਨਾਨਕ ਨਦਰੀ ਕਰਮੀ ਦਾਤਿ ॥੨੪॥",
+    "audio_position": 647680
   },
   {
     "gurmukhi": "bhuqw krmu iliKAw nw jwie ]",
@@ -2472,7 +2696,8 @@
     "section_id": 60028,
     "section_name_english": "Pauri 25",
     "section_name_gurmukhi": "pauVI 25",
-    "gurmukhi_unicode": "ਬਹੁਤਾ ਕਰਮੁ ਲਿਖਿਆ ਨਾ ਜਾਇ ॥"
+    "gurmukhi_unicode": "ਬਹੁਤਾ ਕਰਮੁ ਲਿਖਿਆ ਨਾ ਜਾਇ ॥",
+    "audio_position": 649640
   },
   {
     "gurmukhi": "vfw dwqw iqlu n qmwie ]",
@@ -2483,7 +2708,8 @@
     "section_id": 60028,
     "section_name_english": "Pauri 25",
     "section_name_gurmukhi": "pauVI 25",
-    "gurmukhi_unicode": "ਵਡਾ ਦਾਤਾ ਤਿਲੁ ਨ ਤਮਾਇ ॥"
+    "gurmukhi_unicode": "ਵਡਾ ਦਾਤਾ ਤਿਲੁ ਨ ਤਮਾਇ ॥",
+    "audio_position": 651840
   },
   {
     "gurmukhi": "kyqy mMgih joD Apwr ]",
@@ -2494,7 +2720,8 @@
     "section_id": 60028,
     "section_name_english": "Pauri 25",
     "section_name_gurmukhi": "pauVI 25",
-    "gurmukhi_unicode": "ਕੇਤੇ ਮੰਗਹਿ ਜੋਧ ਅਪਾਰ ॥"
+    "gurmukhi_unicode": "ਕੇਤੇ ਮੰਗਹਿ ਜੋਧ ਅਪਾਰ ॥",
+    "audio_position": 654480
   },
   {
     "gurmukhi": "kyiqAw gxq nhI vIcwru ]",
@@ -2505,7 +2732,8 @@
     "section_id": 60028,
     "section_name_english": "Pauri 25",
     "section_name_gurmukhi": "pauVI 25",
-    "gurmukhi_unicode": "ਕੇਤਿਆ ਗਣਤ ਨਹੀ ਵੀਚਾਰੁ ॥"
+    "gurmukhi_unicode": "ਕੇਤਿਆ ਗਣਤ ਨਹੀ ਵੀਚਾਰੁ ॥",
+    "audio_position": 656520
   },
   {
     "gurmukhi": "kyqy Kip qutih vykwr ]",
@@ -2516,7 +2744,8 @@
     "section_id": 60028,
     "section_name_english": "Pauri 25",
     "section_name_gurmukhi": "pauVI 25",
-    "gurmukhi_unicode": "ਕੇਤੇ ਖਪਿ ਤੁਟਹਿ ਵੇਕਾਰ ॥"
+    "gurmukhi_unicode": "ਕੇਤੇ ਖਪਿ ਤੁਟਹਿ ਵੇਕਾਰ ॥",
+    "audio_position": 658560
   },
   {
     "gurmukhi": "kyqy lY lY mukru pwih ]",
@@ -2527,7 +2756,8 @@
     "section_id": 60028,
     "section_name_english": "Pauri 25",
     "section_name_gurmukhi": "pauVI 25",
-    "gurmukhi_unicode": "ਕੇਤੇ ਲੈ ਲੈ ਮੁਕਰੁ ਪਾਹਿ ॥"
+    "gurmukhi_unicode": "ਕੇਤੇ ਲੈ ਲੈ ਮੁਕਰੁ ਪਾਹਿ ॥",
+    "audio_position": 661360
   },
   {
     "gurmukhi": "kyqy mUrK KwhI Kwih ]",
@@ -2538,7 +2768,8 @@
     "section_id": 60028,
     "section_name_english": "Pauri 25",
     "section_name_gurmukhi": "pauVI 25",
-    "gurmukhi_unicode": "ਕੇਤੇ ਮੂਰਖ ਖਾਹੀ ਖਾਹਿ ॥"
+    "gurmukhi_unicode": "ਕੇਤੇ ਮੂਰਖ ਖਾਹੀ ਖਾਹਿ ॥",
+    "audio_position": 663880
   },
   {
     "gurmukhi": "kyiqAw dUK BUK sd mwr ]",
@@ -2549,7 +2780,8 @@
     "section_id": 60028,
     "section_name_english": "Pauri 25",
     "section_name_gurmukhi": "pauVI 25",
-    "gurmukhi_unicode": "ਕੇਤਿਆ ਦੂਖ ਭੂਖ ਸਦ ਮਾਰ ॥"
+    "gurmukhi_unicode": "ਕੇਤਿਆ ਦੂਖ ਭੂਖ ਸਦ ਮਾਰ ॥",
+    "audio_position": 665720
   },
   {
     "gurmukhi": "eyih iB dwiq qyrI dwqwr ]",
@@ -2560,7 +2792,8 @@
     "section_id": 60028,
     "section_name_english": "Pauri 25",
     "section_name_gurmukhi": "pauVI 25",
-    "gurmukhi_unicode": "ਏਹਿ ਭਿ ਦਾਤਿ ਤੇਰੀ ਦਾਤਾਰ ॥"
+    "gurmukhi_unicode": "ਏਹਿ ਭਿ ਦਾਤਿ ਤੇਰੀ ਦਾਤਾਰ ॥",
+    "audio_position": 668040
   },
   {
     "gurmukhi": "bµid KlwsI BwxY hoie ]",
@@ -2571,7 +2804,8 @@
     "section_id": 60028,
     "section_name_english": "Pauri 25",
     "section_name_gurmukhi": "pauVI 25",
-    "gurmukhi_unicode": "ਬੰਦਿ ਖਲਾਸੀ ਭਾਣੈ ਹੋਇ ॥"
+    "gurmukhi_unicode": "ਬੰਦਿ ਖਲਾਸੀ ਭਾਣੈ ਹੋਇ ॥",
+    "audio_position": 670840
   },
   {
     "gurmukhi": "horu AwiK n skY koie ]",
@@ -2582,7 +2816,8 @@
     "section_id": 60028,
     "section_name_english": "Pauri 25",
     "section_name_gurmukhi": "pauVI 25",
-    "gurmukhi_unicode": "ਹੋਰੁ ਆਖਿ ਨ ਸਕੈ ਕੋਇ ॥"
+    "gurmukhi_unicode": "ਹੋਰੁ ਆਖਿ ਨ ਸਕੈ ਕੋਇ ॥",
+    "audio_position": 673080
   },
   {
     "gurmukhi": "jy ko Kwieku AwKix pwie ]",
@@ -2593,7 +2828,8 @@
     "section_id": 60028,
     "section_name_english": "Pauri 25",
     "section_name_gurmukhi": "pauVI 25",
-    "gurmukhi_unicode": "ਜੇ ਕੋ ਖਾਇਕੁ ਆਖਣਿ ਪਾਇ ॥"
+    "gurmukhi_unicode": "ਜੇ ਕੋ ਖਾਇਕੁ ਆਖਣਿ ਪਾਇ ॥",
+    "audio_position": 674920
   },
   {
     "gurmukhi": "Ehu jwxY jyqIAw muih Kwie ]",
@@ -2604,7 +2840,8 @@
     "section_id": 60028,
     "section_name_english": "Pauri 25",
     "section_name_gurmukhi": "pauVI 25",
-    "gurmukhi_unicode": "ਓਹੁ ਜਾਣੈ ਜੇਤੀਆ ਮੁਹਿ ਖਾਇ ॥"
+    "gurmukhi_unicode": "ਓਹੁ ਜਾਣੈ ਜੇਤੀਆ ਮੁਹਿ ਖਾਇ ॥",
+    "audio_position": 677400
   },
   {
     "gurmukhi": "Awpy jwxY Awpy dyie ]",
@@ -2615,7 +2852,8 @@
     "section_id": 60028,
     "section_name_english": "Pauri 25",
     "section_name_gurmukhi": "pauVI 25",
-    "gurmukhi_unicode": "ਆਪੇ ਜਾਣੈ ਆਪੇ ਦੇਇ ॥"
+    "gurmukhi_unicode": "ਆਪੇ ਜਾਣੈ ਆਪੇ ਦੇਇ ॥",
+    "audio_position": 680080
   },
   {
     "gurmukhi": "AwKih is iB kyeI kyie ]",
@@ -2626,7 +2864,8 @@
     "section_id": 60028,
     "section_name_english": "Pauri 25",
     "section_name_gurmukhi": "pauVI 25",
-    "gurmukhi_unicode": "ਆਖਹਿ ਸਿ ਭਿ ਕੇਈ ਕੇਇ ॥"
+    "gurmukhi_unicode": "ਆਖਹਿ ਸਿ ਭਿ ਕੇਈ ਕੇਇ ॥",
+    "audio_position": 682960
   },
   {
     "gurmukhi": "ijsno bKsy isPiq swlwh ]",
@@ -2637,7 +2876,8 @@
     "section_id": 60028,
     "section_name_english": "Pauri 25",
     "section_name_gurmukhi": "pauVI 25",
-    "gurmukhi_unicode": "ਜਿਸਨੋ ਬਖਸੇ ਸਿਫਤਿ ਸਾਲਾਹ ॥"
+    "gurmukhi_unicode": "ਜਿਸਨੋ ਬਖਸੇ ਸਿਫਤਿ ਸਾਲਾਹ ॥",
+    "audio_position": 686000
   },
   {
     "gurmukhi": "nwnk pwiqswhI pwiqswhu ]25]",
@@ -2648,7 +2888,8 @@
     "section_id": 60028,
     "section_name_english": "Pauri 25",
     "section_name_gurmukhi": "pauVI 25",
-    "gurmukhi_unicode": "ਨਾਨਕ ਪਾਤਿਸਾਹੀ ਪਾਤਿਸਾਹੁ ॥੨੫॥"
+    "gurmukhi_unicode": "ਨਾਨਕ ਪਾਤਿਸਾਹੀ ਪਾਤਿਸਾਹੁ ॥੨੫॥",
+    "audio_position": 688360
   },
   {
     "gurmukhi": "Amul gux Amul vwpwr ]",
@@ -2659,7 +2900,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਅਮੁਲ ਗੁਣ ਅਮੁਲ ਵਾਪਾਰ ॥"
+    "gurmukhi_unicode": "ਅਮੁਲ ਗੁਣ ਅਮੁਲ ਵਾਪਾਰ ॥",
+    "audio_position": 690360
   },
   {
     "gurmukhi": "Amul vwpwrIey Amul Bµfwr ]",
@@ -2670,7 +2912,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਅਮੁਲ ਵਾਪਾਰੀਏ ਅਮੁਲ ਭੰਡਾਰ ॥"
+    "gurmukhi_unicode": "ਅਮੁਲ ਵਾਪਾਰੀਏ ਅਮੁਲ ਭੰਡਾਰ ॥",
+    "audio_position": 692520
   },
   {
     "gurmukhi": "Amul Awvih Amul lY jwih ]",
@@ -2681,7 +2924,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਅਮੁਲ ਆਵਹਿ ਅਮੁਲ ਲੈ ਜਾਹਿ ॥"
+    "gurmukhi_unicode": "ਅਮੁਲ ਆਵਹਿ ਅਮੁਲ ਲੈ ਜਾਹਿ ॥",
+    "audio_position": 695080
   },
   {
     "gurmukhi": "Amul Bwie Amulw smwih ]",
@@ -2692,7 +2936,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਅਮੁਲ ਭਾਇ ਅਮੁਲਾ ਸਮਾਹਿ ॥"
+    "gurmukhi_unicode": "ਅਮੁਲ ਭਾਇ ਅਮੁਲਾ ਸਮਾਹਿ ॥",
+    "audio_position": 697080
   },
   {
     "gurmukhi": "Amulu Drmu Amulu dIbwxu ]",
@@ -2703,7 +2948,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਅਮੁਲੁ ਧਰਮੁ ਅਮੁਲੁ ਦੀਬਾਣੁ ॥"
+    "gurmukhi_unicode": "ਅਮੁਲੁ ਧਰਮੁ ਅਮੁਲੁ ਦੀਬਾਣੁ ॥",
+    "audio_position": 699160
   },
   {
     "gurmukhi": "Amulu qulu Amulu prvwxu ]",
@@ -2714,7 +2960,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਅਮੁਲੁ ਤੁਲੁ ਅਮੁਲੁ ਪਰਵਾਣੁ ॥"
+    "gurmukhi_unicode": "ਅਮੁਲੁ ਤੁਲੁ ਅਮੁਲੁ ਪਰਵਾਣੁ ॥",
+    "audio_position": 701320
   },
   {
     "gurmukhi": "Amulu bKsIs Amulu nIswxu ]",
@@ -2725,7 +2972,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਅਮੁਲੁ ਬਖਸੀਸ ਅਮੁਲੁ ਨੀਸਾਣੁ ॥"
+    "gurmukhi_unicode": "ਅਮੁਲੁ ਬਖਸੀਸ ਅਮੁਲੁ ਨੀਸਾਣੁ ॥",
+    "audio_position": 703720
   },
   {
     "gurmukhi": "Amulu krmu Amulu Purmwxu ]",
@@ -2736,7 +2984,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਅਮੁਲੁ ਕਰਮੁ ਅਮੁਲੁ ਫੁਰਮਾਣੁ ॥"
+    "gurmukhi_unicode": "ਅਮੁਲੁ ਕਰਮੁ ਅਮੁਲੁ ਫੁਰਮਾਣੁ ॥",
+    "audio_position": 705880
   },
   {
     "gurmukhi": "Amulo Amulu AwiKAw n jwie ]",
@@ -2747,7 +2996,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਅਮੁਲੋ ਅਮੁਲੁ ਆਖਿਆ ਨ ਜਾਇ ॥"
+    "gurmukhi_unicode": "ਅਮੁਲੋ ਅਮੁਲੁ ਆਖਿਆ ਨ ਜਾਇ ॥",
+    "audio_position": 707800
   },
   {
     "gurmukhi": "AwiK AwiK rhy ilv lwie ]",
@@ -2758,7 +3008,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਆਖਿ ਆਖਿ ਰਹੇ ਲਿਵ ਲਾਇ ॥"
+    "gurmukhi_unicode": "ਆਖਿ ਆਖਿ ਰਹੇ ਲਿਵ ਲਾਇ ॥",
+    "audio_position": 710200
   },
   {
     "gurmukhi": "AwKih vyd pwT purwx ]",
@@ -2769,7 +3020,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਆਖਹਿ ਵੇਦ ਪਾਠ ਪੁਰਾਣ ॥"
+    "gurmukhi_unicode": "ਆਖਹਿ ਵੇਦ ਪਾਠ ਪੁਰਾਣ ॥",
+    "audio_position": 712680
   },
   {
     "gurmukhi": "AwKih pVy krih viKAwx ]",
@@ -2780,7 +3032,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਆਖਹਿ ਪੜੇ ਕਰਹਿ ਵਖਿਆਣ ॥"
+    "gurmukhi_unicode": "ਆਖਹਿ ਪੜੇ ਕਰਹਿ ਵਖਿਆਣ ॥",
+    "audio_position": 714920
   },
   {
     "gurmukhi": "AwKih brmy AwKih ieMd ]",
@@ -2791,7 +3044,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਆਖਹਿ ਬਰਮੇ ਆਖਹਿ ਇੰਦ ॥"
+    "gurmukhi_unicode": "ਆਖਹਿ ਬਰਮੇ ਆਖਹਿ ਇੰਦ ॥",
+    "audio_position": 716880
   },
   {
     "gurmukhi": "AwKih gopI qY goivMd ]",
@@ -2802,7 +3056,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਆਖਹਿ ਗੋਪੀ ਤੈ ਗੋਵਿੰਦ ॥"
+    "gurmukhi_unicode": "ਆਖਹਿ ਗੋਪੀ ਤੈ ਗੋਵਿੰਦ ॥",
+    "audio_position": 719160
   },
   {
     "gurmukhi": "AwKih eIsr AwKih isD ]",
@@ -2813,7 +3068,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਆਖਹਿ ਈਸਰ ਆਖਹਿ ਸਿਧ ॥"
+    "gurmukhi_unicode": "ਆਖਹਿ ਈਸਰ ਆਖਹਿ ਸਿਧ ॥",
+    "audio_position": 721720
   },
   {
     "gurmukhi": "AwKih kyqy kIqy buD ]",
@@ -2824,7 +3080,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਆਖਹਿ ਕੇਤੇ ਕੀਤੇ ਬੁਧ ॥"
+    "gurmukhi_unicode": "ਆਖਹਿ ਕੇਤੇ ਕੀਤੇ ਬੁਧ ॥",
+    "audio_position": 724360
   },
   {
     "gurmukhi": "AwKih dwnv AwKih dyv ]",
@@ -2835,7 +3092,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਆਖਹਿ ਦਾਨਵ ਆਖਹਿ ਦੇਵ ॥"
+    "gurmukhi_unicode": "ਆਖਹਿ ਦਾਨਵ ਆਖਹਿ ਦੇਵ ॥",
+    "audio_position": 726280
   },
   {
     "gurmukhi": "AwKih suir nr muin jn syv ]",
@@ -2846,7 +3104,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਆਖਹਿ ਸੁਰਿ ਨਰ ਮੁਨਿ ਜਨ ਸੇਵ ॥"
+    "gurmukhi_unicode": "ਆਖਹਿ ਸੁਰਿ ਨਰ ਮੁਨਿ ਜਨ ਸੇਵ ॥",
+    "audio_position": 729080
   },
   {
     "gurmukhi": "kyqy AwKih AwKix pwih ]",
@@ -2857,7 +3116,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਕੇਤੇ ਆਖਹਿ ਆਖਣਿ ਪਾਹਿ ॥"
+    "gurmukhi_unicode": "ਕੇਤੇ ਆਖਹਿ ਆਖਣਿ ਪਾਹਿ ॥",
+    "audio_position": 731480
   },
   {
     "gurmukhi": "kyqy kih kih auiT auiT jwih ]",
@@ -2868,7 +3128,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਕੇਤੇ ਕਹਿ ਕਹਿ ਉਠਿ ਉਠਿ ਜਾਹਿ ॥"
+    "gurmukhi_unicode": "ਕੇਤੇ ਕਹਿ ਕਹਿ ਉਠਿ ਉਠਿ ਜਾਹਿ ॥",
+    "audio_position": 733880
   },
   {
     "gurmukhi": "eyqy kIqy hoir kryih ]",
@@ -2879,7 +3140,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਏਤੇ ਕੀਤੇ ਹੋਰਿ ਕਰੇਹਿ ॥"
+    "gurmukhi_unicode": "ਏਤੇ ਕੀਤੇ ਹੋਰਿ ਕਰੇਹਿ ॥",
+    "audio_position": 735640
   },
   {
     "gurmukhi": "qw AwiK n skih kyeI kyie ]",
@@ -2890,7 +3152,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਤਾ ਆਖਿ ਨ ਸਕਹਿ ਕੇਈ ਕੇਇ ॥"
+    "gurmukhi_unicode": "ਤਾ ਆਖਿ ਨ ਸਕਹਿ ਕੇਈ ਕੇਇ ॥",
+    "audio_position": 737840
   },
   {
     "gurmukhi": "jyvfu BwvY qyvfu hoie ]",
@@ -2901,7 +3164,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਜੇਵਡੁ ਭਾਵੈ ਤੇਵਡੁ ਹੋਇ ॥"
+    "gurmukhi_unicode": "ਜੇਵਡੁ ਭਾਵੈ ਤੇਵਡੁ ਹੋਇ ॥",
+    "audio_position": 740600
   },
   {
     "gurmukhi": "nwnk jwxY swcw soie ]",
@@ -2912,7 +3176,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਨਾਨਕ ਜਾਣੈ ਸਾਚਾ ਸੋਇ ॥"
+    "gurmukhi_unicode": "ਨਾਨਕ ਜਾਣੈ ਸਾਚਾ ਸੋਇ ॥",
+    "audio_position": 743320
   },
   {
     "gurmukhi": "jy ko AwKY bolu ivgwVu ]",
@@ -2923,7 +3188,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਜੇ ਕੋ ਆਖੈ ਬੋਲੁ ਵਿਗਾੜੁ ॥"
+    "gurmukhi_unicode": "ਜੇ ਕੋ ਆਖੈ ਬੋਲੁ ਵਿਗਾੜੁ ॥",
+    "audio_position": 747760
   },
   {
     "gurmukhi": "qw ilKIAY isir gwvwrw gwvwru ]26]",
@@ -2934,7 +3200,8 @@
     "section_id": 60029,
     "section_name_english": "Pauri 26",
     "section_name_gurmukhi": "pauVI 26",
-    "gurmukhi_unicode": "ਤਾ ਲਿਖੀਐ ਸਿਰਿ ਗਾਵਾਰਾ ਗਾਵਾਰੁ ॥੨੬॥"
+    "gurmukhi_unicode": "ਤਾ ਲਿਖੀਐ ਸਿਰਿ ਗਾਵਾਰਾ ਗਾਵਾਰੁ ॥੨੬॥",
+    "audio_position": 751440
   },
   {
     "gurmukhi": "so dru kyhw so Gru kyhw ijqu bih srb smwly ]",
@@ -2945,7 +3212,8 @@
     "section_id": 60030,
     "section_name_english": "Pauri 27",
     "section_name_gurmukhi": "pauVI 27",
-    "gurmukhi_unicode": "ਸੋ ਦਰੁ ਕੇਹਾ ਸੋ ਘਰੁ ਕੇਹਾ ਜਿਤੁ ਬਹਿ ਸਰਬ ਸਮਾਲੇ ॥"
+    "gurmukhi_unicode": "ਸੋ ਦਰੁ ਕੇਹਾ ਸੋ ਘਰੁ ਕੇਹਾ ਜਿਤੁ ਬਹਿ ਸਰਬ ਸਮਾਲੇ ॥",
+    "audio_position": 755240
   },
   {
     "gurmukhi": "vwjy nwd Anyk AsµKw kyqy vwvxhwry ]",
@@ -2956,7 +3224,8 @@
     "section_id": 60030,
     "section_name_english": "Pauri 27",
     "section_name_gurmukhi": "pauVI 27",
-    "gurmukhi_unicode": "ਵਾਜੇ ਨਾਦ ਅਨੇਕ ਅਸੰਖਾ ਕੇਤੇ ਵਾਵਣਹਾਰੇ ॥"
+    "gurmukhi_unicode": "ਵਾਜੇ ਨਾਦ ਅਨੇਕ ਅਸੰਖਾ ਕੇਤੇ ਵਾਵਣਹਾਰੇ ॥",
+    "audio_position": 760240
   },
   {
     "gurmukhi": "kyqy rwg prI isau khIAin kyqy gwvxhwry ]",
@@ -2967,7 +3236,8 @@
     "section_id": 60030,
     "section_name_english": "Pauri 27",
     "section_name_gurmukhi": "pauVI 27",
-    "gurmukhi_unicode": "ਕੇਤੇ ਰਾਗ ਪਰੀ ਸਿਉ ਕਹੀਅਨਿ ਕੇਤੇ ਗਾਵਣਹਾਰੇ ॥"
+    "gurmukhi_unicode": "ਕੇਤੇ ਰਾਗ ਪਰੀ ਸਿਉ ਕਹੀਅਨਿ ਕੇਤੇ ਗਾਵਣਹਾਰੇ ॥",
+    "audio_position": 764600
   },
   {
     "gurmukhi": "gwvih quhno pauxu pwxI bYsµqru gwvY rwjwDrmu duAwry ]",
@@ -2978,7 +3248,8 @@
     "section_id": 60030,
     "section_name_english": "Pauri 27",
     "section_name_gurmukhi": "pauVI 27",
-    "gurmukhi_unicode": "ਗਾਵਹਿ ਤੁਹਨੋ ਪਉਣੁ ਪਾਣੀ ਬੈਸੰਤਰੁ ਗਾਵੈ ਰਾਜਾਧਰਮੁ ਦੁਆਰੇ ॥"
+    "gurmukhi_unicode": "ਗਾਵਹਿ ਤੁਹਨੋ ਪਉਣੁ ਪਾਣੀ ਬੈਸੰਤਰੁ ਗਾਵੈ ਰਾਜਾਧਰਮੁ ਦੁਆਰੇ ॥",
+    "audio_position": 768360
   },
   {
     "gurmukhi": "gwvih icqu gupqu iliK jwxih iliK iliK Drmu vIcwry ]",
@@ -2989,7 +3260,8 @@
     "section_id": 60030,
     "section_name_english": "Pauri 27",
     "section_name_gurmukhi": "pauVI 27",
-    "gurmukhi_unicode": "ਗਾਵਹਿ ਚਿਤੁ ਗੁਪਤੁ ਲਿਖਿ ਜਾਣਹਿ ਲਿਖਿ ਲਿਖਿ ਧਰਮੁ ਵੀਚਾਰੇ ॥"
+    "gurmukhi_unicode": "ਗਾਵਹਿ ਚਿਤੁ ਗੁਪਤੁ ਲਿਖਿ ਜਾਣਹਿ ਲਿਖਿ ਲਿਖਿ ਧਰਮੁ ਵੀਚਾਰੇ ॥",
+    "audio_position": 772320
   },
   {
     "gurmukhi": "gwvih eIsru brmw dyvI sohin sdw svwry ]",
@@ -3000,7 +3272,8 @@
     "section_id": 60030,
     "section_name_english": "Pauri 27",
     "section_name_gurmukhi": "pauVI 27",
-    "gurmukhi_unicode": "ਗਾਵਹਿ ਈਸਰੁ ਬਰਮਾ ਦੇਵੀ ਸੋਹਨਿ ਸਦਾ ਸਵਾਰੇ ॥"
+    "gurmukhi_unicode": "ਗਾਵਹਿ ਈਸਰੁ ਬਰਮਾ ਦੇਵੀ ਸੋਹਨਿ ਸਦਾ ਸਵਾਰੇ ॥",
+    "audio_position": 776160
   },
   {
     "gurmukhi": "gwvih ieMd iedwsix bYTy dyviqAw dir nwly ]",
@@ -3011,7 +3284,8 @@
     "section_id": 60030,
     "section_name_english": "Pauri 27",
     "section_name_gurmukhi": "pauVI 27",
-    "gurmukhi_unicode": "ਗਾਵਹਿ ਇੰਦ ਇਦਾਸਣਿ ਬੈਠੇ ਦੇਵਤਿਆ ਦਰਿ ਨਾਲੇ ॥"
+    "gurmukhi_unicode": "ਗਾਵਹਿ ਇੰਦ ਇਦਾਸਣਿ ਬੈਠੇ ਦੇਵਤਿਆ ਦਰਿ ਨਾਲੇ ॥",
+    "audio_position": 780040
   },
   {
     "gurmukhi": "gwvih isD smwDI AMdir gwvin swD ivcwry ]",
@@ -3022,7 +3296,8 @@
     "section_id": 60030,
     "section_name_english": "Pauri 27",
     "section_name_gurmukhi": "pauVI 27",
-    "gurmukhi_unicode": "ਗਾਵਹਿ ਸਿਧ ਸਮਾਧੀ ਅੰਦਰਿ ਗਾਵਨਿ ਸਾਧ ਵਿਚਾਰੇ ॥"
+    "gurmukhi_unicode": "ਗਾਵਹਿ ਸਿਧ ਸਮਾਧੀ ਅੰਦਰਿ ਗਾਵਨਿ ਸਾਧ ਵਿਚਾਰੇ ॥",
+    "audio_position": 783840
   },
   {
     "gurmukhi": "gwvin jqI sqI sµqoKI gwvih vIr krwry ]",
@@ -3033,7 +3308,8 @@
     "section_id": 60030,
     "section_name_english": "Pauri 27",
     "section_name_gurmukhi": "pauVI 27",
-    "gurmukhi_unicode": "ਗਾਵਨਿ ਜਤੀ ਸਤੀ ਸੰਤੋਖੀ ਗਾਵਹਿ ਵੀਰ ਕਰਾਰੇ ॥"
+    "gurmukhi_unicode": "ਗਾਵਨਿ ਜਤੀ ਸਤੀ ਸੰਤੋਖੀ ਗਾਵਹਿ ਵੀਰ ਕਰਾਰੇ ॥",
+    "audio_position": 787640
   },
   {
     "gurmukhi": "gwvin pMifq pVin rKIsr jugu jugu vydw nwly ]",
@@ -3044,7 +3320,8 @@
     "section_id": 60030,
     "section_name_english": "Pauri 27",
     "section_name_gurmukhi": "pauVI 27",
-    "gurmukhi_unicode": "ਗਾਵਨਿ ਪੰਡਿਤ ਪੜਨਿ ਰਖੀਸਰ ਜੁਗੁ ਜੁਗੁ ਵੇਦਾ ਨਾਲੇ ॥"
+    "gurmukhi_unicode": "ਗਾਵਨਿ ਪੰਡਿਤ ਪੜਨਿ ਰਖੀਸਰ ਜੁਗੁ ਜੁਗੁ ਵੇਦਾ ਨਾਲੇ ॥",
+    "audio_position": 791160
   },
   {
     "gurmukhi": "gwvih mohxIAw mnu mohin surgw mC pieAwly ]",
@@ -3055,7 +3332,8 @@
     "section_id": 60030,
     "section_name_english": "Pauri 27",
     "section_name_gurmukhi": "pauVI 27",
-    "gurmukhi_unicode": "ਗਾਵਹਿ ਮੋਹਣੀਆ ਮਨੁ ਮੋਹਨਿ ਸੁਰਗਾ ਮਛ ਪਇਆਲੇ ॥"
+    "gurmukhi_unicode": "ਗਾਵਹਿ ਮੋਹਣੀਆ ਮਨੁ ਮੋਹਨਿ ਸੁਰਗਾ ਮਛ ਪਇਆਲੇ ॥",
+    "audio_position": 795320
   },
   {
     "gurmukhi": "gwvin rqn aupwey qyry ATsiT qIrQ nwly ]",
@@ -3066,7 +3344,8 @@
     "section_id": 60030,
     "section_name_english": "Pauri 27",
     "section_name_gurmukhi": "pauVI 27",
-    "gurmukhi_unicode": "ਗਾਵਨਿ ਰਤਨ ਉਪਾਏ ਤੇਰੇ ਅਠਸਠਿ ਤੀਰਥ ਨਾਲੇ ॥"
+    "gurmukhi_unicode": "ਗਾਵਨਿ ਰਤਨ ਉਪਾਏ ਤੇਰੇ ਅਠਸਠਿ ਤੀਰਥ ਨਾਲੇ ॥",
+    "audio_position": 799320
   },
   {
     "gurmukhi": "gwvih joD mhwbl sUrw gwvih KwxI cwry ]",
@@ -3077,7 +3356,8 @@
     "section_id": 60030,
     "section_name_english": "Pauri 27",
     "section_name_gurmukhi": "pauVI 27",
-    "gurmukhi_unicode": "ਗਾਵਹਿ ਜੋਧ ਮਹਾਬਲ ਸੂਰਾ ਗਾਵਹਿ ਖਾਣੀ ਚਾਰੇ ॥"
+    "gurmukhi_unicode": "ਗਾਵਹਿ ਜੋਧ ਮਹਾਬਲ ਸੂਰਾ ਗਾਵਹਿ ਖਾਣੀ ਚਾਰੇ ॥",
+    "audio_position": 804320
   },
   {
     "gurmukhi": "gwvih KMf mMfl vrBµfw kir kir rKy Dwry ]",
@@ -3088,7 +3368,8 @@
     "section_id": 60030,
     "section_name_english": "Pauri 27",
     "section_name_gurmukhi": "pauVI 27",
-    "gurmukhi_unicode": "ਗਾਵਹਿ ਖੰਡ ਮੰਡਲ ਵਰਭੰਡਾ ਕਰਿ ਕਰਿ ਰਖੇ ਧਾਰੇ ॥"
+    "gurmukhi_unicode": "ਗਾਵਹਿ ਖੰਡ ਮੰਡਲ ਵਰਭੰਡਾ ਕਰਿ ਕਰਿ ਰਖੇ ਧਾਰੇ ॥",
+    "audio_position": 809320
   },
   {
     "gurmukhi": "syeI quDuno gwvih jo quDu Bwvin rqy qyry Bgq rswly ]",
@@ -3099,7 +3380,8 @@
     "section_id": 60030,
     "section_name_english": "Pauri 27",
     "section_name_gurmukhi": "pauVI 27",
-    "gurmukhi_unicode": "ਸੇਈ ਤੁਧੁਨੋ ਗਾਵਹਿ ਜੋ ਤੁਧੁ ਭਾਵਨਿ ਰਤੇ ਤੇਰੇ ਭਗਤ ਰਸਾਲੇ ॥"
+    "gurmukhi_unicode": "ਸੇਈ ਤੁਧੁਨੋ ਗਾਵਹਿ ਜੋ ਤੁਧੁ ਭਾਵਨਿ ਰਤੇ ਤੇਰੇ ਭਗਤ ਰਸਾਲੇ ॥",
+    "audio_position": 814120
   },
   {
     "gurmukhi": "hoir kyqy gwvin sy mY iciq n Awvin nwnku ikAw vIcwry ]",
@@ -3110,7 +3392,8 @@
     "section_id": 60030,
     "section_name_english": "Pauri 27",
     "section_name_gurmukhi": "pauVI 27",
-    "gurmukhi_unicode": "ਹੋਰਿ ਕੇਤੇ ਗਾਵਨਿ ਸੇ ਮੈ ਚਿਤਿ ਨ ਆਵਨਿ ਨਾਨਕੁ ਕਿਆ ਵੀਚਾਰੇ ॥"
+    "gurmukhi_unicode": "ਹੋਰਿ ਕੇਤੇ ਗਾਵਨਿ ਸੇ ਮੈ ਚਿਤਿ ਨ ਆਵਨਿ ਨਾਨਕੁ ਕਿਆ ਵੀਚਾਰੇ ॥",
+    "audio_position": 817880
   },
   {
     "gurmukhi": "soeI soeI sdw scu swihbu swcw swcI nweI ]",
@@ -3121,7 +3404,8 @@
     "section_id": 60030,
     "section_name_english": "Pauri 27",
     "section_name_gurmukhi": "pauVI 27",
-    "gurmukhi_unicode": "ਸੋਈ ਸੋਈ ਸਦਾ ਸਚੁ ਸਾਹਿਬੁ ਸਾਚਾ ਸਾਚੀ ਨਾਈ ॥"
+    "gurmukhi_unicode": "ਸੋਈ ਸੋਈ ਸਦਾ ਸਚੁ ਸਾਹਿਬੁ ਸਾਚਾ ਸਾਚੀ ਨਾਈ ॥",
+    "audio_position": 822040
   },
   {
     "gurmukhi": "hY BI hosI jwie n jwsI rcnw ijin rcweI ]",
@@ -3132,7 +3416,8 @@
     "section_id": 60030,
     "section_name_english": "Pauri 27",
     "section_name_gurmukhi": "pauVI 27",
-    "gurmukhi_unicode": "ਹੈ ਭੀ ਹੋਸੀ ਜਾਇ ਨ ਜਾਸੀ ਰਚਨਾ ਜਿਨਿ ਰਚਾਈ ॥"
+    "gurmukhi_unicode": "ਹੈ ਭੀ ਹੋਸੀ ਜਾਇ ਨ ਜਾਸੀ ਰਚਨਾ ਜਿਨਿ ਰਚਾਈ ॥",
+    "audio_position": 826120
   },
   {
     "gurmukhi": "rMgI rMgI BwqI kir kir ijnsI mwieAw ijin aupweI ]",
@@ -3143,7 +3428,8 @@
     "section_id": 60030,
     "section_name_english": "Pauri 27",
     "section_name_gurmukhi": "pauVI 27",
-    "gurmukhi_unicode": "ਰੰਗੀ ਰੰਗੀ ਭਾਤੀ ਕਰਿ ਕਰਿ ਜਿਨਸੀ ਮਾਇਆ ਜਿਨਿ ਉਪਾਈ ॥"
+    "gurmukhi_unicode": "ਰੰਗੀ ਰੰਗੀ ਭਾਤੀ ਕਰਿ ਕਰਿ ਜਿਨਸੀ ਮਾਇਆ ਜਿਨਿ ਉਪਾਈ ॥",
+    "audio_position": 829560
   },
   {
     "gurmukhi": "kir kir vyKY kIqw Awpxw ijv iqsdI vifAweI ]",
@@ -3154,7 +3440,8 @@
     "section_id": 60030,
     "section_name_english": "Pauri 27",
     "section_name_gurmukhi": "pauVI 27",
-    "gurmukhi_unicode": "ਕਰਿ ਕਰਿ ਵੇਖੈ ਕੀਤਾ ਆਪਣਾ ਜਿਵ ਤਿਸਦੀ ਵਡਿਆਈ ॥"
+    "gurmukhi_unicode": "ਕਰਿ ਕਰਿ ਵੇਖੈ ਕੀਤਾ ਆਪਣਾ ਜਿਵ ਤਿਸਦੀ ਵਡਿਆਈ ॥",
+    "audio_position": 834560
   },
   {
     "gurmukhi": "jo iqsu BwvY soeI krsI hukmu n krxw jweI ]",
@@ -3165,7 +3452,8 @@
     "section_id": 60030,
     "section_name_english": "Pauri 27",
     "section_name_gurmukhi": "pauVI 27",
-    "gurmukhi_unicode": "ਜੋ ਤਿਸੁ ਭਾਵੈ ਸੋਈ ਕਰਸੀ ਹੁਕਮੁ ਨ ਕਰਣਾ ਜਾਈ ॥"
+    "gurmukhi_unicode": "ਜੋ ਤਿਸੁ ਭਾਵੈ ਸੋਈ ਕਰਸੀ ਹੁਕਮੁ ਨ ਕਰਣਾ ਜਾਈ ॥",
+    "audio_position": 839560
   },
   {
     "gurmukhi": "so pwiqswhu swhw pwiqswihbu nwnk rhxu rjweI ]27]",
@@ -3176,7 +3464,8 @@
     "section_id": 60030,
     "section_name_english": "Pauri 27",
     "section_name_gurmukhi": "pauVI 27",
-    "gurmukhi_unicode": "ਸੋ ਪਾਤਿਸਾਹੁ ਸਾਹਾ ਪਾਤਿਸਾਹਿਬੁ ਨਾਨਕ ਰਹਣੁ ਰਜਾਈ ॥੨੭॥"
+    "gurmukhi_unicode": "ਸੋ ਪਾਤਿਸਾਹੁ ਸਾਹਾ ਪਾਤਿਸਾਹਿਬੁ ਨਾਨਕ ਰਹਣੁ ਰਜਾਈ ॥੨੭॥",
+    "audio_position": 843640
   },
   {
     "gurmukhi": "muMdw sµqoKu srmu pqu JolI iDAwn kI krih ibBUiq ]",
@@ -3187,7 +3476,8 @@
     "section_id": 60031,
     "section_name_english": "Pauri 28",
     "section_name_gurmukhi": "pauVI 28",
-    "gurmukhi_unicode": "ਮੁੰਦਾ ਸੰਤੋਖੁ ਸਰਮੁ ਪਤੁ ਝੋਲੀ ਧਿਆਨ ਕੀ ਕਰਹਿ ਬਿਭੂਤਿ ॥"
+    "gurmukhi_unicode": "ਮੁੰਦਾ ਸੰਤੋਖੁ ਸਰਮੁ ਪਤੁ ਝੋਲੀ ਧਿਆਨ ਕੀ ਕਰਹਿ ਬਿਭੂਤਿ ॥",
+    "audio_position": 847560
   },
   {
     "gurmukhi": "iKMQw kwlu kuAwrI kwieAw jugiq fMfw prqIiq ]",
@@ -3198,7 +3488,8 @@
     "section_id": 60031,
     "section_name_english": "Pauri 28",
     "section_name_gurmukhi": "pauVI 28",
-    "gurmukhi_unicode": "ਖਿੰਥਾ ਕਾਲੁ ਕੁਆਰੀ ਕਾਇਆ ਜੁਗਤਿ ਡੰਡਾ ਪਰਤੀਤਿ ॥"
+    "gurmukhi_unicode": "ਖਿੰਥਾ ਕਾਲੁ ਕੁਆਰੀ ਕਾਇਆ ਜੁਗਤਿ ਡੰਡਾ ਪਰਤੀਤਿ ॥",
+    "audio_position": 849640
   },
   {
     "gurmukhi": "AweI pMQI sgl jmwqI min jIqY jgu jIqu ]",
@@ -3209,7 +3500,8 @@
     "section_id": 60031,
     "section_name_english": "Pauri 28",
     "section_name_gurmukhi": "pauVI 28",
-    "gurmukhi_unicode": "ਆਈ ਪੰਥੀ ਸਗਲ ਜਮਾਤੀ ਮਨਿ ਜੀਤੈ ਜਗੁ ਜੀਤੁ ॥"
+    "gurmukhi_unicode": "ਆਈ ਪੰਥੀ ਸਗਲ ਜਮਾਤੀ ਮਨਿ ਜੀਤੈ ਜਗੁ ਜੀਤੁ ॥",
+    "audio_position": 854280
   },
   {
     "gurmukhi": "Awdysu iqsY Awdysu ]",
@@ -3220,7 +3512,8 @@
     "section_id": 60031,
     "section_name_english": "Pauri 28",
     "section_name_gurmukhi": "pauVI 28",
-    "gurmukhi_unicode": "ਆਦੇਸੁ ਤਿਸੈ ਆਦੇਸੁ ॥"
+    "gurmukhi_unicode": "ਆਦੇਸੁ ਤਿਸੈ ਆਦੇਸੁ ॥",
+    "audio_position": 858840
   },
   {
     "gurmukhi": "Awid AnIlu Anwid Anwhiq jugu jugu eyko vysu ]28]",
@@ -3231,7 +3524,8 @@
     "section_id": 60031,
     "section_name_english": "Pauri 28",
     "section_name_gurmukhi": "pauVI 28",
-    "gurmukhi_unicode": "ਆਦਿ ਅਨੀਲੁ ਅਨਾਦਿ ਅਨਾਹਤਿ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਵੇਸੁ ॥੨੮॥"
+    "gurmukhi_unicode": "ਆਦਿ ਅਨੀਲੁ ਅਨਾਦਿ ਅਨਾਹਤਿ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਵੇਸੁ ॥੨੮॥",
+    "audio_position": 863320
   },
   {
     "gurmukhi": "Bugiq igAwnu dieAw Bµfwrix Git Git vwjih nwd ]",
@@ -3242,7 +3536,8 @@
     "section_id": 60032,
     "section_name_english": "Pauri 29",
     "section_name_gurmukhi": "pauVI 29",
-    "gurmukhi_unicode": "ਭੁਗਤਿ ਗਿਆਨੁ ਦਇਆ ਭੰਡਾਰਣਿ ਘਟਿ ਘਟਿ ਵਾਜਹਿ ਨਾਦ ॥"
+    "gurmukhi_unicode": "ਭੁਗਤਿ ਗਿਆਨੁ ਦਇਆ ਭੰਡਾਰਣਿ ਘਟਿ ਘਟਿ ਵਾਜਹਿ ਨਾਦ ॥",
+    "audio_position": 868120
   },
   {
     "gurmukhi": "Awip nwQu nwQI sB jw kI iriD isiD Avrw swd ]",
@@ -3253,7 +3548,8 @@
     "section_id": 60032,
     "section_name_english": "Pauri 29",
     "section_name_gurmukhi": "pauVI 29",
-    "gurmukhi_unicode": "ਆਪਿ ਨਾਥੁ ਨਾਥੀ ਸਭ ਜਾ ਕੀ ਰਿਧਿ ਸਿਧਿ ਅਵਰਾ ਸਾਦ ॥"
+    "gurmukhi_unicode": "ਆਪਿ ਨਾਥੁ ਨਾਥੀ ਸਭ ਜਾ ਕੀ ਰਿਧਿ ਸਿਧਿ ਅਵਰਾ ਸਾਦ ॥",
+    "audio_position": 870200
   },
   {
     "gurmukhi": "sµjogu ivjogu duie kwr clwvih lyKy Awvih Bwg ]",
@@ -3264,7 +3560,8 @@
     "section_id": 60032,
     "section_name_english": "Pauri 29",
     "section_name_gurmukhi": "pauVI 29",
-    "gurmukhi_unicode": "ਸੰਜੋਗੁ ਵਿਜੋਗੁ ਦੁਇ ਕਾਰ ਚਲਾਵਹਿ ਲੇਖੇ ਆਵਹਿ ਭਾਗ ॥"
+    "gurmukhi_unicode": "ਸੰਜੋਗੁ ਵਿਜੋਗੁ ਦੁਇ ਕਾਰ ਚਲਾਵਹਿ ਲੇਖੇ ਆਵਹਿ ਭਾਗ ॥",
+    "audio_position": 874920
   },
   {
     "gurmukhi": "Awdysu iqsY Awdysu ]",
@@ -3275,7 +3572,8 @@
     "section_id": 60032,
     "section_name_english": "Pauri 29",
     "section_name_gurmukhi": "pauVI 29",
-    "gurmukhi_unicode": "ਆਦੇਸੁ ਤਿਸੈ ਆਦੇਸੁ ॥"
+    "gurmukhi_unicode": "ਆਦੇਸੁ ਤਿਸੈ ਆਦੇਸੁ ॥",
+    "audio_position": 878840
   },
   {
     "gurmukhi": "Awid AnIlu Anwid Anwhiq jugu jugu eyko vysu ]29]",
@@ -3286,7 +3584,8 @@
     "section_id": 60032,
     "section_name_english": "Pauri 29",
     "section_name_gurmukhi": "pauVI 29",
-    "gurmukhi_unicode": "ਆਦਿ ਅਨੀਲੁ ਅਨਾਦਿ ਅਨਾਹਤਿ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਵੇਸੁ ॥੨੯॥"
+    "gurmukhi_unicode": "ਆਦਿ ਅਨੀਲੁ ਅਨਾਦਿ ਅਨਾਹਤਿ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਵੇਸੁ ॥੨੯॥",
+    "audio_position": 882520
   },
   {
     "gurmukhi": "eykw mweI jugiq ivAweI iqin cyly prvwxu ]",
@@ -3297,7 +3596,8 @@
     "section_id": 60033,
     "section_name_english": "Pauri 30",
     "section_name_gurmukhi": "pauVI 30",
-    "gurmukhi_unicode": "ਏਕਾ ਮਾਈ ਜੁਗਤਿ ਵਿਆਈ ਤਿਨਿ ਚੇਲੇ ਪਰਵਾਣੁ ॥"
+    "gurmukhi_unicode": "ਏਕਾ ਮਾਈ ਜੁਗਤਿ ਵਿਆਈ ਤਿਨਿ ਚੇਲੇ ਪਰਵਾਣੁ ॥",
+    "audio_position": 886280
   },
   {
     "gurmukhi": "ieku sµswrI ieku BµfwrI ieku lwey dI bwxu ]",
@@ -3308,7 +3608,8 @@
     "section_id": 60033,
     "section_name_english": "Pauri 30",
     "section_name_gurmukhi": "pauVI 30",
-    "gurmukhi_unicode": "ਇਕੁ ਸੰਸਾਰੀ ਇਕੁ ਭੰਡਾਰੀ ਇਕੁ ਲਾਏ ਦੀ ਬਾਣੁ ॥"
+    "gurmukhi_unicode": "ਇਕੁ ਸੰਸਾਰੀ ਇਕੁ ਭੰਡਾਰੀ ਇਕੁ ਲਾਏ ਦੀ ਬਾਣੁ ॥",
+    "audio_position": 890600
   },
   {
     "gurmukhi": "ijv iqsu BwvY iqvY clwvY ijv hovY Purmwxu ]",
@@ -3319,7 +3620,8 @@
     "section_id": 60033,
     "section_name_english": "Pauri 30",
     "section_name_gurmukhi": "pauVI 30",
-    "gurmukhi_unicode": "ਜਿਵ ਤਿਸੁ ਭਾਵੈ ਤਿਵੈ ਚਲਾਵੈ ਜਿਵ ਹੋਵੈ ਫੁਰਮਾਣੁ ॥"
+    "gurmukhi_unicode": "ਜਿਵ ਤਿਸੁ ਭਾਵੈ ਤਿਵੈ ਚਲਾਵੈ ਜਿਵ ਹੋਵੈ ਫੁਰਮਾਣੁ ॥",
+    "audio_position": 892760
   },
   {
     "gurmukhi": "Ehu vyKY Enw ndir n AwvY bhuqw eyhu ivfwxu ]",
@@ -3330,7 +3632,8 @@
     "section_id": 60033,
     "section_name_english": "Pauri 30",
     "section_name_gurmukhi": "pauVI 30",
-    "gurmukhi_unicode": "ਓਹੁ ਵੇਖੈ ਓਨਾ ਨਦਰਿ ਨ ਆਵੈ ਬਹੁਤਾ ਏਹੁ ਵਿਡਾਣੁ ॥"
+    "gurmukhi_unicode": "ਓਹੁ ਵੇਖੈ ਓਨਾ ਨਦਰਿ ਨ ਆਵੈ ਬਹੁਤਾ ਏਹੁ ਵਿਡਾਣੁ ॥",
+    "audio_position": 897440
   },
   {
     "gurmukhi": "Awdysu iqsY Awdysu ]",
@@ -3341,7 +3644,8 @@
     "section_id": 60033,
     "section_name_english": "Pauri 30",
     "section_name_gurmukhi": "pauVI 30",
-    "gurmukhi_unicode": "ਆਦੇਸੁ ਤਿਸੈ ਆਦੇਸੁ ॥"
+    "gurmukhi_unicode": "ਆਦੇਸੁ ਤਿਸੈ ਆਦੇਸੁ ॥",
+    "audio_position": 900360
   },
   {
     "gurmukhi": "Awid AnIlu Anwid Anwhiq jugu jugu eyko vysu ]30]",
@@ -3352,7 +3656,8 @@
     "section_id": 60033,
     "section_name_english": "Pauri 30",
     "section_name_gurmukhi": "pauVI 30",
-    "gurmukhi_unicode": "ਆਦਿ ਅਨੀਲੁ ਅਨਾਦਿ ਅਨਾਹਤਿ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਵੇਸੁ ॥੩੦॥"
+    "gurmukhi_unicode": "ਆਦਿ ਅਨੀਲੁ ਅਨਾਦਿ ਅਨਾਹਤਿ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਵੇਸੁ ॥੩੦॥",
+    "audio_position": 902680
   },
   {
     "gurmukhi": "Awsxu loie loie Bµfwr ]",
@@ -3363,7 +3668,8 @@
     "section_id": 60034,
     "section_name_english": "Pauri 31",
     "section_name_gurmukhi": "pauVI 31",
-    "gurmukhi_unicode": "ਆਸਣੁ ਲੋਇ ਲੋਇ ਭੰਡਾਰ ॥"
+    "gurmukhi_unicode": "ਆਸਣੁ ਲੋਇ ਲੋਇ ਭੰਡਾਰ ॥",
+    "audio_position": 904920
   },
   {
     "gurmukhi": "jo ikCu pwieAw su eykw vwr ]",
@@ -3374,7 +3680,8 @@
     "section_id": 60034,
     "section_name_english": "Pauri 31",
     "section_name_gurmukhi": "pauVI 31",
-    "gurmukhi_unicode": "ਜੋ ਕਿਛੁ ਪਾਇਆ ਸੁ ਏਕਾ ਵਾਰ ॥"
+    "gurmukhi_unicode": "ਜੋ ਕਿਛੁ ਪਾਇਆ ਸੁ ਏਕਾ ਵਾਰ ॥",
+    "audio_position": 907560
   },
   {
     "gurmukhi": "kir kir vyKY isrjxhwru ]",
@@ -3385,7 +3692,8 @@
     "section_id": 60034,
     "section_name_english": "Pauri 31",
     "section_name_gurmukhi": "pauVI 31",
-    "gurmukhi_unicode": "ਕਰਿ ਕਰਿ ਵੇਖੈ ਸਿਰਜਣਹਾਰੁ ॥"
+    "gurmukhi_unicode": "ਕਰਿ ਕਰਿ ਵੇਖੈ ਸਿਰਜਣਹਾਰੁ ॥",
+    "audio_position": 910280
   },
   {
     "gurmukhi": "nwnk scy kI swcI kwr ]",
@@ -3396,7 +3704,8 @@
     "section_id": 60034,
     "section_name_english": "Pauri 31",
     "section_name_gurmukhi": "pauVI 31",
-    "gurmukhi_unicode": "ਨਾਨਕ ਸਚੇ ਕੀ ਸਾਚੀ ਕਾਰ ॥"
+    "gurmukhi_unicode": "ਨਾਨਕ ਸਚੇ ਕੀ ਸਾਚੀ ਕਾਰ ॥",
+    "audio_position": 914840
   },
   {
     "gurmukhi": "Awdysu iqsY Awdysu ]",
@@ -3407,7 +3716,8 @@
     "section_id": 60034,
     "section_name_english": "Pauri 31",
     "section_name_gurmukhi": "pauVI 31",
-    "gurmukhi_unicode": "ਆਦੇਸੁ ਤਿਸੈ ਆਦੇਸੁ ॥"
+    "gurmukhi_unicode": "ਆਦੇਸੁ ਤਿਸੈ ਆਦੇਸੁ ॥",
+    "audio_position": 918920
   },
   {
     "gurmukhi": "Awid AnIlu Anwid Anwhiq jugu jugu eyko vysu ]31]",
@@ -3418,7 +3728,8 @@
     "section_id": 60034,
     "section_name_english": "Pauri 31",
     "section_name_gurmukhi": "pauVI 31",
-    "gurmukhi_unicode": "ਆਦਿ ਅਨੀਲੁ ਅਨਾਦਿ ਅਨਾਹਤਿ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਵੇਸੁ ॥੩੧॥"
+    "gurmukhi_unicode": "ਆਦਿ ਅਨੀਲੁ ਅਨਾਦਿ ਅਨਾਹਤਿ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਵੇਸੁ ॥੩੧॥",
+    "audio_position": 922920
   },
   {
     "gurmukhi": "iekdU jIBO lK hoih lK hovih lK vIs ]",
@@ -3429,7 +3740,8 @@
     "section_id": 60035,
     "section_name_english": "Pauri 32",
     "section_name_gurmukhi": "pauVI 32",
-    "gurmukhi_unicode": "ਇਕਦੂ ਜੀਭੌ ਲਖ ਹੋਹਿ ਲਖ ਹੋਵਹਿ ਲਖ ਵੀਸ ॥"
+    "gurmukhi_unicode": "ਇਕਦੂ ਜੀਭੌ ਲਖ ਹੋਹਿ ਲਖ ਹੋਵਹਿ ਲਖ ਵੀਸ ॥",
+    "audio_position": 927160
   },
   {
     "gurmukhi": "lKu lKu gyVw AwKIAih eyku nwmu jgdIs ]",
@@ -3440,7 +3752,8 @@
     "section_id": 60035,
     "section_name_english": "Pauri 32",
     "section_name_gurmukhi": "pauVI 32",
-    "gurmukhi_unicode": "ਲਖੁ ਲਖੁ ਗੇੜਾ ਆਖੀਅਹਿ ਏਕੁ ਨਾਮੁ ਜਗਦੀਸ ॥"
+    "gurmukhi_unicode": "ਲਖੁ ਲਖੁ ਗੇੜਾ ਆਖੀਅਹਿ ਏਕੁ ਨਾਮੁ ਜਗਦੀਸ ॥",
+    "audio_position": 930640
   },
   {
     "gurmukhi": "eyqu rwih piq pvVIAw cVIAY hoie iekIs ]",
@@ -3451,7 +3764,8 @@
     "section_id": 60035,
     "section_name_english": "Pauri 32",
     "section_name_gurmukhi": "pauVI 32",
-    "gurmukhi_unicode": "ਏਤੁ ਰਾਹਿ ਪਤਿ ਪਵੜੀਆ ਚੜੀਐ ਹੋਇ ਇਕੀਸ ॥"
+    "gurmukhi_unicode": "ਏਤੁ ਰਾਹਿ ਪਤਿ ਪਵੜੀਆ ਚੜੀਐ ਹੋਇ ਇਕੀਸ ॥",
+    "audio_position": 934200
   },
   {
     "gurmukhi": "suix glw Awkws kI kItw AweI rIs ]",
@@ -3462,7 +3776,8 @@
     "section_id": 60035,
     "section_name_english": "Pauri 32",
     "section_name_gurmukhi": "pauVI 32",
-    "gurmukhi_unicode": "ਸੁਣਿ ਗਲਾ ਆਕਾਸ ਕੀ ਕੀਟਾ ਆਈ ਰੀਸ ॥"
+    "gurmukhi_unicode": "ਸੁਣਿ ਗਲਾ ਆਕਾਸ ਕੀ ਕੀਟਾ ਆਈ ਰੀਸ ॥",
+    "audio_position": 936600
   },
   {
     "gurmukhi": "nwnk ndrI pweIAY kUVI kUVY TIs ]32]",
@@ -3473,7 +3788,8 @@
     "section_id": 60035,
     "section_name_english": "Pauri 32",
     "section_name_gurmukhi": "pauVI 32",
-    "gurmukhi_unicode": "ਨਾਨਕ ਨਦਰੀ ਪਾਈਐ ਕੂੜੀ ਕੂੜੈ ਠੀਸ ॥੩੨॥"
+    "gurmukhi_unicode": "ਨਾਨਕ ਨਦਰੀ ਪਾਈਐ ਕੂੜੀ ਕੂੜੈ ਠੀਸ ॥੩੨॥",
+    "audio_position": 939080
   },
   {
     "gurmukhi": "AwKix joru cupY nh joru ]",
@@ -3484,7 +3800,8 @@
     "section_id": 60036,
     "section_name_english": "Pauri 33",
     "section_name_gurmukhi": "pauVI 33",
-    "gurmukhi_unicode": "ਆਖਣਿ ਜੋਰੁ ਚੁਪੈ ਨਹ ਜੋਰੁ ॥"
+    "gurmukhi_unicode": "ਆਖਣਿ ਜੋਰੁ ਚੁਪੈ ਨਹ ਜੋਰੁ ॥",
+    "audio_position": 941960
   },
   {
     "gurmukhi": "joru n mMgix dyix n joru ]",
@@ -3495,7 +3812,8 @@
     "section_id": 60036,
     "section_name_english": "Pauri 33",
     "section_name_gurmukhi": "pauVI 33",
-    "gurmukhi_unicode": "ਜੋਰੁ ਨ ਮੰਗਣਿ ਦੇਣਿ ਨ ਜੋਰੁ ॥"
+    "gurmukhi_unicode": "ਜੋਰੁ ਨ ਮੰਗਣਿ ਦੇਣਿ ਨ ਜੋਰੁ ॥",
+    "audio_position": 944520
   },
   {
     "gurmukhi": "joru n jIvix mrix nh joru ]",
@@ -3506,7 +3824,8 @@
     "section_id": 60036,
     "section_name_english": "Pauri 33",
     "section_name_gurmukhi": "pauVI 33",
-    "gurmukhi_unicode": "ਜੋਰੁ ਨ ਜੀਵਣਿ ਮਰਣਿ ਨਹ ਜੋਰੁ ॥"
+    "gurmukhi_unicode": "ਜੋਰੁ ਨ ਜੀਵਣਿ ਮਰਣਿ ਨਹ ਜੋਰੁ ॥",
+    "audio_position": 946840
   },
   {
     "gurmukhi": "joru n rwij mwil min soru ]",
@@ -3517,7 +3836,8 @@
     "section_id": 60036,
     "section_name_english": "Pauri 33",
     "section_name_gurmukhi": "pauVI 33",
-    "gurmukhi_unicode": "ਜੋਰੁ ਨ ਰਾਜਿ ਮਾਲਿ ਮਨਿ ਸੋਰੁ ॥"
+    "gurmukhi_unicode": "ਜੋਰੁ ਨ ਰਾਜਿ ਮਾਲਿ ਮਨਿ ਸੋਰੁ ॥",
+    "audio_position": 949320
   },
   {
     "gurmukhi": "joru n surqI igAwin vIcwir ]",
@@ -3528,7 +3848,8 @@
     "section_id": 60036,
     "section_name_english": "Pauri 33",
     "section_name_gurmukhi": "pauVI 33",
-    "gurmukhi_unicode": "ਜੋਰੁ ਨ ਸੁਰਤੀ ਗਿਆਨਿ ਵੀਚਾਰਿ ॥"
+    "gurmukhi_unicode": "ਜੋਰੁ ਨ ਸੁਰਤੀ ਗਿਆਨਿ ਵੀਚਾਰਿ ॥",
+    "audio_position": 952200
   },
   {
     "gurmukhi": "joru n jugqI CutY sMswru ]",
@@ -3539,7 +3860,8 @@
     "section_id": 60036,
     "section_name_english": "Pauri 33",
     "section_name_gurmukhi": "pauVI 33",
-    "gurmukhi_unicode": "ਜੋਰੁ ਨ ਜੁਗਤੀ ਛੁਟੈ ਸੰਸਾਰੁ ॥"
+    "gurmukhi_unicode": "ਜੋਰੁ ਨ ਜੁਗਤੀ ਛੁਟੈ ਸੰਸਾਰੁ ॥",
+    "audio_position": 955280
   },
   {
     "gurmukhi": "ijsu hiQ joru kir vyKY soie ]",
@@ -3550,7 +3872,8 @@
     "section_id": 60036,
     "section_name_english": "Pauri 33",
     "section_name_gurmukhi": "pauVI 33",
-    "gurmukhi_unicode": "ਜਿਸੁ ਹਥਿ ਜੋਰੁ ਕਰਿ ਵੇਖੈ ਸੋਇ ॥"
+    "gurmukhi_unicode": "ਜਿਸੁ ਹਥਿ ਜੋਰੁ ਕਰਿ ਵੇਖੈ ਸੋਇ ॥",
+    "audio_position": 959960
   },
   {
     "gurmukhi": "nwnk auqmu nIcu n koie ]33]",
@@ -3561,7 +3884,8 @@
     "section_id": 60036,
     "section_name_english": "Pauri 33",
     "section_name_gurmukhi": "pauVI 33",
-    "gurmukhi_unicode": "ਨਾਨਕ ਉਤਮੁ ਨੀਚੁ ਨ ਕੋਇ ॥੩੩॥"
+    "gurmukhi_unicode": "ਨਾਨਕ ਉਤਮੁ ਨੀਚੁ ਨ ਕੋਇ ॥੩੩॥",
+    "audio_position": 962760
   },
   {
     "gurmukhi": "rwqI ruqI iQqI vwr ]",
@@ -3572,7 +3896,8 @@
     "section_id": 60037,
     "section_name_english": "Pauri 34",
     "section_name_gurmukhi": "pauVI 34",
-    "gurmukhi_unicode": "ਰਾਤੀ ਰੁਤੀ ਥਿਤੀ ਵਾਰ ॥"
+    "gurmukhi_unicode": "ਰਾਤੀ ਰੁਤੀ ਥਿਤੀ ਵਾਰ ॥",
+    "audio_position": 965320
   },
   {
     "gurmukhi": "pvx pwxI AgnI pwqwl ]",
@@ -3583,7 +3908,8 @@
     "section_id": 60037,
     "section_name_english": "Pauri 34",
     "section_name_gurmukhi": "pauVI 34",
-    "gurmukhi_unicode": "ਪਵਣ ਪਾਣੀ ਅਗਨੀ ਪਾਤਾਲ ॥"
+    "gurmukhi_unicode": "ਪਵਣ ਪਾਣੀ ਅਗਨੀ ਪਾਤਾਲ ॥",
+    "audio_position": 967640
   },
   {
     "gurmukhi": "iqsu ivic DrqI Qwip rKI Drmswl ]",
@@ -3594,7 +3920,8 @@
     "section_id": 60037,
     "section_name_english": "Pauri 34",
     "section_name_gurmukhi": "pauVI 34",
-    "gurmukhi_unicode": "ਤਿਸੁ ਵਿਚਿ ਧਰਤੀ ਥਾਪਿ ਰਖੀ ਧਰਮਸਾਲ ॥"
+    "gurmukhi_unicode": "ਤਿਸੁ ਵਿਚਿ ਧਰਤੀ ਥਾਪਿ ਰਖੀ ਧਰਮਸਾਲ ॥",
+    "audio_position": 970360
   },
   {
     "gurmukhi": "iqsu ivic jIA jugiq ky rMg ]",
@@ -3605,7 +3932,8 @@
     "section_id": 60037,
     "section_name_english": "Pauri 34",
     "section_name_gurmukhi": "pauVI 34",
-    "gurmukhi_unicode": "ਤਿਸੁ ਵਿਚਿ ਜੀਅ ਜੁਗਤਿ ਕੇ ਰੰਗ ॥"
+    "gurmukhi_unicode": "ਤਿਸੁ ਵਿਚਿ ਜੀਅ ਜੁਗਤਿ ਕੇ ਰੰਗ ॥",
+    "audio_position": 972600
   },
   {
     "gurmukhi": "iqn ky nwm Anyk Anµq ]",
@@ -3616,7 +3944,8 @@
     "section_id": 60037,
     "section_name_english": "Pauri 34",
     "section_name_gurmukhi": "pauVI 34",
-    "gurmukhi_unicode": "ਤਿਨ ਕੇ ਨਾਮ ਅਨੇਕ ਅਨੰਤ ॥"
+    "gurmukhi_unicode": "ਤਿਨ ਕੇ ਨਾਮ ਅਨੇਕ ਅਨੰਤ ॥",
+    "audio_position": 974720
   },
   {
     "gurmukhi": "krmI krmI hoie vIcwru ]",
@@ -3627,7 +3956,8 @@
     "section_id": 60037,
     "section_name_english": "Pauri 34",
     "section_name_gurmukhi": "pauVI 34",
-    "gurmukhi_unicode": "ਕਰਮੀ ਕਰਮੀ ਹੋਇ ਵੀਚਾਰੁ ॥"
+    "gurmukhi_unicode": "ਕਰਮੀ ਕਰਮੀ ਹੋਇ ਵੀਚਾਰੁ ॥",
+    "audio_position": 976840
   },
   {
     "gurmukhi": "scw Awip scw drbwru ]",
@@ -3638,7 +3968,8 @@
     "section_id": 60037,
     "section_name_english": "Pauri 34",
     "section_name_gurmukhi": "pauVI 34",
-    "gurmukhi_unicode": "ਸਚਾ ਆਪਿ ਸਚਾ ਦਰਬਾਰੁ ॥"
+    "gurmukhi_unicode": "ਸਚਾ ਆਪਿ ਸਚਾ ਦਰਬਾਰੁ ॥",
+    "audio_position": 979080
   },
   {
     "gurmukhi": "iqQY sohin pMc prvwxu ]",
@@ -3649,7 +3980,8 @@
     "section_id": 60037,
     "section_name_english": "Pauri 34",
     "section_name_gurmukhi": "pauVI 34",
-    "gurmukhi_unicode": "ਤਿਥੈ ਸੋਹਨਿ ਪੰਚ ਪਰਵਾਣੁ ॥"
+    "gurmukhi_unicode": "ਤਿਥੈ ਸੋਹਨਿ ਪੰਚ ਪਰਵਾਣੁ ॥",
+    "audio_position": 980840
   },
   {
     "gurmukhi": "ndrI krim pvY nIswxu ]",
@@ -3660,7 +3992,8 @@
     "section_id": 60037,
     "section_name_english": "Pauri 34",
     "section_name_gurmukhi": "pauVI 34",
-    "gurmukhi_unicode": "ਨਦਰੀ ਕਰਮਿ ਪਵੈ ਨੀਸਾਣੁ ॥"
+    "gurmukhi_unicode": "ਨਦਰੀ ਕਰਮਿ ਪਵੈ ਨੀਸਾਣੁ ॥",
+    "audio_position": 982600
   },
   {
     "gurmukhi": "kc pkweI EQY pwie ]",
@@ -3671,7 +4004,8 @@
     "section_id": 60037,
     "section_name_english": "Pauri 34",
     "section_name_gurmukhi": "pauVI 34",
-    "gurmukhi_unicode": "ਕਚ ਪਕਾਈ ਓਥੈ ਪਾਇ ॥"
+    "gurmukhi_unicode": "ਕਚ ਪਕਾਈ ਓਥੈ ਪਾਇ ॥",
+    "audio_position": 984680
   },
   {
     "gurmukhi": "nwnk gieAw jwpY jwie ]34]",
@@ -3682,7 +4016,8 @@
     "section_id": 60037,
     "section_name_english": "Pauri 34",
     "section_name_gurmukhi": "pauVI 34",
-    "gurmukhi_unicode": "ਨਾਨਕ ਗਇਆ ਜਾਪੈ ਜਾਇ ॥੩੪॥"
+    "gurmukhi_unicode": "ਨਾਨਕ ਗਇਆ ਜਾਪੈ ਜਾਇ ॥੩੪॥",
+    "audio_position": 988680
   },
   {
     "gurmukhi": "Drm KMf kw eyho Drmu ]",
@@ -3693,7 +4028,8 @@
     "section_id": 60038,
     "section_name_english": "Pauri 35",
     "section_name_gurmukhi": "pauVI 35",
-    "gurmukhi_unicode": "ਧਰਮ ਖੰਡ ਕਾ ਏਹੋ ਧਰਮੁ ॥"
+    "gurmukhi_unicode": "ਧਰਮ ਖੰਡ ਕਾ ਏਹੋ ਧਰਮੁ ॥",
+    "audio_position": 992280
   },
   {
     "gurmukhi": "igAwn KMf kw AwKhu krmu ]",
@@ -3704,7 +4040,8 @@
     "section_id": 60038,
     "section_name_english": "Pauri 35",
     "section_name_gurmukhi": "pauVI 35",
-    "gurmukhi_unicode": "ਗਿਆਨ ਖੰਡ ਕਾ ਆਖਹੁ ਕਰਮੁ ॥"
+    "gurmukhi_unicode": "ਗਿਆਨ ਖੰਡ ਕਾ ਆਖਹੁ ਕਰਮੁ ॥",
+    "audio_position": 997280
   },
   {
     "gurmukhi": "kyqy pvx pwxI vYsµqr kyqy kwn mhys ]",
