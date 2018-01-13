@@ -62,6 +62,14 @@ export default class DisplaySettings extends Component {
           }]
         },
         {
+          name: 'larivaar',
+          label: 'Larivaar',
+          types: [{
+            name: 'on-off',
+            configName: 'larivaar'
+          }]
+        },
+        {
           name: 'group-stanzas',
           label: 'Group Stanzas',
           types: [{

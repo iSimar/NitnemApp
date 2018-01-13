@@ -355,7 +355,7 @@ export default class Bani extends Component {
                 fontSize: this.state.config.gurmukhiFontSize
               }]}
             >
-              {data.gurmukhi}
+              {this.state.config.larivaar ? data.gurmukhi.replace(/\s/g, '') : data.gurmukhi}
             </Text>
             {
                   this.state.config.showEnglish && data.translation_english !== '' ?

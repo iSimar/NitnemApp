@@ -15,7 +15,8 @@
       "backgroundColor": "#f8f8f8"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nitnemapp"
     },
     "android": {
       "package": "com.nitnemapp"

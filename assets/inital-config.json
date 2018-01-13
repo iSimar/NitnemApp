@@ -4,6 +4,7 @@
   "englishFontSize": 19,
   "showPunjabi": false,
   "punjabiFontSize": 19,
+  "larivaar": false,
   "groupStanzas": false,
   "centerAlignment": false,
   "themeType": "Theme 1"
