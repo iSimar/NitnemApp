@@ -17,6 +17,8 @@ import themes from '../../../../assets/themes.json';
 
 import initalConfig from '../../../../assets/inital-config.json';
 
+import { getTheme } from '../../../../utils';
+
 export default class DisplaySettings extends Component {
   constructor(props) {
     super(props);
@@ -111,38 +113,48 @@ export default class DisplaySettings extends Component {
   }
   renderColorPaletteSelector(typeObj) {
     return (
-      <View style={styles.colorPaletteSelectorContainer}>
+      <View style={{ flexDirection: 'row', flex: 1, paddingTop: 10 }}>
         {
-          Object.keys(themes).map(theme => (
-            <TouchableOpacity
-              key={theme}
-              style={[styles.colorPaletteCellContainer, {
-                borderColor: this.state.config[typeObj.configName] === theme ?
-                themes[this.state.config.themeType].secondaryTextColor
-                :
-                themes[this.state.config.themeType].primaryButtons
-              }]}
-              onPress={() => {
-                const configObj = Object.assign({}, this.state.config);
-                configObj[typeObj.configName] = theme;
-                this.onSetNewConfig(configObj);
-              }}
-            >
+          [true, false].map(oddRow => (
+            <View key={JSON.stringify(oddRow)} style={{ flex: 1, paddingLeft: 5, paddingRight: 5 }}>
               {
-                Object.keys(themes[theme]).map(colorKey => (
-                  typeof (themes[theme][colorKey]) === 'boolean' ? null :
-                  <View
-                    key={theme + colorKey}
-                    style={{
-                      backgroundColor: themes[theme][colorKey],
-                      flex: 1,
-                      height: 30
+              Object.keys(themes).map((theme, themeIndex) => {
+                if (oddRow ? themeIndex % 2 !== 0 : themeIndex % 2 === 0) {
+                  return null;
+                }
+                return (
+                  <TouchableOpacity
+                    key={theme}
+                    style={[styles.colorPaletteCellContainer, {
+                      borderColor: this.state.config[typeObj.configName] === theme ?
+                      getTheme(this.state.config.themeType).secondaryTextColor
+                      :
+                      getTheme(this.state.config.themeType).primaryButtons
+                    }]}
+                    onPress={() => {
+                      const configObj = Object.assign({}, this.state.config);
+                      configObj[typeObj.configName] = theme;
+                      this.onSetNewConfig(configObj);
                     }}
-                  />
-                ))
-              }
-            </TouchableOpacity>
-            ))
+                  >
+                    {
+                      Object.keys(getTheme(theme)).map(colorKey => (
+                        typeof (getTheme(theme)[colorKey]) === 'boolean' ? null :
+                        <View
+                          key={theme + colorKey}
+                          style={{
+                            backgroundColor: getTheme(theme)[colorKey],
+                            flex: 1,
+                            height: 30
+                          }}
+                        />
+                      ))
+                    }
+                  </TouchableOpacity>
+                );
+                })
+            }
+            </View>))
         }
       </View>
     );
@@ -170,8 +182,8 @@ export default class DisplaySettings extends Component {
           }}
         >
           <Text style={[styles.plusButton, {
-              borderColor: themes[this.state.config.themeType].primaryButtons,
-              color: themes[this.state.config.themeType].primaryButtons
+              borderColor: getTheme(this.state.config.themeType).primaryButtons,
+              color: getTheme(this.state.config.themeType).primaryButtons
             }]}
           >{' + '}
           </Text>
@@ -185,8 +197,8 @@ export default class DisplaySettings extends Component {
         }}
         >
           <Text style={[styles.minusButton, {
-              borderColor: themes[this.state.config.themeType].primaryButtons,
-              color: themes[this.state.config.themeType].primaryButtons
+              borderColor: getTheme(this.state.config.themeType).primaryButtons,
+              color: getTheme(this.state.config.themeType).primaryButtons
             }]}
           >{' - '}
           </Text>
@@ -200,7 +212,7 @@ export default class DisplaySettings extends Component {
     } else if (typeObj.name === 'plus-minus') {
       return this.renderPlusMinus(typeObj);
     } else if (typeObj.name === 'color-palette-selector') {
-      return this.renderColorPaletteSelector(typeObj);
+      return null;
     }
     return null;
   }
@@ -226,7 +238,7 @@ export default class DisplaySettings extends Component {
       >
         <View style={styles.settingsFormRowCell}>
           <Text style={[styles.settingFormRowLabel, {
-              color: themes[this.state.config.themeType].secondaryTextColor
+              color: getTheme(this.state.config.themeType).secondaryTextColor
               }]}
           >
             {obj.label}
@@ -241,10 +253,12 @@ export default class DisplaySettings extends Component {
     );
   }
   renderSettingsForm() {
+    const themeTypeObj = this.state.settings[this.state.settings.length - 1].types[0];
     return (
       <ScrollView>
         <View style={styles.settingsFormInnerContainer}>
           { this.state.settings.map(this.renderSettingsFormRow.bind(this)) }
+          { this.renderColorPaletteSelector(themeTypeObj) }
         </View>
       </ScrollView>
     );
@@ -258,7 +272,7 @@ export default class DisplaySettings extends Component {
             onPress={() => { this.onReset(); }}
           >
             <Text style={[styles.resetButtonText, {
-              color: themes[this.state.config.themeType].primaryButtons
+              color: getTheme(this.state.config.themeType).primaryButtons
               }]}
             >
               Reset
@@ -271,7 +285,7 @@ export default class DisplaySettings extends Component {
             onPress={() => { this.onClose(); }}
           >
             <Text style={[styles.closeButtonText, {
-                color: themes[this.state.config.themeType].primaryButtons
+                color: getTheme(this.state.config.themeType).primaryButtons
               }]}
             >
               Close
@@ -282,9 +296,6 @@ export default class DisplaySettings extends Component {
     );
   }
   render() {
-    if (this.state.settings) {
-      // do nothing
-    }
     return (
       <View>
         { this.renderHeader() }
@@ -383,7 +394,8 @@ const styles = StyleSheet.create({
   colorPaletteSelectorContainer: {
     paddingTop: 5,
     flex: 1,
-    flexDirection: 'column'
+    flexDirection: 'row',
+    backgroundColor: 'red'
   },
   colorPaletteCellContainer: {
     flex: 1,

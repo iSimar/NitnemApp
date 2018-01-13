@@ -11,7 +11,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 
 import PropTypes from 'prop-types';
 
-import themes from '../../../../assets/themes.json';
+import { getTheme } from '../../../../utils';
 
 export default class Menu extends Component {
   constructor(props) {
@@ -121,10 +121,10 @@ export default class Menu extends Component {
         <MaterialIcons
           name={obj.icon}
           size={30}
-          color={themes[this.props.config.themeType].primaryButtons}
+          color={getTheme(this.props.config.themeType).primaryButtons}
         />
         <Text style={[styles.buttonText, {
-            color: themes[this.props.config.themeType].primaryButtons
+            color: getTheme(this.props.config.themeType).primaryButtons
           }]}
         >
           {text}
@@ -138,7 +138,7 @@ export default class Menu extends Component {
     }
     return (
       <View style={[styles.container, {
-          backgroundColor: themes[this.props.config.themeType].secondaryBackgroundColor
+          backgroundColor: getTheme(this.props.config.themeType).secondaryBackgroundColor
         }]}
       >
         { this.state.buttons.map(this.renderMenuButton.bind(this)) }

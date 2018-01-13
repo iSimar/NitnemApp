@@ -27,7 +27,7 @@ import Menu from './views/Menu';
 
 import DisplaySettings from './views/DisplaySettings';
 
-import themes from '../../assets/themes.json';
+import { getTheme } from '../../utils';
 
 const { width, height } = Dimensions.get('window');
 
@@ -310,7 +310,7 @@ export default class Bani extends Component {
           style={styles.headerLeft}
           onPress={this.props.onBack}
         >
-          <Ionicons name="md-arrow-back" size={38} color={themes[this.state.config.themeType].primaryButtons} />
+          <Ionicons name="md-arrow-back" size={38} color={getTheme(this.state.config.themeType).primaryButtons} />
         </TouchableOpacity>
         <View style={styles.headerRight}>
           {
@@ -320,13 +320,13 @@ export default class Bani extends Component {
                   style={styles.headerRightButton}
                   onPress={() => this.onPressCopy()}
                 >
-                  <MaterialIcons name="content-copy" size={30} color={themes[this.state.config.themeType].primaryButtons} />
+                  <MaterialIcons name="content-copy" size={30} color={getTheme(this.state.config.themeType).primaryButtons} />
                 </TouchableOpacity>
                 {/* <TouchableOpacity
                   style={styles.headerRightButton}
                   onPress={() => this.onPressPlaySelection()}
                 >
-                  <MaterialIcons name="play-arrow" size={35} color={themes[this.state.config.themeType].primaryButtons} />
+                  <MaterialIcons name="play-arrow" size={35} color={getTheme(this.state.config.themeType).primaryButtons} />
                 </TouchableOpacity> */}
               </View> : null
           }
@@ -334,7 +334,7 @@ export default class Bani extends Component {
             style={styles.headerRightLastButton}
             onPress={() => this.onPressMenuDots()}
           >
-            <Entypo name="dots-three-vertical" size={30} color={themes[this.state.config.themeType].primaryButtons} />
+            <Entypo name="dots-three-vertical" size={30} color={getTheme(this.state.config.themeType).primaryButtons} />
           </TouchableOpacity>
         </View>
       </View>
@@ -357,18 +357,18 @@ export default class Bani extends Component {
               backgroundColor: this.state.selectMode ?
               (
                 this.state.selectedIndexes.indexOf(index) !== -1 ?
-                themes[this.state.config.themeType].secondaryBackgroundColor :
-                themes[this.state.config.themeType].primaryBackgroundColor
+                getTheme(this.state.config.themeType).secondaryBackgroundColor :
+                getTheme(this.state.config.themeType).primaryBackgroundColor
               )
-              : themes[this.state.config.themeType].primaryBackgroundColor
+              : getTheme(this.state.config.themeType).primaryBackgroundColor
             }]}
           >
             <Text style={[styles.baniText, {
                 fontFamily: this.state.config.groupStanzas && data.header ? 'gurakhar_heavy' : 'gurakhar',
                 color: data.header &&
                 !this.state.config.showEnglish && !this.state.config.showPunjabi
-                ? themes[this.state.config.themeType].secondaryTextColor
-                : themes[this.state.config.themeType].primaryTextColor,
+                ? getTheme(this.state.config.themeType).secondaryTextColor
+                : getTheme(this.state.config.themeType).primaryTextColor,
                 textAlign: textAlignment,
                 fontSize: this.state.config.groupStanzas && data.header ?
                   (this.state.config.gurmukhiFontSize + 4)
@@ -380,7 +380,7 @@ export default class Bani extends Component {
             {
                   this.state.config.showEnglish && data.translation_english !== '' ?
                     <Text style={[styles.baniTranslation, {
-                        color: themes[this.state.config.themeType].secondaryTextColor,
+                        color: getTheme(this.state.config.themeType).secondaryTextColor,
                         textAlign: textAlignment,
                         fontSize: this.state.config.groupStanzas && data.header ?
                         (this.state.config.englishFontSize + 3)
@@ -394,7 +394,7 @@ export default class Bani extends Component {
             {
                   this.state.config.showPunjabi && data.translation_punjabi !== ' ' ?
                     <Text style={[styles.baniTranslation, {
-                        color: themes[this.state.config.themeType].secondaryTextColor,
+                        color: getTheme(this.state.config.themeType).secondaryTextColor,
                         textAlign: textAlignment,
                         fontSize: this.state.config.groupStanzas && data.header ?
                         (this.state.config.punjabiFontSize + 1)
@@ -416,14 +416,14 @@ export default class Bani extends Component {
                     onPress={() => this.props.onNext(this.state.baniMetadata.next_index)}
                   >
                     <Text style={[styles.baniText, {
-                        color: themes[this.state.config.themeType].primaryButtons,
+                        color: getTheme(this.state.config.themeType).primaryButtons,
                         paddingRight: 10,
                         fontSize: 33
                         }]}
                     >
                       {this.state.baniMetadata.next_name_gurmukhi}
                     </Text>
-                    <Ionicons name="md-arrow-forward" size={38} color={themes[this.state.config.themeType].primaryButtons} />
+                    <Ionicons name="md-arrow-forward" size={38} color={getTheme(this.state.config.themeType).primaryButtons} />
                   </TouchableOpacity>
                 </View> : null
           }
@@ -461,7 +461,7 @@ export default class Bani extends Component {
     }
     return (
       <View style={[styles.displaySettingsContainer, {
-          backgroundColor: themes[this.state.config.themeType].secondaryBackgroundColor
+          backgroundColor: getTheme(this.state.config.themeType).secondaryBackgroundColor
         }]}
       >
         <DisplaySettings
@@ -476,10 +476,10 @@ export default class Bani extends Component {
   render() {
     return (
       <View style={[styles.container, {
-            backgroundColor: themes[this.state.config.themeType].primaryBackgroundColor
+            backgroundColor: getTheme(this.state.config.themeType).primaryBackgroundColor
         }]}
       >
-        <StatusBar barStyle={themes[this.state.config.themeType].isLight ? 'dark-content' : 'light-content'} />
+        <StatusBar barStyle={getTheme(this.state.config.themeType).isLight ? 'dark-content' : 'light-content'} />
         <KeepAwake />
         { this.renderHeader() }
         { this.renderContent() }

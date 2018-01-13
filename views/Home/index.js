@@ -18,7 +18,7 @@ import Bani from '../Bani';
 
 import banisMetadata from '../../assets/banis-metadata.json';
 
-import themes from '../../assets/themes.json';
+import { getTheme } from '../../utils';
 
 export default class Home extends Component {
   constructor(props) {
@@ -65,12 +65,12 @@ export default class Home extends Component {
     }
     return (
       <View style={styles.container}>
-        <StatusBar barStyle={themes[this.state.config.themeType].isLight ? 'dark-content' : 'light-content'} />
+        <StatusBar barStyle={getTheme(this.state.config.themeType).isLight ? 'dark-content' : 'light-content'} />
         <FlatList
           style={[
             styles.banisList,
             {
-              backgroundColor: themes[this.state.config.themeType].primaryBackgroundColor
+              backgroundColor: getTheme(this.state.config.themeType).primaryBackgroundColor
             }
           ]}
           data={banisMetadata}
@@ -87,7 +87,7 @@ export default class Home extends Component {
                 <Text style={[
                     styles.baniNameText,
                     {
-                      color: themes[this.state.config.themeType].primaryTextColor
+                      color: getTheme(this.state.config.themeType).primaryTextColor
                     }
                   ]}
                 >
