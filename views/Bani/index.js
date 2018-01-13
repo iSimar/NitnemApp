@@ -365,7 +365,7 @@ export default class Bani extends Component {
           >
             <Text style={[styles.baniText, {
                 fontFamily: this.state.config.groupStanzas && data.header ? 'gurakhar_heavy' : 'gurakhar',
-                color: this.state.config.groupStanzas && data.header &&
+                color: data.header &&
                 !this.state.config.showEnglish && !this.state.config.showPunjabi
                 ? themes[this.state.config.themeType].secondaryTextColor
                 : themes[this.state.config.themeType].primaryTextColor,
