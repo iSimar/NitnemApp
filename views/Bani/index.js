@@ -351,7 +351,7 @@ export default class Bani extends Component {
           >
             <Text style={[styles.baniText, {
                 color: themes[this.state.config.themeType].primaryTextColor,
-                textAlign: this.state.config.centerAlignment ? 'center' : 'left',
+                textAlign: this.state.config.centerAlignment ? 'center' : (this.props.config.groupStanzas ? 'justify' : 'left'),
                 fontSize: this.state.config.gurmukhiFontSize
               }]}
             >
