@@ -6,6 +6,13 @@
         "secondaryTextColor": "#4ff1ac",
         "primaryButtons": "#cccccc"
     },
+    "Theme 7": {
+        "primaryBackgroundColor": "#292A2B",
+        "secondaryBackgroundColor": "#30353B",
+        "primaryTextColor": "#00FED7",
+        "secondaryTextColor": "#FFB55C",
+        "primaryButtons": "#E6E6E6"
+    },
     "Theme 2": {
         "primaryBackgroundColor": "#01407F",
         "secondaryBackgroundColor": "#204F77",

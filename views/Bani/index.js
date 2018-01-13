@@ -235,6 +235,18 @@ export default class Bani extends Component {
       });
     }
   }
+  getTextAlignment(data) {
+    if (this.state.config.centerAlignment) {
+      return 'center';
+    }
+    if (this.state.config.groupStanzas) {
+      if (data.header) {
+        return 'center';
+      }
+      return 'justify';
+    }
+    return 'left';
+  }
   groupStanzas(cb) {
     const { bani } = this.state;
     const rows = [];
@@ -275,6 +287,7 @@ export default class Bani extends Component {
           obj.section_name_english = bani[i].section_name_english;
           obj.section_name_gurmukhi = bani[i].section_name_gurmukhi;
           obj.audio_position = bani[i].audio_position;
+          obj.header = bani[i].header;
 
           if (i === bani.length - 1) {
             if (obj != null) {
@@ -328,6 +341,7 @@ export default class Bani extends Component {
     );
   }
   renderBaniRow(data, index) {
+    const textAlignment = this.getTextAlignment(data);
     return (
       <TouchableWithoutFeedback
         onPress={() => this.state.selectMode && this.onBaniRowPress(data, index)}
@@ -350,9 +364,15 @@ export default class Bani extends Component {
             }]}
           >
             <Text style={[styles.baniText, {
-                color: themes[this.state.config.themeType].primaryTextColor,
-                textAlign: this.state.config.centerAlignment ? 'center' : (this.props.config.groupStanzas ? 'justify' : 'left'),
-                fontSize: this.state.config.gurmukhiFontSize
+                fontFamily: this.state.config.groupStanzas && data.header ? 'gurakhar_heavy' : 'gurakhar',
+                color: this.state.config.groupStanzas && data.header &&
+                !this.state.config.showEnglish && !this.state.config.showPunjabi
+                ? themes[this.state.config.themeType].secondaryTextColor
+                : themes[this.state.config.themeType].primaryTextColor,
+                textAlign: textAlignment,
+                fontSize: this.state.config.groupStanzas && data.header ?
+                  (this.state.config.gurmukhiFontSize + 4)
+                  : this.state.config.gurmukhiFontSize
               }]}
             >
               {this.state.config.larivaar ? data.gurmukhi.replace(/\s/g, '') : data.gurmukhi}
@@ -361,8 +381,11 @@ export default class Bani extends Component {
                   this.state.config.showEnglish && data.translation_english !== '' ?
                     <Text style={[styles.baniTranslation, {
                         color: themes[this.state.config.themeType].secondaryTextColor,
-                        textAlign: this.state.config.centerAlignment ? 'center' : 'left',
-                        fontSize: this.state.config.englishFontSize
+                        textAlign: textAlignment,
+                        fontSize: this.state.config.groupStanzas && data.header ?
+                        (this.state.config.englishFontSize + 3)
+                        : this.state.config.englishFontSize,
+                        fontWeight: this.state.config.groupStanzas && data.header ? 'bold' : 'normal'
                       }]}
                     >
                       {data.translation_english}
@@ -372,8 +395,11 @@ export default class Bani extends Component {
                   this.state.config.showPunjabi && data.translation_punjabi !== ' ' ?
                     <Text style={[styles.baniTranslation, {
                         color: themes[this.state.config.themeType].secondaryTextColor,
-                        textAlign: this.state.config.centerAlignment ? 'center' : 'left',
-                        fontSize: this.state.config.punjabiFontSize
+                        textAlign: textAlignment,
+                        fontSize: this.state.config.groupStanzas && data.header ?
+                        (this.state.config.punjabiFontSize + 1)
+                        : this.state.config.punjabiFontSize,
+                        fontWeight: this.state.config.groupStanzas && data.header ? 'bold' : 'normal'
                       }]}
                     >
                       {data.translation_punjabi}

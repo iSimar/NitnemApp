@@ -18,6 +18,10 @@ import Home from './views/Home';
 
 // Global Variables
 const GURAKHAR_FONT = require('./assets/fonts/gurakhar.ttf');
+const GURAKHAR_S_FONT = require('./assets/fonts/gurakh_s.ttf');
+const GURAKHAR_L_FONT = require('./assets/fonts/gurakh_l.ttf');
+const GURAKHAR_H_FONT = require('./assets/fonts/gurakh_h.ttf');
+const GUAK_TH_FONT = require('./assets/fonts/guak_th.ttf');
 
 let savedConfig = null;
 
@@ -33,7 +37,11 @@ export default class App extends Component {
 
   async loadAssetsAsync() {
     await Font.loadAsync({
-      gurakhar: GURAKHAR_FONT
+      gurakhar: GURAKHAR_FONT,
+      gurakhar_slim: GURAKHAR_S_FONT,
+      gurakhar_light: GURAKHAR_L_FONT,
+      gurakhar_heavy: GURAKHAR_H_FONT,
+      gurakhar_thick: GUAK_TH_FONT
     });
     savedConfig = await AsyncStorage.getItem('config');
   }
