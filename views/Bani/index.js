@@ -19,7 +19,7 @@ import {
 
 import PropTypes from 'prop-types';
 
-import { Audio } from 'expo';
+import { Audio, KeepAwake } from 'expo';
 
 import { Entypo, Ionicons, MaterialIcons } from '@expo/vector-icons';
 
@@ -454,6 +454,7 @@ export default class Bani extends Component {
         }]}
       >
         <StatusBar barStyle={themes[this.state.config.themeType].isLight ? 'dark-content' : 'light-content'} />
+        <KeepAwake />
         { this.renderHeader() }
         { this.renderContent() }
         { this.renderMenu() }
