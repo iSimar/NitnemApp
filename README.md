@@ -1,5 +1,4 @@
-<center>
-<img src="https://i.imgur.com/4ruJnPr.png" alt="Drawing" style="width: 120px;"/>
+<img src="https://i.imgur.com/4ruJnPr.png" width="120"/>
 
 # Nitnem App
 
@@ -11,4 +10,3 @@ https://en.wikipedia.org/wiki/Nitnem
 [![Play Store Button](http://imgur.com/utWa1co.png "Play Store Button")](https://play.google.com/store/apps/details?id=com.nitnemapp)
 
 ![NitneemApp](https://i.imgur.com/ddVtTrb.png "Nitnem App")
-</center>
