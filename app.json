@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Nitnem App",
-    "description": "This project is really great.",
+    "description": "Reader for daily Sikh prayers",
     "slug": "NitnemApp",
     "privacy": "public",
     "sdkVersion": "24.0.0",
