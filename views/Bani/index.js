@@ -239,11 +239,8 @@ export default class Bani extends Component {
     if (this.state.config.centerAlignment) {
       return 'center';
     }
-    if (this.state.config.groupStanzas) {
-      if (data.header) {
-        return 'center';
-      }
-      return 'justify';
+    if (this.state.config.groupStanzas && data.header) {
+      return 'center';
     }
     return 'left';
   }
