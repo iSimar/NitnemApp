@@ -4,28 +4,32 @@
     "transliteration": "ARD.AAS",
     "translation_english": "Invocation",
     "section_id": 1,
-    "gurmukhi_unicode": "ਅਰਦਾਸ"
+    "gurmukhi_unicode": "ਅਰਦਾਸ",
+    "header": true
   },
   {
     "gurmukhi": "<> vwihgurU jI kI Pqh ]",
     "transliteration": "Ik Oankaar Waheguroo Joo Koo Fateh||",
     "translation_english": "Glory to God.",
     "section_id": 2,
-    "gurmukhi_unicode": "ੴ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹ ॥"
+    "gurmukhi_unicode": "ੴ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹ ॥",
+    "header": true
   },
   {
     "gurmukhi": "sRI BgauqI jI shwie ]",
     "transliteration": "Sroo Bhagadddoo Joo Sahaae||",
     "translation_english": "May SRI BHAGAUTI JI (The Sword) be Helpful.",
     "section_id": 3,
-    "gurmukhi_unicode": "ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਸਹਾਇ ॥"
+    "gurmukhi_unicode": "ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਸਹਾਇ ॥",
+    "header": true
   },
   {
     "gurmukhi": "vwr sRI BgauqI jI kI ] pwqswhI 10 ]",
     "transliteration": "Vaar Sroo Bhagadddoo Ji Koo|| Paatsaahoo||10||",
     "translation_english": "The Heroic Poem of Sri Bhagauti Ji (Goddess Durga). (By) Th Tenth Kingg (Guru).",
     "section_id": 4,
-    "gurmukhi_unicode": "ਵਾਰ ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਕੀ ॥ ਪਾਤਸਾਹੀ ੧੦ ॥"
+    "gurmukhi_unicode": "ਵਾਰ ਸ੍ਰੀ ਭਗਉਤੀ ਜੀ ਕੀ ॥ ਪਾਤਸਾਹੀ ੧੦ ॥",
+    "header": true
   },
   {
     "gurmukhi": "ipRQm BgOqI ismir kY guru nwnk leIN iDAwie ]",

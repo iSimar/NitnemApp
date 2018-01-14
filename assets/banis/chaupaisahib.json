@@ -8,6 +8,7 @@
     "section_id": 1,
     "section_name_english": "Arambh",
     "section_name_gurmukhi": "ArMB",
+    "header": true,
     "gurmukhi_unicode": "ੴ ਸ੍ਰੀ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹ ॥ ਪਾਤਿਸਾਹੀ ੧੦ ॥"
   },
   {
@@ -19,6 +20,7 @@
     "section_id": 2,
     "section_name_english": "Arambh",
     "section_name_gurmukhi": "ArMB",
+    "header": true,
     "gurmukhi_unicode": "ਕਬਯੋ ਬਾਚ ਬੇਨਤੀ ॥"
   },
   {
@@ -30,6 +32,7 @@
     "section_id": 3,
     "section_name_english": "Arambh",
     "section_name_gurmukhi": "ArMB",
+    "header": true,
     "gurmukhi_unicode": "ਚੌਪਈ ॥"
   },
   {
@@ -635,6 +638,7 @@
     "section_id": 31,
     "section_name_english": "Pauri 2",
     "section_name_gurmukhi": "AiV`l ]",
+    "header": true,
     "gurmukhi_unicode": "ਅੜਿੱਲ ॥"
   },
   {
@@ -690,6 +694,7 @@
     "section_id": 33,
     "section_name_english": "Pauri 3",
     "section_name_gurmukhi": "cOpeI ]",
+    "header": true,
     "gurmukhi_unicode": "ਚੌਪਈ ॥"
   },
   {
@@ -723,6 +728,7 @@
     "section_id": 35,
     "section_name_english": "Pauri 4",
     "section_name_gurmukhi": "sÍYXw ]",
+    "header": true,
     "gurmukhi_unicode": "ਸ੍ਵੈਯਾ ॥"
   },
   {
@@ -778,6 +784,7 @@
     "section_id": 37,
     "section_name_english": "Pauri 5",
     "section_name_gurmukhi": "dohrw ]",
+    "header": true,
     "gurmukhi_unicode": "ਦੋਹਰਾ ॥"
   },
   {

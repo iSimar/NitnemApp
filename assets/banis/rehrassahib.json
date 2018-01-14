@@ -52,6 +52,7 @@
     "section_id": 2,
     "section_name_english": "Salok Mahalla 1",
     "section_name_gurmukhi": "sloku mhlw 1",
+    "header": true,
     "gurmukhi_unicode": "ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥"
   },
   {
@@ -63,6 +64,7 @@
     "section_id": 2,
     "section_name_english": "Salok Mahalla 1",
     "section_name_gurmukhi": "sloku mhlw 1",
+    "header": true,
     "gurmukhi_unicode": "ਸਲੋਕੁ ਮ; ੧ ॥"
   },
   {
@@ -151,6 +153,7 @@
     "section_id": 4,
     "section_name_english": "Sodar Raag Asa Mahalla 1",
     "section_name_gurmukhi": "sodru rwgu Awsw mhlw 1",
+    "header": true,
     "gurmukhi_unicode": "ਸੋਦਰੁ ਰਾਗੁ ਆਸਾ ਮਹਲਾ ੧"
   },
   {
@@ -162,6 +165,7 @@
     "section_id": 5,
     "section_name_english": "Sodar Raag Asa Mahalla 1",
     "section_name_gurmukhi": "sodru rwgu Awsw mhlw 1",
+    "header": true,
     "gurmukhi_unicode": "ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥"
   },
   {
@@ -415,6 +419,7 @@
     "section_id": 7,
     "section_name_english": "Asa Mahalla 1",
     "section_name_gurmukhi": "Awsw mhlw 1",
+    "header": true,
     "gurmukhi_unicode": "ਆਸਾ ਮਹਲਾ ੧ ॥"
   },
   {
@@ -624,6 +629,7 @@
     "section_id": 9,
     "section_name_english": "Asa Mahalla 1",
     "section_name_gurmukhi": "Awsw mhlw 1",
+    "header": true,
     "gurmukhi_unicode": "ਆਸਾ ਮਹਲਾ ੧ ॥"
   },
   {
@@ -833,6 +839,7 @@
     "section_id": 11,
     "section_name_english": "Raag Goojari Mahalla 4",
     "section_name_gurmukhi": "rwgu gUjrI mhlw 4",
+    "header": true,
     "gurmukhi_unicode": "ਰਾਗੁ ਗੂਜਰੀ ਮਹਲਾ ੪ ॥"
   },
   {
@@ -954,6 +961,7 @@
     "section_id": 13,
     "section_name_english": "Raag Goojari Mahalla 5",
     "section_name_gurmukhi": "rwgu gUjrI mhlw 5",
+    "header": true,
     "gurmukhi_unicode": "ਰਾਗੁ ਗੂਜਰੀ ਮਹਲਾ ੫ ॥"
   },
   {
@@ -1075,6 +1083,7 @@
     "section_id": 15,
     "section_name_english": "Raag Asa Mahalla 4 So Purkh",
     "section_name_gurmukhi": "rwgu Awsw mhlw 4 so purKu",
+    "header": true,
     "gurmukhi_unicode": "ਰਾਗੁ ਆਸਾ ਮਹਲਾ ੪ ਸੋ ਪੁਰਖੁ"
   },
   {
@@ -1086,6 +1095,7 @@
     "section_id": 16,
     "section_name_english": "Raag Asa Mahalla 4 So Purkh",
     "section_name_gurmukhi": "rwgu Awsw mhlw 4 so purKu",
+    "header": true,
     "gurmukhi_unicode": "ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥"
   },
   {
@@ -1372,6 +1382,7 @@
     "section_id": 18,
     "section_name_english": "Asa Mahalla 4",
     "section_name_gurmukhi": "Awsw mhlw 4",
+    "header": true,
     "gurmukhi_unicode": "ਆਸਾ ਮਹਲਾ ੪ ॥"
   },
   {
@@ -1581,6 +1592,7 @@
     "section_id": 20,
     "section_name_english": "Asa Mahalla 1",
     "section_name_gurmukhi": "Awsw mhlw 1",
+    "header": true,
     "gurmukhi_unicode": "ਆਸਾ ਮਹਲਾ ੧ ॥"
   },
   {
@@ -1658,6 +1670,7 @@
     "section_id": 22,
     "section_name_english": "Asa Mahalla 5",
     "section_name_gurmukhi": "Awsw mhlw 5",
+    "header": true,
     "gurmukhi_unicode": "ਆਸਾ ਮਹਲਾ ੫ ॥"
   },
   {
@@ -1779,6 +1792,7 @@
     "section_id": 24,
     "section_name_english": "Chaupai",
     "section_name_gurmukhi": "cOpeI",
+    "header": true,
     "gurmukhi_unicode": "ੴ ਸ੍ਰੀ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹ ॥ ਪਾਤਿਸਾਹੀ ੧੦ ॥"
   },
   {
@@ -1790,6 +1804,7 @@
     "section_id": 25,
     "section_name_english": "Chaupai",
     "section_name_gurmukhi": "cOpeI",
+    "header": true,
     "gurmukhi_unicode": "ਕਬਯੋ ਬਾਚ ਬੇਨਤੀ ॥"
   },
   {
@@ -1801,6 +1816,7 @@
     "section_id": 26,
     "section_name_english": "Chaupai",
     "section_name_gurmukhi": "cOpeI",
+    "header": true,
     "gurmukhi_unicode": "ਚੌਪਈ ॥"
   },
   {
@@ -2406,6 +2422,7 @@
     "section_id": 54,
     "section_name_english": "Chaupai",
     "section_name_gurmukhi": "cOpeI",
+    "header": true,
     "gurmukhi_unicode": "ਅੜਿੱਲ ॥"
   },
   {
@@ -2461,6 +2478,7 @@
     "section_id": 56,
     "section_name_english": "Chaupai",
     "section_name_gurmukhi": "cOpeI",
+    "header": true,
     "gurmukhi_unicode": "ਚੌਪਈ ॥"
   },
   {
@@ -2494,6 +2512,7 @@
     "section_id": 58,
     "section_name_english": "Chaupai",
     "section_name_gurmukhi": "cOpeI",
+    "header": true,
     "gurmukhi_unicode": "ਦੋਹਰਾ ॥"
   },
   {
@@ -2527,6 +2546,7 @@
     "section_id": 60,
     "section_name_english": "Chaupai",
     "section_name_gurmukhi": "cOpeI",
+    "header": true,
     "gurmukhi_unicode": "ਚੌਪਈ ॥"
   },
   {
@@ -2692,6 +2712,7 @@
     "section_id": 68,
     "section_name_english": "Chaupai",
     "section_name_gurmukhi": "cOpeI",
+    "header": true,
     "gurmukhi_unicode": "ਕਬਿਬਾਚ ॥"
   },
   {
@@ -2703,6 +2724,7 @@
     "section_id": 69,
     "section_name_english": "Chaupai",
     "section_name_gurmukhi": "cOpeI",
+    "header": true,
     "gurmukhi_unicode": "ਦੋਹਰਾ ॥"
   },
   {
@@ -2736,6 +2758,7 @@
     "section_id": 71,
     "section_name_english": "Chaupai",
     "section_name_gurmukhi": "cOpeI",
+    "header": true,
     "gurmukhi_unicode": "ਦੋਹਰਾ ॥"
   },
   {
@@ -2769,6 +2792,7 @@
     "section_id": 73,
     "section_name_english": "Chaupai",
     "section_name_gurmukhi": "cOpeI",
+    "header": true,
     "gurmukhi_unicode": "ਦੋਹਰਾ ॥"
   },
   {
@@ -2805,7 +2829,7 @@
     "gurmukhi_unicode": "ਕਬਿਬਾਚ ॥"
   },
   {
-    "gurmukhi": "dyhrw ]",
+    "gurmukhi": "dohrw ]",
     "vishraam": "000000 000000",
     "transliteration_english": [ "" ],
     "translation_english": "DOHRA",
@@ -2813,7 +2837,8 @@
     "section_id": 76,
     "section_name_english": "Chaupai",
     "section_name_gurmukhi": "cOpeI",
-    "gurmukhi_unicode": "ਦੇਹਰਾ ॥"
+    "header": true,
+    "gurmukhi_unicode": "ਦੋਹਰਾ ॥"
   },
   {
     "gurmukhi": "TwF BXo mY joir kr bcn khw isr inAwie ]",
@@ -2846,6 +2871,7 @@
     "section_id": 78,
     "section_name_english": "Chaupai",
     "section_name_gurmukhi": "cOpeI",
+    "header": true,
     "gurmukhi_unicode": "ਦੋਹਰਾ ॥"
   },
   {
@@ -2879,6 +2905,7 @@
     "section_id": 80,
     "section_name_english": "Chaupai",
     "section_name_gurmukhi": "cOpeI",
+    "header": true,
     "gurmukhi_unicode": "ਦੋਹਰਾ ॥"
   },
   {
@@ -2912,6 +2939,7 @@
     "section_id": 82,
     "section_name_english": "Chaupai",
     "section_name_gurmukhi": "cOpeI",
+    "header": true,
     "gurmukhi_unicode": "ਦੋਹਰਾ ॥"
   },
   {
@@ -2945,6 +2973,7 @@
     "section_id": 84,
     "section_name_english": "Chaupai",
     "section_name_gurmukhi": "cOpeI",
+    "header": true,
     "gurmukhi_unicode": "ਚੌਪਈ ॥"
   },
   {
@@ -2989,6 +3018,7 @@
     "section_id": 87,
     "section_name_english": "Chaupai",
     "section_name_gurmukhi": "cOpeI",
+    "header": true,
     "gurmukhi_unicode": "ਦੋਹਰਾ ॥"
   },
   {
@@ -3022,6 +3052,7 @@
     "section_id": 89,
     "section_name_english": "Chaupai",
     "section_name_gurmukhi": "cOpeI",
+    "header": true,
     "gurmukhi_unicode": "ਦੋਹਰਾ ॥"
   },
   {
@@ -3055,6 +3086,7 @@
     "section_id": 92,
     "section_name_english": "Chaupai",
     "section_name_gurmukhi": "cOpeI",
+    "header": true,
     "gurmukhi_unicode": "ਸ੍ਵੈਯਾ ॥"
   },
   {
@@ -3110,6 +3142,7 @@
     "section_id": 94,
     "section_name_english": "Chaupai",
     "section_name_gurmukhi": "cOpeI",
+    "header": true,
     "gurmukhi_unicode": "ਦੋਹਰਾ ॥"
   },
   {
@@ -3143,6 +3176,7 @@
     "section_id": 96,
     "section_name_english": "Ramkali Mahalla 3 Anand",
     "section_name_gurmukhi": "rwmklI mhlw 3 Anµdu",
+    "header": true,
     "gurmukhi_unicode": "ਰਾਮਕਲੀ ਮਹਲਾ ੩ ਅਨੰਦੁ"
   },
   {
@@ -3154,6 +3188,7 @@
     "section_id": 97,
     "section_name_english": "Ramkali Mahalla 3 Anand",
     "section_name_gurmukhi": "rwmklI mhlw 3 Anµdu",
+    "header": true,
     "gurmukhi_unicode": "ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥"
   },
   {
@@ -3517,6 +3552,7 @@
     "section_id": 104,
     "section_name_english": "Mundavanee Mahalla 5",
     "section_name_gurmukhi": "muMdwvxI mhlw 5",
+    "header": true,
     "gurmukhi_unicode": "ਮੁੰਦਾਵਣੀ ਮਹਲਾ ੫ ॥"
   },
   {
@@ -3583,6 +3619,7 @@
     "section_id": 106,
     "section_name_english": "Mundavanee Mahalla 5",
     "section_name_gurmukhi": "muMdwvxI mhlw 5",
+    "header": true,
     "gurmukhi_unicode": "ਸਲੋਕ ਮਹਲਾ ੫ ॥"
   },
   {
@@ -3638,6 +3675,7 @@
     "section_id": 108,
     "section_name_english": "Pauri",
     "section_name_gurmukhi": "pauVI",
+    "header": true,
     "gurmukhi_unicode": "ਪਉੜੀ ॥"
   },
   {
@@ -3737,6 +3775,7 @@
     "section_id": 110,
     "section_name_english": "Salok Mahalla 5",
     "section_name_gurmukhi": "sloku mÚ 5",
+    "header": true,
     "gurmukhi_unicode": "ਸਲੋਕੁ ਮ; ੫ ॥"
   },
   {
@@ -3803,6 +3842,7 @@
     "section_id": 112,
     "section_name_english": "Salok Mahalla 5",
     "section_name_gurmukhi": "sloku mÚ 5",
+    "header": true,
     "gurmukhi_unicode": "ਮ; ੫ ॥"
   },
   {

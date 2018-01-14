@@ -9,6 +9,7 @@
     "section_name_english": "Sohila Raag Gauree Deepkee Mahalla 1",
     "section_name_gurmukhi": "soihlw rwgu gauVI dIpkI mhlw 1",
     "gurmukhi_unicode": "ਸੋਹਿਲਾ ਰਾਗੁ ਗਉੜੀ ਦੀਪਕੀ ਮਹਲਾ ੧",
+    "header": true,
     "audio_position": 75280
   },
   {
@@ -21,6 +22,7 @@
     "section_name_english": "Sohila Raag Gauree Deepkee Mahalla 1",
     "section_name_gurmukhi": "soihlw rwgu gauVI dIpkI mhlw 1",
     "gurmukhi_unicode": "ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥",
+    "header": true,
     "audio_position": 79200
   },
   {
@@ -153,6 +155,7 @@
     "section_name_english": "Raag Asa Mahalla 1",
     "section_name_gurmukhi": "rwgu Awsw mhlw 1",
     "gurmukhi_unicode": "ਰਾਗੁ ਆਸਾ ਮਹਲਾ ੧ ॥",
+    "header": true,
     "audio_position": 122400
   },
   {
@@ -249,6 +252,7 @@
     "section_name_english": "Raag Dhansari Mahalla 1",
     "section_name_gurmukhi": "rwgu DnwsrI mhwl 1",
     "gurmukhi_unicode": "ਰਾਗੁ ਧਨਾਸਰੀ ਮਹਲਾ ੧ ॥",
+    "header": true,
     "audio_position": 151440
   },
   {
@@ -417,6 +421,7 @@
     "section_name_english": "Raag Gauree Poorbi Mahalla 4",
     "section_name_gurmukhi": "rwgu gauVI pUrbI mhlw 4",
     "gurmukhi_unicode": "ਰਾਗੁ ਗਉੜੀ ਪੂਰਬੀ ਮਹਲਾ ੪ ॥",
+    "header": true,
     "audio_position": 203600
   },
   {
@@ -549,6 +554,7 @@
     "section_name_english": "Raag Gauree Poorbi Mahalla 5",
     "section_name_gurmukhi": "rwgu gauVI pUrbI mhlw 5",
     "gurmukhi_unicode": "ਰਾਗੁ ਗਉੜੀ ਪੂਰਬੀ ਮਹਲਾ ੫ ॥",
+    "header": true,
     "audio_position": 252240
   },
   {
