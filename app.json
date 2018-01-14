@@ -19,7 +19,8 @@
       "bundleIdentifier": "com.nitnemapp"
     },
     "android": {
-      "package": "com.nitnemapp"
+      "package": "com.nitnemapp",
+      "versionCode": 2
     }
   }
 }
