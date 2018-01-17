@@ -15,8 +15,6 @@ import initalConfig from './assets/inital-config.json';
 
 import { setGoogleAnalyticsId, reportGoogleAnalyticsEvent } from './utils';
 
-import configLocal from './config-local.json';
-
 // Views
 import Home from './views/Home';
 
@@ -40,7 +38,7 @@ export default class App extends Component {
   }
 
   async loadAssetsAsync() {
-    await setGoogleAnalyticsId(configLocal.googleAnalyticsId);
+    await setGoogleAnalyticsId('');
     await Font.loadAsync({
       gurakhar: GURAKHAR_FONT,
       gurakhar_slim: GURAKHAR_S_FONT,

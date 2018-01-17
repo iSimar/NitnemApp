@@ -31,7 +31,7 @@ import { getTheme, setGoogleAnalyticsScreen, reportGoogleAnalyticsEvent } from '
 
 const { width, height } = Dimensions.get('window');
 
-let lastScrollReported = null;
+// let lastScrollReported = null;
 export default class Bani extends Component {
   constructor(props) {
     super(props);
@@ -450,13 +450,13 @@ export default class Bani extends Component {
           extraData={this.state}
           keyExtractor={(item, index) => index}
           renderItem={({ item, index }) => this.renderBaniRow(item, index)}
-          onViewableItemsChanged={() => {
-            const seconds = new Date().getTime() / 1000;
-            if (!lastScrollReported || seconds - lastScrollReported > 20) {
-              lastScrollReported = seconds;
-              reportGoogleAnalyticsEvent('Bani', 'List View Scrolled');
-            }
-          }}
+          // onViewableItemsChanged={() => {
+          //   const seconds = new Date().getTime() / 1000;
+          //   if (!lastScrollReported || seconds - lastScrollReported > 20) {
+          //     lastScrollReported = seconds;
+          //     reportGoogleAnalyticsEvent('Bani', 'List View Scrolled');
+          //   }
+          // }}
         />
       </TouchableWithoutFeedback>
     );
