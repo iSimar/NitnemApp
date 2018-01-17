@@ -17,7 +17,7 @@ import themes from '../../../../assets/themes.json';
 
 import initalConfig from '../../../../assets/inital-config.json';
 
-import { getTheme } from '../../../../utils';
+import { getTheme, reportGoogleAnalyticsEvent } from '../../../../utils';
 
 export default class DisplaySettings extends Component {
   constructor(props) {
@@ -100,9 +100,11 @@ export default class DisplaySettings extends Component {
   }
   onClose() {
     this.props.onClose();
+    reportGoogleAnalyticsEvent('Display Settings', 'Close Pressed');
   }
   onReset() {
     this.onSetNewConfig(initalConfig);
+    reportGoogleAnalyticsEvent('Display Settings', 'Reset Pressed');
   }
   onSetNewConfig(configObj) {
     const stateObj = Object.assign({}, this.state);
@@ -134,6 +136,7 @@ export default class DisplaySettings extends Component {
                     onPress={() => {
                       const configObj = Object.assign({}, this.state.config);
                       configObj[typeObj.configName] = theme;
+                      reportGoogleAnalyticsEvent('Display Settings', `Select Theme: ${theme}`);
                       this.onSetNewConfig(configObj);
                     }}
                   >
@@ -167,6 +170,7 @@ export default class DisplaySettings extends Component {
         onValueChange={(val) => {
           const configObj = Object.assign({}, this.state.config);
           configObj[typeObj.configName] = val;
+          reportGoogleAnalyticsEvent('Display Settings', `Toggle ${val} ${typeObj.configName} `);
           this.onSetNewConfig(configObj);
         }}
       />);
@@ -178,6 +182,7 @@ export default class DisplaySettings extends Component {
             const configObj = Object.assign({}, this.state.config);
             configObj[typeObj.configName] = this.state.config[typeObj.configName] < typeObj.maxVal
               ? this.state.config[typeObj.configName] + 1 : typeObj.maxVal;
+            reportGoogleAnalyticsEvent('Display Settings', `Increase ${typeObj.configName}`);
             this.onSetNewConfig(configObj);
           }}
         >
@@ -193,6 +198,7 @@ export default class DisplaySettings extends Component {
             const newVal = this.state.config[typeObj.configName] > typeObj.minVal
               ? this.state.config[typeObj.configName] - 1 : typeObj.minVal;
             configObj[typeObj.configName] = newVal;
+            reportGoogleAnalyticsEvent('Display Settings', `Decrease ${typeObj.configName}`);
             this.onSetNewConfig(configObj);
         }}
         >

@@ -6,3 +6,4 @@ npm-debug.*
 *.mobileprovision
 *.dontcommit
 *.jks
+config-local.json

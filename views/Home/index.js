@@ -18,7 +18,7 @@ import Bani from '../Bani';
 
 import banisMetadata from '../../assets/banis-metadata.json';
 
-import { getTheme } from '../../utils';
+import { getTheme, setGoogleAnalyticsScreen, reportGoogleAnalyticsEvent } from '../../utils';
 
 export default class Home extends Component {
   constructor(props) {
@@ -35,6 +35,11 @@ export default class Home extends Component {
       return true;
     });
   }
+
+  componentDidMount() {
+    setGoogleAnalyticsScreen('Home');
+  }
+
   async componentWillUnmount() {
     BackHandler.removeEventListener('hardwareBackPress', () => {
       BackHandler.exitApp();
@@ -49,7 +54,10 @@ export default class Home extends Component {
           config={this.state.config}
           bani={this.state.selectedBani}
           onNewConfig={config => this.setState({ config })}
-          onBack={() => this.setState({ selectedBani: null })}
+          onBack={() => {
+            this.setState({ selectedBani: null });
+            reportGoogleAnalyticsEvent('Bani', 'Back Pressed');
+          }}
           onNext={index =>
             // first clear the selectedBani state variable
             this.setState({
@@ -76,7 +84,11 @@ export default class Home extends Component {
           data={banisMetadata}
           keyExtractor={(item, index) => index}
           renderItem={({ item, index }) => (
-            <TouchableOpacity onPress={() => { this.setState({ selectedBani: item }); }}>
+            <TouchableOpacity onPress={() => {
+                this.setState({ selectedBani: item });
+                reportGoogleAnalyticsEvent('Home', 'Bani Pressed');
+              }}
+            >
               <View style={[
                   styles.baniRow,
                   {

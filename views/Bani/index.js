@@ -27,11 +27,11 @@ import Menu from './views/Menu';
 
 import DisplaySettings from './views/DisplaySettings';
 
-import { getTheme } from '../../utils';
+import { getTheme, setGoogleAnalyticsScreen, reportGoogleAnalyticsEvent } from '../../utils';
 
 const { width, height } = Dimensions.get('window');
 
-
+let lastScrollReported = null;
 export default class Bani extends Component {
   constructor(props) {
     super(props);
@@ -75,6 +75,11 @@ export default class Bani extends Component {
       return true;
     });
   }
+
+  componentDidMount() {
+    setGoogleAnalyticsScreen(this.props.bani.name);
+  }
+
   async componentWillUnmount() {
     if (this.sound) {
       await this.sound.unloadAsync();
@@ -86,6 +91,7 @@ export default class Bani extends Component {
       this.props.onBack();
       return false;
     });
+    setGoogleAnalyticsScreen('Home');
   }
   async onPressMenuOption(name) {
     if (name === 'play-audio') {
@@ -103,12 +109,16 @@ export default class Bani extends Component {
           });
         }
       });
+      reportGoogleAnalyticsEvent('Bani', 'Play Audio Pressed');
     } else if (name === 'resume-audio' && this.sound) {
       await this.sound.playAsync();
+      reportGoogleAnalyticsEvent('Bani', 'Resume Audio Pressed');
     } else if (name === 'pause-audio' && this.sound) {
       await this.sound.pauseAsync();
+      reportGoogleAnalyticsEvent('Bani', 'Pause Audio Pressed');
     } else if (name === 'stop-audio' && this.sound) {
       await this.sound.stopAsync();
+      reportGoogleAnalyticsEvent('Bani', 'Stop Audio Pressed');
     } else if (name === 'settings') {
       this.menu.hide();
       this.setState({
@@ -116,6 +126,7 @@ export default class Bani extends Component {
         selectMode: false,
         selectedIndexes: []
       });
+      reportGoogleAnalyticsEvent('Bani', 'Display Settings Pressed');
     }
   }
   onNewConfig(config) {
@@ -162,6 +173,7 @@ export default class Bani extends Component {
     });
   }
   onPressMenuDots() {
+    reportGoogleAnalyticsEvent('Bani', 'Press Menu Dots');
     this.menu.toggleShow(() => {
       if (this.state.selectMode) {
         this.setState({
@@ -173,6 +185,7 @@ export default class Bani extends Component {
   }
   onPressCopy() {
     if (this.state.selectMode) {
+      reportGoogleAnalyticsEvent('Bani', 'Copy Pressed');
       const selectedIndexes = this.state.selectedIndexes.sort();
       this.setState({
         selectMode: false,
@@ -437,6 +450,13 @@ export default class Bani extends Component {
           extraData={this.state}
           keyExtractor={(item, index) => index}
           renderItem={({ item, index }) => this.renderBaniRow(item, index)}
+          onViewableItemsChanged={() => {
+            const seconds = new Date().getTime() / 1000;
+            if (!lastScrollReported || seconds - lastScrollReported > 20) {
+              lastScrollReported = seconds;
+              reportGoogleAnalyticsEvent('Bani', 'List View Scrolled');
+            }
+          }}
         />
       </TouchableWithoutFeedback>
     );

@@ -13,6 +13,10 @@ import {
 
 import initalConfig from './assets/inital-config.json';
 
+import { setGoogleAnalyticsId, reportGoogleAnalyticsEvent } from './utils';
+
+import configLocal from './config-local.json';
+
 // Views
 import Home from './views/Home';
 
@@ -36,6 +40,7 @@ export default class App extends Component {
   }
 
   async loadAssetsAsync() {
+    await setGoogleAnalyticsId(configLocal.googleAnalyticsId);
     await Font.loadAsync({
       gurakhar: GURAKHAR_FONT,
       gurakhar_slim: GURAKHAR_S_FONT,
@@ -44,6 +49,14 @@ export default class App extends Component {
       gurakhar_thick: GUAK_TH_FONT
     });
     savedConfig = await AsyncStorage.getItem('config');
+    if (savedConfig) {
+      const parsedSavedConfig = JSON.parse(savedConfig);
+      for (const key of Object.keys(parsedSavedConfig)) {
+        if (key && parsedSavedConfig[key]) {
+          reportGoogleAnalyticsEvent('App Load Up', 'Read Saved Config', key, parsedSavedConfig[key]);
+        }
+      }
+    }
   }
   render() {
     // load assets while app in loading state
