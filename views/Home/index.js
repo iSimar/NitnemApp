@@ -20,6 +20,8 @@ import banisMetadata from '../../assets/banis-metadata.json';
 
 import { getTheme, setGoogleAnalyticsScreen, reportGoogleAnalyticsEvent } from '../../utils';
 
+import NativeTalk from "nativetalk";
+
 export default class Home extends Component {
   constructor(props) {
     super(props);
@@ -72,44 +74,46 @@ export default class Home extends Component {
       );
     }
     return (
-      <View style={styles.container}>
-        <StatusBar barStyle={getTheme(this.state.config.themeType).isLight ? 'dark-content' : 'light-content'} />
-        <FlatList
-          style={[
-            styles.banisList,
-            {
-              backgroundColor: getTheme(this.state.config.themeType).primaryBackgroundColor
-            }
-          ]}
-          data={banisMetadata}
-          keyExtractor={(item, index) => index}
-          renderItem={({ item, index }) => (
-            <TouchableOpacity onPress={() => {
-                this.setState({ selectedBani: item });
-                reportGoogleAnalyticsEvent('Home', 'Bani Pressed');
-              }}
-            >
-              <View style={[
-                  styles.baniRow,
-                  {
-                    paddingBottom: index === banisMetadata.length - 1 ? 80 : 15
-                  }
-                ]}
-              >
-                <Text style={[
-                    styles.baniNameText,
-                    {
-                      color: getTheme(this.state.config.themeType).primaryTextColor
-                    }
-                  ]}
-                >
-                  {item.name_gurmukhi}
-                </Text>
-              </View>
-            </TouchableOpacity>
-          )}
-        />
-      </View>
+	  <NativeTalk greeting={'ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖ਼ਾਲਸਾ॥\nਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਹ॥\n\nFeedback is much welcome. If you find a mistake please report it here.\n\nThank you for using NitnemApp.'}>
+		<View style={styles.container}>
+			<StatusBar barStyle={getTheme(this.state.config.themeType).isLight ? 'dark-content' : 'light-content'} />
+			<FlatList
+			style={[
+				styles.banisList,
+				{
+				backgroundColor: getTheme(this.state.config.themeType).primaryBackgroundColor
+				}
+			]}
+			data={banisMetadata}
+			keyExtractor={(item, index) => index}
+			renderItem={({ item, index }) => (
+				<TouchableOpacity onPress={() => {
+					this.setState({ selectedBani: item });
+					reportGoogleAnalyticsEvent('Home', 'Bani Pressed');
+				}}
+				>
+				<View style={[
+					styles.baniRow,
+					{
+						paddingBottom: index === banisMetadata.length - 1 ? 80 : 15
+					}
+					]}
+				>
+					<Text style={[
+						styles.baniNameText,
+						{
+						color: getTheme(this.state.config.themeType).primaryTextColor
+						}
+					]}
+					>
+					{item.name_gurmukhi}
+					</Text>
+				</View>
+				</TouchableOpacity>
+			)}
+			/>
+		</View>
+	  </NativeTalk>
     );
   }
 }
