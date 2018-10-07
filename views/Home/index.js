@@ -74,7 +74,8 @@ export default class Home extends Component {
       );
     }
     return (
-	  <NativeTalk greeting={'ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖ਼ਾਲਸਾ॥\nਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਹ॥\n\nFeedback is much welcome. If you find a mistake please report it here.\n\nThank you for using NitnemApp.'}>
+	  <NativeTalk appId="4c56a955-110a-4f1b-aa4b-c11247d05865" 
+	  			  greeting={'ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖ਼ਾਲਸਾ॥\nਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਹ॥\n\nFor any feedback or concerns let us know!\n\nThank you for using NitnemApp.'}>
 		<View style={styles.container}>
 			<StatusBar barStyle={getTheme(this.state.config.themeType).isLight ? 'dark-content' : 'light-content'} />
 			<FlatList
